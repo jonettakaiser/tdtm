@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+/* Talk Dodgers To Me x Pawn Shop — committed single theme: white ground, Dodger blue headlines. */
+@theme {
+  --color-paper: #ffffff;
+  --color-raised: #eef3f9;
+  --color-raised-2: #e3ecf6;
+  --color-ink: #0b1d33;
+  --color-ink-dim: #48566b;
+  --color-ink-faint: #8592a6;
+  --color-dodger: #005a9c;
+  --color-dodger-soft: #e4eef8;
+  --color-gold: #a8790e;
+  --color-gold-dim: #8a6309;
+  --color-stamp: #c8102e;
+
+  --font-display: ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
+  --font-body: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Roboto Mono", Menlo,
+    Consolas, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+::selection {
+  background: var(--color-gold);
+  color: #241a02;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  text-wrap: balance;
+  color: var(--color-dodger);
+}
+
+p {
+  max-width: 66ch;
+}
+
+/* Marquee bulb strip along the very top of the page. */
+.bulb-bar {
+  height: 8px;
+  width: 100%;
+  background-image: radial-gradient(
+    circle at 5px 4px,
+    var(--color-gold) 2.4px,
+    transparent 2.6px
+  );
+  background-size: 16px 8px;
+  background-repeat: repeat-x;
+  opacity: 0.85;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bulb-bar {
+    animation: bulbs 1.6s steps(2) infinite;
+  }
+}
+@keyframes bulbs {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 32px;
+  }
+}
+
+/* Perforation strip used as a "torn ticket" seam between sections. */
+.perf {
+  height: 16px;
+  background-color: var(--color-ink);
+  opacity: 0.1;
+  background-image: radial-gradient(
+    circle at 8px 8px,
+    var(--color-paper) 4.4px,
+    transparent 4.7px
+  );
+  background-size: 16px 16px;
+  background-repeat: repeat-x;
+}
+
+/* Checkerboard strip, footer accent. */
+.checker {
+  height: 12px;
+  background-image: conic-gradient(
+    var(--color-ink) 90deg,
+    transparent 90deg 180deg,
+    var(--color-ink) 180deg 270deg,
+    transparent 270deg
+  );
+  background-size: 24px 24px;
+  opacity: 0.12;
+}
+
+/* Vertical perforation edge on ticket-stub cards. */
+.stub-edge {
+  background-image: radial-gradient(
+    circle at 37px 8px,
+    var(--color-paper) 4.6px,
+    transparent 5px
+  );
+  background-size: 37px 16px;
+  background-repeat: repeat-y;
+  background-position: left center;
+}
+
+/* Reveal-on-scroll utility, toggled by IntersectionObserver in <Reveal>. */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+input[type="range"] {
+  accent-color: var(--color-gold);
+}
