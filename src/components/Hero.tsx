@@ -28,15 +28,17 @@ export default function Hero() {
           <span className="mb-5 block font-mono text-[0.68rem] font-bold uppercase tracking-[0.18em] text-gold">
             A Partnership Proposal · Melrose, Los Angeles
           </span>
-          <h1 className="max-w-[10ch] font-display text-[clamp(4.7rem,11vw,10.5rem)] leading-[0.78] uppercase text-paper">
-            Two Nights.
-            <span className="block text-gold">One Full</span>
-            <span className="block">Room.</span>
+          <h1 className="max-w-[11ch] font-display text-[clamp(3.6rem,9vw,8rem)] leading-[0.84] uppercase text-paper">
+            Talk Dodgers
+            <span className="block">To Me</span>
+            <span className="block text-gold">LIVE</span>
+            <span className="block">at Pawn Shop</span>
           </h1>
           <div className="mt-8 flex max-w-[720px] flex-col items-start gap-6 md:flex-row md:items-end">
             <p className="text-base leading-relaxed text-paper/75 md:text-lg">
-              A live podcast residency and ticketed Dodgers watch parties built to turn
-              quiet nights into the room everyone wants into.
+              Two nights a month, Talk Dodgers To Me tapes live in the room — special-guest
+              podcast nights and ticketed Dodgers watch parties that turn Pawn Shop&rsquo;s
+              quietest nights into its fullest.
             </p>
             <a
               href="#live-nights"
