@@ -7,8 +7,10 @@ __turbopack_context__.s([
     ()=>Hero
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/NightProvider.tsx [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 function Hero() {
@@ -16,128 +18,137 @@ function Hero() {
     const guestName = night.headliner?.name ?? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["defaultHeadliner"].name;
     const guestPicked = night.headliner !== null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "mx-auto max-w-[1180px] px-7 pt-16 pb-12 sm:px-4",
+        className: "relative isolate min-h-[calc(100svh-68px)] overflow-hidden bg-ink text-paper",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "mb-4 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim",
-                children: "A Partnership Proposal · Prepared for Pawn Shop, Melrose"
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 -z-20",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/Podcast-ProofConcept1.png",
+                    alt: "",
+                    fill: true,
+                    priority: true,
+                    sizes: "100vw",
+                    className: "object-cover object-center opacity-45 grayscale-[20%] contrast-125"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Hero.tsx",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 12,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "font-display text-5xl leading-none font-extrabold uppercase sm:text-4xl",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-dodger",
-                        children: "Two Nights a Month."
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "mt-1 block text-ink",
-                        children: "One Full Room."
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 17,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "mt-5 max-w-[62ch] text-lg text-ink-dim",
-                children: "Talk Dodgers To Me is pitching a residency: special-guest live podcast tapings and ticketed private-room Dodgers watch parties, built to sell out Pawn Shop on nights that are currently empty. Don’t take our word for it — build a night below and watch the scoreboard move."
-            }, void 0, false, {
-                fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 19,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                href: "#lineup",
-                className: "mt-7 inline-flex items-center gap-2 rounded-md border border-dodger bg-dodger px-5 py-2.5 font-mono text-xs font-semibold uppercase tracking-wide text-paper transition-colors hover:bg-white hover:text-dodger",
-                children: "Build your night ↓"
-            }, void 0, false, {
-                fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 26,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-9 overflow-hidden rounded-md border border-ink/25 bg-ink font-mono text-paper shadow-[0_16px_36px_rgba(11,29,51,0.18)]",
+                className: "absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(11,29,51,.96)_0%,rgba(11,29,51,.75)_48%,rgba(11,29,51,.2)_100%)]"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Hero.tsx",
+                lineNumber: 23,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 -z-10 bg-[linear-gradient(0deg,rgba(11,29,51,.9)_0%,transparent_55%)]"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Hero.tsx",
+                lineNumber: 24,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mx-auto grid min-h-[calc(100svh-68px)] max-w-[1280px] items-end gap-8 px-7 pt-20 pb-10 md:grid-cols-[1.25fr_.75fr] md:items-center md:px-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-between border-b border-paper/15 bg-black/20 px-5 py-2.5",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-gold",
-                                children: "⚾ Scoreboard — Your Night"
+                                className: "mb-5 block font-mono text-[0.68rem] font-bold uppercase tracking-[0.18em] text-gold",
+                                children: "A Partnership Proposal · Melrose, Los Angeles"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 35,
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[0.62rem] uppercase tracking-wide text-paper/50",
-                                children: guestPicked ? "Live" : "Suggested"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 38,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 34,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-wrap",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "min-w-[150px] flex-1 border-r border-paper/15 px-5 py-4",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                className: "max-w-[10ch] font-display text-[clamp(4.7rem,11vw,10.5rem)] leading-[0.78] uppercase text-paper",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "mb-1 block text-[0.62rem] uppercase tracking-wide text-paper/50",
-                                        children: "Headliner"
+                                    "Two Nights.",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "block text-gold",
+                                        children: "One Full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-sm text-paper",
-                                        children: guestName
+                                        className: "block",
+                                        children: "Room."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 34,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 43,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "min-w-[150px] flex-1 border-r border-paper/15 px-5 py-4",
+                                className: "mt-8 flex max-w-[720px] flex-col items-start gap-6 md:flex-row md:items-end",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "mb-1 block text-[0.62rem] uppercase tracking-wide text-paper/50",
-                                        children: "Live Night / mo"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-base leading-relaxed text-paper/75 md:text-lg",
+                                        children: "A live podcast residency and ticketed Dodgers watch parties built to turn quiet nights into the room everyone wants into."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 37,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "#live-nights",
+                                        className: "group inline-flex shrink-0 items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold",
+                                        children: [
+                                            "Build the night ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "transition-transform group-hover:translate-y-1",
+                                                children: "↓"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 45,
+                                                columnNumber: 31
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/Hero.tsx",
+                                        lineNumber: 41,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/Hero.tsx",
+                                lineNumber: 36,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/Hero.tsx",
+                        lineNumber: 27,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
+                        className: "ticket-cut rotate-1 overflow-hidden rounded-xl border border-paper/25 bg-paper text-ink shadow-[0_30px_90px_rgba(0,0,0,.35)] transition-transform duration-500 hover:rotate-0",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex items-center justify-between bg-dodger px-5 py-3 font-mono text-[0.62rem] font-bold uppercase tracking-[0.16em] text-paper",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: "Your residency ticket"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Hero.tsx",
+                                        lineNumber: 52,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "tabular-nums text-sm text-paper",
-                                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.liveNightRevenue)
+                                        children: guestPicked ? "Locked in" : "Suggested"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
                                         lineNumber: 53,
@@ -146,124 +157,179 @@ function Hero() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 49,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "min-w-[150px] flex-1 border-r border-paper/15 px-5 py-4",
+                                className: "p-5",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "mb-1 block text-[0.62rem] uppercase tracking-wide text-paper/50",
-                                        children: "Watch Parties / mo"
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "border-b border-dashed border-ink/25 pb-5",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-mono text-[0.6rem] uppercase tracking-[0.14em] text-ink-faint",
+                                                children: "Tonight’s headliner"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 57,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mt-1 font-display text-4xl leading-none uppercase text-dodger",
+                                                children: guestName
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 60,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "tabular-nums text-sm text-paper",
-                                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.watchPartyRevenue)
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "grid grid-cols-2 gap-4 py-5 font-mono",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "block text-[0.58rem] uppercase text-ink-faint",
+                                                        children: "Live / mo"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Hero.tsx",
+                                                        lineNumber: 66,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                                        className: "number-pop text-lg tabular-nums",
+                                                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.liveNightRevenue)
+                                                    }, night.liveNightRevenue, false, {
+                                                        fileName: "[project]/src/components/Hero.tsx",
+                                                        lineNumber: 67,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 65,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "block text-[0.58rem] uppercase text-ink-faint",
+                                                        children: "Watch / mo"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Hero.tsx",
+                                                        lineNumber: 72,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                                        className: "number-pop text-lg tabular-nums",
+                                                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.watchPartyRevenue)
+                                                    }, night.watchPartyRevenue, false, {
+                                                        fileName: "[project]/src/components/Hero.tsx",
+                                                        lineNumber: 73,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 71,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 64,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-end justify-between border-t-2 border-ink pt-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-mono text-[0.62rem] font-bold uppercase tracking-wide",
+                                                children: "Monthly room revenue"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 79,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                className: "number-pop font-display text-4xl leading-none text-gold",
+                                                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.monthlyTotal)
+                                            }, night.monthlyTotal, false, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 82,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/Hero.tsx",
+                                        lineNumber: 78,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 57,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "min-w-[150px] flex-1 px-5 py-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "mb-1 block text-[0.62rem] uppercase tracking-wide text-gold",
-                                        children: "Total / mo"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 66,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "tabular-nums text-xl font-bold text-gold",
-                                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.monthlyTotal)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 69,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 65,
+                                lineNumber: 55,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 42,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 33,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-5 flex flex-wrap overflow-hidden rounded-md border border-ink/25 font-mono text-xs",
-                children: [
-                    {
-                        label: "Host",
-                        value: "Melissa, Talk Dodgers To Me"
-                    },
-                    {
-                        label: "Venue",
-                        value: "Pawn Shop — Melrose Ave, LA"
-                    },
-                    {
-                        label: "Distribution",
-                        value: "YouTube + social, every episode"
-                    },
-                    {
-                        label: "Ask",
-                        value: "2 pilot nights, revenue-share terms"
-                    }
-                ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: `min-w-[160px] flex-1 px-5 py-3.5 ${i !== 3 ? "border-r border-ink/25" : ""}`,
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                className: "mb-1 block text-[0.62rem] uppercase tracking-wide text-ink-faint",
-                                children: item.label
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 89,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-sm text-ink",
-                                children: item.value
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 92,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, item.label, true, {
-                        fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 83,
-                        columnNumber: 11
-                    }, this))
+                className: "ticker",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "ticker-track",
+                    "aria-hidden": true,
+                    children: [
+                        0,
+                        1
+                    ].map((copy)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex",
+                            children: [
+                                "Live podcast",
+                                "Watch party",
+                                "Collab menu",
+                                "One full room"
+                            ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "ticker-item",
+                                    children: item
+                                }, `${copy}-${item}`, false, {
+                                    fileName: "[project]/src/components/Hero.tsx",
+                                    lineNumber: 98,
+                                    columnNumber: 17
+                                }, this))
+                        }, copy, false, {
+                            fileName: "[project]/src/components/Hero.tsx",
+                            lineNumber: 96,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Hero.tsx",
+                    lineNumber: 94,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 76,
+                lineNumber: 93,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Hero.tsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
@@ -293,35 +359,43 @@ function Lineup() {
     const night = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useNight"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "lineup",
-        className: "border-t border-ink/10 py-22",
+        className: "section-shell overflow-hidden bg-ink text-paper",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-[1180px] px-7 sm:px-4",
+            className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-11 max-w-[74ch]",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "mb-3 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim",
-                            children: "05 — The Guest List"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "eyebrow text-gold",
+                                    children: "05 — The Guest List"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Lineup.tsx",
+                                    lineNumber: 21,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "section-title text-paper",
+                                    children: "First Pitch Lineup"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Lineup.tsx",
+                                    lineNumber: 24,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/Lineup.tsx",
                             lineNumber: 20,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl uppercase sm:text-3xl",
-                            children: "First Pitch Lineup"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Lineup.tsx",
-                            lineNumber: 23,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-3.5 max-w-[62ch] text-lg text-ink-dim",
-                            children: "Eight names TDTM can realistically bring through the door for live nights — a mix of confirmed podcast alumni, personal relationships, and target bookings. Tap a card for who they are, then pick your headliner for the scoreboard up top."
+                            className: "section-lede text-paper/65",
+                            children: "Eight names TDTM can realistically bring through the door for live nights — a mix of confirmed podcast alumni, personal relationships, and target bookings. Tap a card, then put your headliner on the ticket."
                         }, void 0, false, {
                             fileName: "[project]/src/components/Lineup.tsx",
-                            lineNumber: 24,
+                            lineNumber: 26,
                             columnNumber: 11
                         }, this)
                     ]
@@ -331,61 +405,62 @@ function Lineup() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    className: "grid grid-cols-1 gap-5 sm:grid-cols-2",
+                    from: "scale",
+                    className: "grid grid-cols-1 gap-4 sm:grid-cols-2",
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$guests$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["guests"].map((g)=>{
                         const isHeadliner = night.headliner?.no === g.no;
                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
-                            className: `group grid grid-cols-[1fr_74px] overflow-hidden rounded border bg-raised shadow-[0_12px_30px_rgba(11,29,51,0.08)] transition-colors ${isHeadliner ? "border-gold ring-1 ring-gold" : "border-ink/25"}`,
+                            className: `group grid min-h-44 grid-cols-[1fr_82px] overflow-hidden rounded-[1.2rem] border transition duration-300 ${isHeadliner ? "rotate-[-1deg] border-gold bg-gold text-ink shadow-[6px_6px_0_var(--color-paper)]" : "border-paper/15 bg-paper/7 text-paper hover:-translate-y-1 hover:border-paper/40 hover:bg-paper/10"}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
-                                    className: "cursor-pointer list-none p-5 [&::-webkit-details-marker]:hidden",
+                                    className: "cursor-pointer list-none p-5 md:p-6 [&::-webkit-details-marker]:hidden",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-center gap-2 font-display text-lg font-extrabold uppercase",
+                                            className: "flex items-center gap-2 font-display text-3xl leading-none uppercase",
                                             children: [
                                                 g.name,
                                                 isHeadliner && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "rounded-sm bg-gold px-1.5 py-0.5 font-mono text-[0.58rem] tracking-wide text-[#241a02]",
-                                                    children: "★ Headlining"
+                                                    className: "rounded-full bg-ink px-2 py-1 font-mono text-[0.5rem] tracking-wide text-paper",
+                                                    children: "Headlining"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Lineup.tsx",
-                                                    lineNumber: 45,
+                                                    lineNumber: 49,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Lineup.tsx",
-                                            lineNumber: 42,
+                                            lineNumber: 46,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-1.5 hidden max-w-none text-sm text-ink-dim group-open:block",
+                                            className: `mt-4 hidden max-w-none text-sm leading-relaxed group-open:block ${isHeadliner ? "text-ink/75" : "text-paper/65"}`,
                                             children: g.who
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Lineup.tsx",
-                                            lineNumber: 50,
+                                            lineNumber: 54,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: `mt-2.5 inline-block rounded-sm border px-2 py-0.5 font-mono text-[0.62rem] uppercase tracking-wide ${tagClass[g.tag]}`,
+                                            className: `mt-3 inline-block rounded-full border px-2.5 py-1 font-mono text-[0.58rem] uppercase tracking-wide ${isHeadliner ? "border-ink/30 text-ink" : tagClass[g.tag]}`,
                                             children: g.tag
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Lineup.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 57,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "mt-3 flex flex-wrap items-center gap-3",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "font-mono text-[0.62rem] uppercase tracking-wide text-ink-faint",
+                                                    className: `font-mono text-[0.58rem] uppercase tracking-wide ${isHeadliner ? "text-ink/60" : "text-paper/40"}`,
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "group-open:hidden",
                                                             children: "Tap for details ↓"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Lineup.tsx",
-                                                            lineNumber: 60,
+                                                            lineNumber: 64,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -393,13 +468,13 @@ function Lineup() {
                                                             children: "Tap to collapse ↑"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Lineup.tsx",
-                                                            lineNumber: 61,
+                                                            lineNumber: 65,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Lineup.tsx",
-                                                    lineNumber: 59,
+                                                    lineNumber: 63,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -408,54 +483,54 @@ function Lineup() {
                                                         e.preventDefault();
                                                         night.setHeadliner(isHeadliner ? null : g);
                                                     },
-                                                    className: `rounded-sm border px-2 py-0.5 font-mono text-[0.62rem] uppercase tracking-wide transition-colors ${isHeadliner ? "border-gold text-gold-dim hover:bg-gold/10" : "border-dodger text-dodger hover:bg-dodger hover:text-paper"}`,
+                                                    className: `rounded-full border px-3 py-1.5 font-mono text-[0.58rem] font-bold uppercase tracking-wide transition-colors ${isHeadliner ? "border-ink bg-ink text-paper hover:bg-paper hover:text-ink" : "border-paper/40 text-paper hover:border-gold hover:bg-gold hover:text-ink"}`,
                                                     children: isHeadliner ? "Remove headliner" : "Make headliner"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Lineup.tsx",
-                                                    lineNumber: 63,
+                                                    lineNumber: 67,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Lineup.tsx",
-                                            lineNumber: 58,
+                                            lineNumber: 62,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Lineup.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 45,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "stub-edge flex h-full self-stretch items-center justify-center border-l border-dashed border-ink/25",
+                                    className: `stub-edge flex h-full self-stretch items-center justify-center border-l border-dashed ${isHeadliner ? "border-ink/25 bg-paper/25" : "border-paper/15 bg-paper/5"}`,
                                     "aria-hidden": true,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "rotate-180 font-mono text-xs tracking-wide text-ink-faint [writing-mode:vertical-rl]",
+                                        className: `rotate-180 font-display text-3xl tracking-wide [writing-mode:vertical-rl] ${isHeadliner ? "text-ink" : "text-paper/35"}`,
                                         children: [
                                             "NO. ",
                                             g.no
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Lineup.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 87,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Lineup.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 83,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, g.no, true, {
                             fileName: "[project]/src/components/Lineup.tsx",
-                            lineNumber: 35,
+                            lineNumber: 37,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/src/components/Lineup.tsx",
-                    lineNumber: 31,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             ]
@@ -486,12 +561,29 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightPr
 function LiveNightCalculator() {
     const night = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useNight"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "static rounded-md border border-ink/25 bg-raised-2 p-6 pb-6.5 md:sticky md:top-23",
+        className: "ticket-cut static overflow-hidden rounded-[1.3rem] bg-ink p-6 pb-7 text-paper shadow-[0_24px_70px_rgba(11,29,51,.24)] md:sticky md:top-20 md:p-7",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                className: "mb-4 font-mono text-xs uppercase tracking-wide text-ink-faint",
-                children: "Illustrative Revenue — Live Night"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mb-6 flex items-center justify-between border-b border-dashed border-paper/20 pb-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                        className: "font-mono text-xs uppercase tracking-wide text-gold",
+                        children: "Live Night Receipt"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/LiveNightCalculator.tsx",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "font-mono text-[0.58rem] uppercase tracking-widest text-paper/40",
+                        children: "Est. 2026"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/LiveNightCalculator.tsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
                 lineNumber: 10,
                 columnNumber: 7
@@ -500,22 +592,22 @@ function LiveNightCalculator() {
                 className: "mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                        className: "mb-1.5 flex justify-between text-sm text-ink-dim",
+                        className: "mb-2 flex justify-between text-sm text-paper/70",
                         children: [
                             "Audience per night",
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                className: "font-mono tabular-nums text-ink",
+                                className: "font-mono tabular-nums text-paper",
                                 children: night.audience
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                                lineNumber: 17,
+                                lineNumber: 20,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 15,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -525,38 +617,38 @@ function LiveNightCalculator() {
                         step: 5,
                         value: night.audience,
                         onChange: (e)=>night.setAudience(Number(e.target.value)),
-                        className: "w-full cursor-pointer"
+                        className: "range-control w-full cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 19,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                lineNumber: 14,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-1.5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                        className: "mb-1.5 flex justify-between text-sm text-ink-dim",
+                        className: "mb-2 flex justify-between text-sm text-paper/70",
                         children: [
                             "A normal table already spends",
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                className: "font-mono tabular-nums text-ink",
+                                className: "font-mono tabular-nums text-paper",
                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.baseCheck)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                                lineNumber: 33,
+                                lineNumber: 36,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 31,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -566,56 +658,56 @@ function LiveNightCalculator() {
                         step: 2,
                         value: night.baseCheck,
                         onChange: (e)=>night.setBaseCheck(Number(e.target.value)),
-                        className: "w-full cursor-pointer"
+                        className: "range-control w-full cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 35,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                lineNumber: 30,
+                lineNumber: 33,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mb-1.5 flex items-baseline justify-between text-sm text-ink-dim",
+                        className: "mb-2 flex items-baseline justify-between text-sm text-paper/70",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: [
                                     "Premium lift per guest",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "font-mono tabular-nums text-ink",
+                                        className: "font-mono tabular-nums text-paper",
                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.lift)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 53,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                                lineNumber: 48,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             night.liftOverridden && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
                                 onClick: night.syncLift,
-                                className: "font-mono text-[0.6rem] uppercase tracking-wide text-dodger underline decoration-dotted",
+                                className: "font-mono text-[0.6rem] uppercase tracking-wide text-gold underline decoration-dotted",
                                 children: "Sync to order"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                                lineNumber: 53,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 47,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -625,45 +717,45 @@ function LiveNightCalculator() {
                         step: 1,
                         value: night.lift,
                         onChange: (e)=>night.setLift(Number(e.target.value)),
-                        className: "w-full cursor-pointer"
+                        className: "range-control w-full cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 62,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "mt-1 block font-mono text-[0.62rem] uppercase tracking-wide text-ink-faint",
+                        className: "mt-2 block font-mono text-[0.58rem] uppercase tracking-wide text-paper/40",
                         children: night.liftOverridden ? "Manually set — drag to override, or sync back to your order." : `From your order to the left: ${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.orderTotal)} order − ${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.baseCheck)} baseline`
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 71,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                lineNumber: 46,
+                lineNumber: 49,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                        className: "mb-1.5 flex justify-between text-sm text-ink-dim",
+                        className: "mb-2 flex justify-between text-sm text-paper/70",
                         children: [
                             "Nights per month ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                className: "font-mono tabular-nums text-ink",
+                                className: "font-mono tabular-nums text-paper",
                                 children: night.nights
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                                lineNumber: 80,
+                                lineNumber: 83,
                                 columnNumber: 28
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 79,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -673,41 +765,41 @@ function LiveNightCalculator() {
                         step: 1,
                         value: night.nights,
                         onChange: (e)=>night.setNights(Number(e.target.value)),
-                        className: "w-full cursor-pointer"
+                        className: "range-control w-full cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 82,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                lineNumber: 78,
+                lineNumber: 81,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                        className: "mb-1.5 flex justify-between text-sm text-ink-dim",
+                        className: "mb-2 flex justify-between text-sm text-paper/70",
                         children: [
                             "TDTM revenue share",
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                className: "font-mono tabular-nums text-ink",
+                                className: "font-mono tabular-nums text-paper",
                                 children: [
                                     night.split,
                                     "%"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                                lineNumber: 96,
+                                lineNumber: 99,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 94,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -717,39 +809,39 @@ function LiveNightCalculator() {
                         step: 1,
                         value: night.split,
                         onChange: (e)=>night.setSplit(Number(e.target.value)),
-                        className: "w-full cursor-pointer"
+                        className: "range-control w-full cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 98,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                lineNumber: 93,
+                lineNumber: 96,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-5 border-t border-dashed border-ink/25 pt-4.5",
+                className: "mt-6 border-t border-dashed border-paper/20 pt-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "font-mono text-[0.64rem] uppercase tracking-wide text-ink-faint",
+                        className: "font-mono text-[0.64rem] uppercase tracking-wide text-paper/45",
                         children: "Incremental monthly revenue"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 110,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "font-mono text-3xl tabular-nums text-gold",
-                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.liveNightRevenue)
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
                         lineNumber: 113,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-2.5 text-sm text-ink-dim",
+                        className: "number-pop font-display text-6xl leading-none tabular-nums text-gold",
+                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.liveNightRevenue)
+                    }, night.liveNightRevenue, false, {
+                        fileName: "[project]/src/components/LiveNightCalculator.tsx",
+                        lineNumber: 116,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-3 text-sm text-paper/65",
                         children: [
                             "Pawn Shop keeps ~",
                             (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.venueShare),
@@ -758,21 +850,21 @@ function LiveNightCalculator() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                        lineNumber: 116,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                lineNumber: 109,
+                lineNumber: 112,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-3.5 font-mono text-xs leading-relaxed text-ink-faint",
+                className: "mt-4 font-mono text-[0.65rem] leading-relaxed text-paper/40",
                 children: "Illustrative model built on assumptions above — plug in Pawn Shop’s real check averages and this recalculates instantly."
             }, void 0, false, {
                 fileName: "[project]/src/components/LiveNightCalculator.tsx",
-                lineNumber: 121,
+                lineNumber: 124,
                 columnNumber: 7
             }, this)
         ]
@@ -802,11 +894,11 @@ function LiveNightMenu() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-4.5 flex items-center justify-between border-t border-ink/10 pt-3.5",
+                className: "flex items-end justify-between gap-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-lg uppercase",
-                        children: "Build the collab menu (concepts — for the kitchen to riff on)"
+                        className: "max-w-[16ch] text-3xl leading-none uppercase text-ink",
+                        children: "Build the collab menu"
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightMenu.tsx",
                         lineNumber: 12,
@@ -815,7 +907,7 @@ function LiveNightMenu() {
                     night.orderCount > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         type: "button",
                         onClick: night.resetOrder,
-                        className: "shrink-0 font-mono text-[0.62rem] uppercase tracking-wide text-ink-faint underline decoration-dotted hover:text-dodger",
+                        className: "shrink-0 rounded-full border border-ink/20 px-3 py-1.5 font-mono text-[0.6rem] font-bold uppercase tracking-wide text-ink-faint transition hover:border-dodger hover:text-dodger",
                         children: "Reset order"
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightMenu.tsx",
@@ -829,20 +921,21 @@ function LiveNightMenu() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "mt-5 space-y-2",
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$menu$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["liveNightMenu"].map((item)=>{
                     const qty = night.order[item.id] ?? 0;
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        className: `flex items-center justify-between gap-3.5 border-b border-ink/10 py-3.5 transition-colors ${qty > 0 ? "bg-dodger-soft/40" : ""}`,
+                        className: `flex items-center justify-between gap-3.5 rounded-xl border px-4 py-3.5 transition-all ${qty > 0 ? "border-dodger bg-dodger-soft/55 shadow-[3px_3px_0_var(--color-dodger)]" : "border-ink/10 bg-paper hover:border-ink/25"}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "min-w-0",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "font-bold",
+                                        className: "font-display text-xl uppercase leading-none text-ink",
                                         children: item.name
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 39,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -850,13 +943,13 @@ function LiveNightMenu() {
                                         children: item.tag
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 40,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                lineNumber: 36,
+                                lineNumber: 38,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -867,53 +960,53 @@ function LiveNightMenu() {
                                         children: item.price
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 45,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-center overflow-hidden rounded border border-ink/25 font-mono text-sm",
+                                        className: "flex items-center overflow-hidden rounded-full border border-ink/25 bg-paper font-mono text-sm shadow-sm",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "button",
                                                 "aria-label": `Remove one ${item.name}`,
                                                 onClick: ()=>night.removeItem(item.id),
                                                 disabled: qty === 0,
-                                                className: "w-7 py-1 text-ink-dim transition-colors hover:bg-raised-2 disabled:opacity-30",
+                                                className: "size-8 text-ink-dim transition-colors hover:bg-raised-2 disabled:opacity-30",
                                                 children: "−"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                                lineNumber: 47,
+                                                lineNumber: 49,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "w-6 text-center tabular-nums text-ink",
+                                                className: "number-pop w-7 text-center tabular-nums text-ink",
                                                 children: qty
-                                            }, void 0, false, {
+                                            }, qty, false, {
                                                 fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 58,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "button",
                                                 "aria-label": `Add one ${item.name}`,
                                                 onClick: ()=>night.addItem(item.id),
-                                                className: "w-7 py-1 text-ink-dim transition-colors hover:bg-raised-2",
+                                                className: "size-8 text-ink-dim transition-colors hover:bg-dodger hover:text-paper",
                                                 children: "+"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                                lineNumber: 57,
+                                                lineNumber: 59,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 48,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/LiveNightMenu.tsx",
-                                lineNumber: 42,
+                                lineNumber: 44,
                                 columnNumber: 15
                             }, this)
                         ]
@@ -929,28 +1022,28 @@ function LiveNightMenu() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-3.5 flex items-center justify-between rounded-md border border-dashed border-ink/25 bg-raised px-4 py-3",
+                className: "ticket-cut mt-5 flex items-center justify-between overflow-hidden rounded-xl bg-ink px-5 py-4 text-paper",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "font-mono text-xs uppercase tracking-wide text-ink-faint",
                         children: "Table order total"
                     }, void 0, false, {
                         fileName: "[project]/src/components/LiveNightMenu.tsx",
-                        lineNumber: 73,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "font-mono text-lg tabular-nums text-gold",
+                        className: "number-pop font-display text-3xl tabular-nums text-gold",
                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.orderTotal)
-                    }, void 0, false, {
+                    }, night.orderTotal, false, {
                         fileName: "[project]/src/components/LiveNightMenu.tsx",
-                        lineNumber: 76,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/LiveNightMenu.tsx",
-                lineNumber: 72,
+                lineNumber: 74,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -958,7 +1051,7 @@ function LiveNightMenu() {
                 children: "Names, items and prices are starting points for a joint tasting with the kitchen — not final. Order flows straight into the revenue model on the right."
             }, void 0, false, {
                 fileName: "[project]/src/components/LiveNightMenu.tsx",
-                lineNumber: 81,
+                lineNumber: 83,
                 columnNumber: 7
             }, this)
         ]
@@ -983,8 +1076,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const LINKS = [
     {
-        href: "#show",
-        label: "The Show"
+        href: "#proof",
+        label: "Proof of Concept"
     },
     {
         href: "#pitch",
@@ -1027,25 +1120,40 @@ function Nav() {
         return ()=>observer.disconnect();
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "sticky top-0 z-50 border-b border-ink/10 bg-paper/90 backdrop-blur-sm",
+        className: "sticky top-0 z-50 border-b border-ink/10 bg-paper/92 backdrop-blur-xl",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto flex max-w-[1180px] items-center justify-between gap-4 px-7 py-3.5 sm:px-4",
+            className: "mx-auto flex min-h-15 max-w-[1280px] items-center justify-between gap-4 px-5 md:px-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex items-baseline gap-2 font-display text-sm font-extrabold uppercase tracking-wide",
+                    className: "flex items-center gap-3",
                     children: [
-                        "Pawn Shop",
-                        " ",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
-                            className: "font-mono text-[0.62rem] font-medium tracking-wider text-ink-faint",
-                            children: "×"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "grid size-9 rotate-[-6deg] place-items-center rounded-full border-2 border-dodger font-display text-lg text-dodger",
+                            children: "PS"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Nav.tsx",
-                            lineNumber: 40,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this),
-                        " ",
-                        "Talk Dodgers To Me"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "font-display text-base leading-none uppercase text-ink",
+                            children: [
+                                "Pawn Shop ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-gold",
+                                    children: "×"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Nav.tsx",
+                                    lineNumber: 43,
+                                    columnNumber: 23
+                                }, this),
+                                " TDTM"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/Nav.tsx",
+                            lineNumber: 42,
+                            columnNumber: 11
+                        }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Nav.tsx",
@@ -1053,32 +1161,32 @@ function Nav() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "rounded border border-ink/25 px-3 py-1.5 font-mono text-xs uppercase tracking-wide text-ink md:hidden",
+                    className: "rounded-full border border-ink/25 px-4 py-2 font-mono text-[0.68rem] font-bold uppercase tracking-wide text-ink md:hidden",
                     "aria-expanded": open,
                     "aria-controls": "nav-links",
                     onClick: ()=>setOpen((o)=>!o),
-                    children: "Menu"
+                    children: open ? "Close" : "Menu"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Nav.tsx",
-                    lineNumber: 46,
+                    lineNumber: 47,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                     id: "nav-links",
-                    className: `font-mono text-xs uppercase tracking-wide md:flex md:gap-5 ${open ? "absolute inset-x-0 top-full flex flex-col gap-3.5 border-b border-ink/10 bg-raised px-7 py-4" : "hidden"}`,
+                    className: `font-mono text-[0.66rem] font-bold uppercase tracking-[0.09em] md:flex md:items-center md:gap-5 ${open ? "absolute inset-x-0 top-full flex flex-col gap-4 border-b border-ink/10 bg-paper px-6 py-6 shadow-2xl" : "hidden"}`,
                     children: LINKS.map((l)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: l.href,
                             onClick: ()=>setOpen(false),
-                            className: `border-b pb-0.5 transition-colors ${active === l.href.slice(1) ? "border-dodger text-dodger" : "border-transparent text-ink-dim hover:border-dodger hover:text-dodger"}`,
+                            className: `relative py-1 transition-colors after:absolute after:inset-x-0 after:-bottom-0.5 after:h-0.5 after:origin-left after:bg-dodger after:transition-transform ${active === l.href.slice(1) ? "text-dodger after:scale-x-100" : "text-ink-dim after:scale-x-0 hover:text-dodger hover:after:scale-x-100"}`,
                             children: l.label
                         }, l.href, false, {
                             fileName: "[project]/src/components/Nav.tsx",
-                            lineNumber: 64,
+                            lineNumber: 65,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Nav.tsx",
-                    lineNumber: 55,
+                    lineNumber: 56,
                     columnNumber: 9
                 }, this)
             ]
@@ -1285,7 +1393,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 "use client";
 ;
 ;
-function Reveal({ children, className = "" }) {
+function Reveal({ children, className = "", from = "up" }) {
     const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const [visible, setVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
@@ -1304,11 +1412,11 @@ function Reveal({ children, className = "" }) {
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: ref,
-        className: `reveal ${visible ? "in" : ""} ${className}`,
+        className: `reveal reveal-${from} ${visible ? "in" : ""} ${className}`,
         children: children
     }, void 0, false, {
         fileName: "[project]/src/components/Reveal.tsx",
-        lineNumber: 32,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }
@@ -1329,183 +1437,255 @@ function TicketStub() {
     const night = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useNight"])();
     const guestName = night.headliner?.name ?? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["defaultHeadliner"].name;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "grid grid-cols-1 overflow-hidden rounded-md border border-ink/25 bg-raised shadow-[0_16px_36px_rgba(11,29,51,0.1)] sm:grid-cols-[1fr_140px]",
+        className: "ticket-cut grid grid-cols-1 overflow-hidden rounded-[1.5rem] border-2 border-ink bg-paper text-ink shadow-[10px_12px_0_var(--color-gold)] sm:grid-cols-[1fr_150px]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "p-6 sm:p-7",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "mb-2 block font-mono text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-gold-dim",
-                        children: "Pawn Shop × Talk Dodgers To Me"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center justify-between bg-dodger px-6 py-3 font-mono text-[0.62rem] font-bold uppercase tracking-[0.16em] text-paper sm:px-8",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: "Pawn Shop × Talk Dodgers To Me"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/TicketStub.tsx",
+                                lineNumber: 13,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: "Admit one night"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/TicketStub.tsx",
+                                lineNumber: 14,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/TicketStub.tsx",
                         lineNumber: 12,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "font-display text-2xl font-extrabold uppercase text-ink",
-                        children: "The night you just built"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/TicketStub.tsx",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-4.5 grid grid-cols-2 gap-x-6 gap-y-3.5 sm:grid-cols-4",
+                        className: "p-6 sm:p-8",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-wrap items-start justify-between gap-5",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
-                                        children: "Headliner"
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "mb-2 block font-mono text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-gold-dim",
+                                                children: "Your custom residency"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 19,
+                                                columnNumber: 13
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "font-display text-5xl leading-[.85] uppercase text-dodger md:text-7xl",
+                                                children: [
+                                                    "The night",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                        fileName: "[project]/src/components/TicketStub.tsx",
+                                                        lineNumber: 23,
+                                                        columnNumber: 24
+                                                    }, this),
+                                                    "you built"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 22,
+                                                columnNumber: 13
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 13
+                                        lineNumber: 18,
+                                        columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-sm text-ink",
-                                        children: guestName
-                                    }, void 0, false, {
+                                        className: "stamp",
+                                        children: [
+                                            "Ready for",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 26,
+                                                columnNumber: 44
+                                            }, this),
+                                            "first pitch"
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 13
+                                        lineNumber: 26,
+                                        columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/TicketStub.tsx",
-                                lineNumber: 20,
-                                columnNumber: 11
+                                lineNumber: 17,
+                                columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-8 grid grid-cols-2 gap-x-6 gap-y-5 border-y border-dashed border-ink/25 py-6 sm:grid-cols-4",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
-                                        children: "Live nights"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 27,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-mono text-sm tabular-nums text-ink",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
-                                            (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.liveNightRevenue),
-                                            "/mo"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                                className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
+                                                children: "Headliner"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 31,
+                                                columnNumber: 13
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-display text-xl uppercase leading-none text-ink",
+                                                children: guestName
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 34,
+                                                columnNumber: 13
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/TicketStub.tsx",
                                         lineNumber: 30,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/TicketStub.tsx",
-                                lineNumber: 26,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
-                                        children: "Watch parties"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 35,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-mono text-sm tabular-nums text-ink",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
-                                            (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.watchPartyRevenue),
-                                            "/mo"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                                className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
+                                                children: "Live nights"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 37,
+                                                columnNumber: 13
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "number-pop font-mono text-base tabular-nums text-ink",
+                                                children: [
+                                                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.liveNightRevenue),
+                                                    "/mo"
+                                                ]
+                                            }, night.liveNightRevenue, true, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 40,
+                                                columnNumber: 13
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 38,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/TicketStub.tsx",
-                                lineNumber: 34,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-gold-dim",
-                                        children: "Combined total"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 43,
-                                        columnNumber: 13
+                                        lineNumber: 36,
+                                        columnNumber: 11
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-mono text-sm font-bold tabular-nums text-gold",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
-                                            (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.monthlyTotal),
-                                            "/mo"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                                className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
+                                                children: "Watch parties"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 45,
+                                                columnNumber: 13
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "number-pop font-mono text-base tabular-nums text-ink",
+                                                children: [
+                                                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.watchPartyRevenue),
+                                                    "/mo"
+                                                ]
+                                            }, night.watchPartyRevenue, true, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 48,
+                                                columnNumber: 13
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 46,
-                                        columnNumber: 13
+                                        lineNumber: 44,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                                className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-gold-dim",
+                                                children: "Combined total"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 53,
+                                                columnNumber: 13
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "number-pop font-display text-3xl leading-none tabular-nums text-gold",
+                                                children: [
+                                                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.monthlyTotal),
+                                                    "/mo"
+                                                ]
+                                            }, night.monthlyTotal, true, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 56,
+                                                columnNumber: 13
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/TicketStub.tsx",
+                                        lineNumber: 52,
+                                        columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/TicketStub.tsx",
-                                lineNumber: 42,
-                                columnNumber: 11
+                                lineNumber: 29,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-6 flex flex-wrap items-end gap-4",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                        className: "flex flex-col gap-1",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
+                                                children: "Pencil in a pilot date"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 64,
+                                                columnNumber: 13
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                type: "date",
+                                                value: night.date,
+                                                onChange: (e)=>night.setDate(e.target.value),
+                                                className: "rounded-full border border-ink/25 bg-raised px-4 py-2 font-mono text-sm text-ink"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/TicketStub.tsx",
+                                                lineNumber: 67,
+                                                columnNumber: 13
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/TicketStub.tsx",
+                                        lineNumber: 63,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "max-w-md font-mono text-[0.62rem] leading-relaxed text-ink-faint",
+                                        children: "Illustrative — built from the choices you made above, editable any time before the pilot."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/TicketStub.tsx",
+                                        lineNumber: 74,
+                                        columnNumber: 11
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/TicketStub.tsx",
+                                lineNumber: 62,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/TicketStub.tsx",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-5 flex flex-wrap items-end gap-4 border-t border-dashed border-ink/25 pt-4.5",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                className: "flex flex-col gap-1",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
-                                        children: "Pencil in a pilot date"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 54,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "date",
-                                        value: night.date,
-                                        onChange: (e)=>night.setDate(e.target.value),
-                                        className: "rounded border border-ink/25 bg-paper px-2.5 py-1.5 font-mono text-sm text-ink"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 57,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/TicketStub.tsx",
-                                lineNumber: 53,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-mono text-[0.62rem] text-ink-faint",
-                                children: "Illustrative — built from the choices you made above, editable any time before the pilot."
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/TicketStub.tsx",
-                                lineNumber: 64,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/TicketStub.tsx",
-                        lineNumber: 52,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1515,19 +1695,19 @@ function TicketStub() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "stub-edge flex items-center justify-center gap-2 border-t border-dashed border-ink/25 bg-raised-2 py-4 sm:border-t-0 sm:border-l",
+                className: "stub-edge flex items-center justify-center gap-2 border-t border-dashed border-ink/25 bg-raised-2 py-5 sm:border-t-0 sm:border-l",
                 "aria-hidden": true,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "font-mono text-xs tracking-[0.2em] text-ink-faint sm:rotate-180 sm:[writing-mode:vertical-rl]",
                     children: "ADMIT ONE · PILOT NIGHT"
                 }, void 0, false, {
                     fileName: "[project]/src/components/TicketStub.tsx",
-                    lineNumber: 75,
+                    lineNumber: 86,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/TicketStub.tsx",
-                lineNumber: 71,
+                lineNumber: 82,
                 columnNumber: 7
             }, this)
         ]
@@ -1553,12 +1733,29 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightPr
 function WatchPartyCalculator() {
     const night = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useNight"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "static rounded-md border border-ink/25 bg-raised-2 p-6 pb-6.5 md:sticky md:top-23",
+        className: "ticket-cut static overflow-hidden rounded-[1.3rem] bg-ink p-6 pb-7 text-paper shadow-[0_24px_70px_rgba(11,29,51,.24)] md:sticky md:top-20 md:p-7",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                className: "mb-4 font-mono text-xs uppercase tracking-wide text-ink-faint",
-                children: "Illustrative Revenue — Watch Party"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mb-6 flex items-center justify-between border-b border-dashed border-paper/20 pb-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                        className: "font-mono text-xs uppercase tracking-wide text-gold",
+                        children: "Watch Party Receipt"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/WatchPartyCalculator.tsx",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "font-mono text-[0.58rem] uppercase tracking-widest text-paper/40",
+                        children: "Admit all"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/WatchPartyCalculator.tsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
                 lineNumber: 10,
                 columnNumber: 7
@@ -1567,42 +1764,42 @@ function WatchPartyCalculator() {
                 className: "mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mb-1.5 flex items-baseline justify-between text-sm text-ink-dim",
+                        className: "mb-2 flex items-baseline justify-between text-sm text-paper/70",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: [
                                     "Ticket price ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        className: "font-mono tabular-nums text-ink",
+                                        className: "font-mono tabular-nums text-paper",
                                         children: [
                                             "$",
                                             night.price
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                        lineNumber: 17,
+                                        lineNumber: 20,
                                         columnNumber: 26
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                lineNumber: 16,
+                                lineNumber: 19,
                                 columnNumber: 11
                             }, this),
                             night.priceOverridden && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
                                 onClick: night.syncPrice,
-                                className: "font-mono text-[0.6rem] uppercase tracking-wide text-dodger underline decoration-dotted",
+                                className: "font-mono text-[0.6rem] uppercase tracking-wide text-gold underline decoration-dotted",
                                 children: "Sync to ticket"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                lineNumber: 20,
+                                lineNumber: 23,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 15,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1612,45 +1809,45 @@ function WatchPartyCalculator() {
                         step: 5,
                         value: night.price,
                         onChange: (e)=>night.setPrice(Number(e.target.value)),
-                        className: "w-full cursor-pointer"
+                        className: "range-control w-full cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 29,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "mt-1 block font-mono text-[0.62rem] uppercase tracking-wide text-ink-faint",
+                        className: "mt-2 block font-mono text-[0.58rem] uppercase tracking-wide text-paper/40",
                         children: night.priceOverridden ? "Manually set — drag to override, or sync back to the ticket to the left." : "Following what you toggled on to the left."
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 38,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                lineNumber: 14,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                        className: "mb-1.5 flex justify-between text-sm text-ink-dim",
+                        className: "mb-2 flex justify-between text-sm text-paper/70",
                         children: [
                             "Room capacity ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                className: "font-mono tabular-nums text-ink",
+                                className: "font-mono tabular-nums text-paper",
                                 children: night.capacity
                             }, void 0, false, {
                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                lineNumber: 47,
+                                lineNumber: 50,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 46,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1660,38 +1857,38 @@ function WatchPartyCalculator() {
                         step: 5,
                         value: night.capacity,
                         onChange: (e)=>night.setCapacity(Number(e.target.value)),
-                        className: "w-full cursor-pointer"
+                        className: "range-control w-full cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 49,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                lineNumber: 45,
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                        className: "mb-1.5 flex justify-between text-sm text-ink-dim",
+                        className: "mb-2 flex justify-between text-sm text-paper/70",
                         children: [
                             "Watch parties per month",
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                className: "font-mono tabular-nums text-ink",
+                                className: "font-mono tabular-nums text-paper",
                                 children: night.events
                             }, void 0, false, {
                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                lineNumber: 63,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 61,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1701,57 +1898,57 @@ function WatchPartyCalculator() {
                         step: 1,
                         value: night.events,
                         onChange: (e)=>night.setEvents(Number(e.target.value)),
-                        className: "w-full cursor-pointer"
+                        className: "range-control w-full cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 65,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                lineNumber: 60,
+                lineNumber: 63,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-5 border-t border-dashed border-ink/25 pt-4.5",
+                className: "mt-6 border-t border-dashed border-paper/20 pt-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "font-mono text-[0.64rem] uppercase tracking-wide text-ink-faint",
+                        className: "font-mono text-[0.64rem] uppercase tracking-wide text-paper/45",
                         children: "Monthly ticket revenue"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 77,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "font-mono text-3xl tabular-nums text-gold",
-                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.watchPartyRevenue)
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
                         lineNumber: 80,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-2.5 text-sm text-ink-dim",
+                        className: "number-pop font-display text-6xl leading-none tabular-nums text-gold",
+                        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["money"])(night.watchPartyRevenue)
+                    }, night.watchPartyRevenue, false, {
+                        fileName: "[project]/src/components/WatchPartyCalculator.tsx",
+                        lineNumber: 83,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-3 text-sm text-paper/65",
                         children: "Before catering & bar upsell on top of the ticket"
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 83,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                lineNumber: 76,
+                lineNumber: 79,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-3.5 font-mono text-xs leading-relaxed text-ink-faint",
+                className: "mt-4 font-mono text-[0.65rem] leading-relaxed text-paper/40",
                 children: "Illustrative model — swap in Pawn Shop’s real room capacity and catering cost to pressure-test margin."
             }, void 0, false, {
                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                lineNumber: 88,
+                lineNumber: 91,
                 columnNumber: 7
             }, this)
         ]
@@ -1781,20 +1978,21 @@ function WatchPartyIncludes() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "mt-4.5 border-t border-ink/10 pt-3.5 text-lg uppercase",
-                children: "Build the ticket — toggle what’s included"
+                className: "max-w-[14ch] text-3xl leading-none uppercase text-ink",
+                children: "Build the ticket"
             }, void 0, false, {
                 fileName: "[project]/src/components/WatchPartyIncludes.tsx",
                 lineNumber: 11,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "mt-5 space-y-2",
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$menu$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["watchPartyIncludes"].map((item)=>{
                     const checked = night.includes.includes(item.id);
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        className: "border-b border-ink/10 py-3.5",
+                        className: `rounded-xl border transition-all ${checked ? "border-dodger bg-dodger-soft/55 shadow-[3px_3px_0_var(--color-dodger)]" : "border-ink/10 bg-paper opacity-65"}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                            className: "flex cursor-pointer items-start justify-between gap-3.5",
+                            className: "flex cursor-pointer items-start justify-between gap-3.5 p-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-start gap-3",
@@ -1803,20 +2001,20 @@ function WatchPartyIncludes() {
                                             type: "checkbox",
                                             checked: checked,
                                             onChange: ()=>night.toggleInclude(item.id),
-                                            className: "mt-1 size-4 cursor-pointer accent-gold"
+                                            className: "mt-0.5 size-5 cursor-pointer accent-dodger"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                                            lineNumber: 22,
+                                            lineNumber: 29,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `font-bold ${checked ? "" : "text-ink-faint line-through"}`,
+                                                    className: `font-display text-xl uppercase leading-none ${checked ? "text-ink" : "text-ink-faint line-through"}`,
                                                     children: item.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                                                    lineNumber: 29,
+                                                    lineNumber: 36,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1824,19 +2022,19 @@ function WatchPartyIncludes() {
                                                     children: item.tag
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                                                    lineNumber: 32,
+                                                    lineNumber: 39,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                                            lineNumber: 28,
+                                            lineNumber: 35,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                                    lineNumber: 21,
+                                    lineNumber: 28,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1844,13 +2042,13 @@ function WatchPartyIncludes() {
                                     children: item.premium ? item.price : `+${item.price}/hd`
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 44,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                            lineNumber: 20,
+                            lineNumber: 27,
                             columnNumber: 15
                         }, this)
                     }, item.id, false, {
@@ -1865,31 +2063,31 @@ function WatchPartyIncludes() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-3.5 flex items-center justify-between rounded-md border border-dashed border-ink/25 bg-raised px-4 py-3",
+                className: "ticket-cut mt-5 flex items-center justify-between overflow-hidden rounded-xl bg-ink px-5 py-4 text-paper",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "font-mono text-xs uppercase tracking-wide text-ink-faint",
                         children: "Suggested ticket price"
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                        lineNumber: 47,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "font-mono text-lg tabular-nums text-gold",
+                        className: "number-pop font-display text-3xl tabular-nums text-gold",
                         children: [
                             "$",
                             night.priceFromIncludes
                         ]
-                    }, void 0, true, {
+                    }, night.priceFromIncludes, true, {
                         fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                        lineNumber: 50,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                lineNumber: 46,
+                lineNumber: 53,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1897,7 +2095,7 @@ function WatchPartyIncludes() {
                 children: "Bar spend beyond what’s included in the ticket is upside on top of the numbers to the right."
             }, void 0, false, {
                 fileName: "[project]/src/components/WatchPartyIncludes.tsx",
-                lineNumber: 53,
+                lineNumber: 60,
                 columnNumber: 7
             }, this)
         ]

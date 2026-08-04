@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const LINKS = [
-  { href: "#show", label: "The Show" },
+  { href: "#proof", label: "Proof of Concept" },
   { href: "#pitch", label: "The Pitch" },
   { href: "#live-nights", label: "Live Nights" },
   { href: "#watch-parties", label: "Watch Parties" },
@@ -33,30 +33,31 @@ export default function Nav() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-ink/10 bg-paper/90 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-[1180px] items-center justify-between gap-4 px-7 py-3.5 sm:px-4">
-        <div className="flex items-baseline gap-2 font-display text-sm font-extrabold uppercase tracking-wide">
-          Pawn Shop{" "}
-          <small className="font-mono text-[0.62rem] font-medium tracking-wider text-ink-faint">
-            ×
-          </small>{" "}
-          Talk Dodgers To Me
+    <header className="sticky top-0 z-50 border-b border-ink/10 bg-paper/92 backdrop-blur-xl">
+      <div className="mx-auto flex min-h-15 max-w-[1280px] items-center justify-between gap-4 px-5 md:px-8">
+        <div className="flex items-center gap-3">
+          <span className="grid size-9 rotate-[-6deg] place-items-center rounded-full border-2 border-dodger font-display text-lg text-dodger">
+            PS
+          </span>
+          <div className="font-display text-base leading-none uppercase text-ink">
+            Pawn Shop <span className="text-gold">×</span> TDTM
+          </div>
         </div>
 
         <button
-          className="rounded border border-ink/25 px-3 py-1.5 font-mono text-xs uppercase tracking-wide text-ink md:hidden"
+          className="rounded-full border border-ink/25 px-4 py-2 font-mono text-[0.68rem] font-bold uppercase tracking-wide text-ink md:hidden"
           aria-expanded={open}
           aria-controls="nav-links"
           onClick={() => setOpen((o) => !o)}
         >
-          Menu
+          {open ? "Close" : "Menu"}
         </button>
 
         <nav
           id="nav-links"
-          className={`font-mono text-xs uppercase tracking-wide md:flex md:gap-5 ${
+          className={`font-mono text-[0.66rem] font-bold uppercase tracking-[0.09em] md:flex md:items-center md:gap-5 ${
             open
-              ? "absolute inset-x-0 top-full flex flex-col gap-3.5 border-b border-ink/10 bg-raised px-7 py-4"
+              ? "absolute inset-x-0 top-full flex flex-col gap-4 border-b border-ink/10 bg-paper px-6 py-6 shadow-2xl"
               : "hidden"
           }`}
         >
@@ -65,10 +66,10 @@ export default function Nav() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className={`border-b pb-0.5 transition-colors ${
+              className={`relative py-1 transition-colors after:absolute after:inset-x-0 after:-bottom-0.5 after:h-0.5 after:origin-left after:bg-dodger after:transition-transform ${
                 active === l.href.slice(1)
-                  ? "border-dodger text-dodger"
-                  : "border-transparent text-ink-dim hover:border-dodger hover:text-dodger"
+                  ? "text-dodger after:scale-x-100"
+                  : "text-ink-dim after:scale-x-0 hover:text-dodger hover:after:scale-x-100"
               }`}
             >
               {l.label}

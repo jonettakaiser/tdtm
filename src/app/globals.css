@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-/* Talk Dodgers To Me x Pawn Shop — committed single theme: white ground, Dodger blue headlines. */
+/* TDTM x Pawn Shop — a bright, editorial clubhouse built from tickets, scoreboards and ink. */
 @theme {
   --color-paper: #ffffff;
-  --color-raised: #eef3f9;
-  --color-raised-2: #e3ecf6;
+  --color-raised: #f2f6fb;
+  --color-raised-2: #e5eef8;
   --color-ink: #0b1d33;
   --color-ink-dim: #48566b;
   --color-ink-faint: #8592a6;
@@ -14,15 +14,35 @@
   --color-gold-dim: #8a6309;
   --color-stamp: #c8102e;
 
-  --font-display: ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
-  --font-body: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font-display: Impact, Haettenschweiler, "Arial Narrow Bold", "Arial Narrow", sans-serif;
+  --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Roboto Mono", Menlo,
     Consolas, monospace;
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 78px;
 }
+
+body {
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 12% 8%, color-mix(in srgb, var(--color-dodger) 8%, transparent), transparent 25rem),
+    var(--color-paper);
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  content: "";
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.8'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -40,11 +60,117 @@ h3,
 h4 {
   font-family: var(--font-display);
   text-wrap: balance;
-  color: var(--color-dodger);
+  letter-spacing: -0.025em;
 }
 
 p {
   max-width: 66ch;
+}
+
+.section-shell {
+  position: relative;
+  padding-block: clamp(5rem, 10vw, 9rem);
+}
+
+.section-inner {
+  width: min(100% - 2rem, 1180px);
+  margin-inline: auto;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-gold-dim);
+}
+
+.eyebrow::before {
+  width: 1.8rem;
+  height: 2px;
+  background: currentColor;
+  content: "";
+}
+
+.section-title {
+  max-width: 13ch;
+  font-size: clamp(3rem, 7vw, 6.6rem);
+  line-height: 0.88;
+  text-transform: uppercase;
+  color: var(--color-dodger);
+}
+
+.section-lede {
+  margin-top: 1.5rem;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  line-height: 1.55;
+  color: var(--color-ink-dim);
+}
+
+.clubhouse-panel {
+  border: 1px solid color-mix(in srgb, var(--color-ink) 22%, transparent);
+  border-radius: 1.1rem;
+  background: color-mix(in srgb, var(--color-paper) 92%, var(--color-raised));
+  box-shadow: 0 1.5rem 4rem rgb(11 29 51 / 0.11);
+}
+
+.stamp {
+  display: inline-grid;
+  min-width: 5.2rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-stamp);
+  transform: rotate(-9deg);
+}
+
+.ticker {
+  display: flex;
+  overflow: hidden;
+  border-block: 1px solid rgb(255 255 255 / 0.16);
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.ticker-track {
+  display: flex;
+  min-width: max-content;
+  animation: ticker 22s linear infinite;
+}
+
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  padding: 1rem 0.9rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2.5rem);
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.ticker-item::after {
+  content: "✦";
+  color: var(--color-gold);
+}
+
+@keyframes ticker {
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Marquee bulb strip along the very top of the page. */
@@ -74,18 +200,21 @@ p {
   }
 }
 
-/* Perforation strip used as a "torn ticket" seam between sections. */
 .perf {
-  height: 16px;
-  background-color: var(--color-ink);
-  opacity: 0.1;
+  position: relative;
+  z-index: 2;
+  height: 26px;
+  margin-block: -13px;
+  background-color: var(--color-paper);
   background-image: radial-gradient(
-    circle at 8px 8px,
-    var(--color-paper) 4.4px,
-    transparent 4.7px
+    circle at 13px 13px,
+    var(--color-ink) 3.5px,
+    transparent 3.8px
   );
-  background-size: 16px 16px;
+  background-size: 26px 26px;
   background-repeat: repeat-x;
+  opacity: 0.16;
+  transform: rotate(-0.3deg) scaleX(1.02);
 }
 
 /* Checkerboard strip, footer accent. */
@@ -101,7 +230,6 @@ p {
   opacity: 0.12;
 }
 
-/* Vertical perforation edge on ticket-stub cards. */
 .stub-edge {
   background-image: radial-gradient(
     circle at 37px 8px,
@@ -113,26 +241,121 @@ p {
   background-position: left center;
 }
 
-/* Reveal-on-scroll utility, toggled by IntersectionObserver in <Reveal>. */
 .reveal {
   opacity: 0;
-  transform: translateY(18px);
+  transform: translateY(36px) rotate(0.4deg);
   transition:
-    opacity 0.6s ease,
-    transform 0.6s ease;
+    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-left {
+  transform: translateX(-42px) rotate(-0.7deg);
+}
+.reveal-right {
+  transform: translateX(42px) rotate(0.7deg);
+}
+.reveal-scale {
+  transform: scale(0.94) rotate(-0.4deg);
 }
 .reveal.in {
   opacity: 1;
   transform: none;
 }
+
+.number-pop {
+  display: inline-block;
+  animation: number-pop 0.42s cubic-bezier(0.2, 0.9, 0.3, 1.35);
+}
+
+@keyframes number-pop {
+  0% {
+    opacity: 0.35;
+    transform: translateY(0.35em) scale(0.88);
+  }
+}
+
+.ticket-cut {
+  position: relative;
+}
+
+.ticket-cut::before,
+.ticket-cut::after {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 1.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--color-paper);
+  content: "";
+  transform: translateY(-50%);
+}
+
+.ticket-cut::before {
+  left: -0.8rem;
+}
+
+.ticket-cut::after {
+  right: -0.8rem;
+}
+
+.range-control {
+  height: 0.45rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-dodger) 18%, var(--color-paper));
+  accent-color: var(--color-dodger);
+}
+
+.range-control::-webkit-slider-thumb {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 3px solid var(--color-paper);
+  border-radius: 50%;
+  background: var(--color-dodger);
+  box-shadow: 0 0 0 1px var(--color-dodger), 0 0.25rem 0.8rem rgb(11 29 51 / 0.2);
+  appearance: none;
+}
+
+.range-control {
+  appearance: none;
+}
+
+.focus-ring:focus-visible,
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;
     transform: none;
     transition: none;
   }
+  .ticker-track,
+  .number-pop,
+  .bulb-bar {
+    animation: none;
+  }
 }
 
 input[type="range"] {
   accent-color: var(--color-gold);
+}
+
+@media (max-width: 639px) {
+  .section-shell {
+    padding-block: 4.75rem;
+  }
+
+  .section-title {
+    font-size: clamp(3rem, 15vw, 4.8rem);
+  }
+
+  .ticker-item {
+    padding-block: 0.8rem;
+  }
 }

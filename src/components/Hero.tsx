@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { defaultHeadliner, money, useNight } from "./NightProvider";
 
 export default function Hero() {
@@ -8,90 +9,99 @@ export default function Hero() {
   const guestPicked = night.headliner !== null;
 
   return (
-    <section className="mx-auto max-w-[1180px] px-7 pt-16 pb-12 sm:px-4">
-      <span className="mb-4 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim">
-        A Partnership Proposal · Prepared for Pawn Shop, Melrose
-      </span>
-      <h1 className="font-display text-5xl leading-none font-extrabold uppercase sm:text-4xl">
-        <span className="text-dodger">Two Nights a Month.</span>
-        <span className="mt-1 block text-ink">One Full Room.</span>
-      </h1>
-      <p className="mt-5 max-w-[62ch] text-lg text-ink-dim">
-        Talk Dodgers To Me is pitching a residency: special-guest live podcast tapings and
-        ticketed private-room Dodgers watch parties, built to sell out Pawn Shop on nights
-        that are currently empty. Don&rsquo;t take our word for it — build a night below and
-        watch the scoreboard move.
-      </p>
+    <section className="relative isolate min-h-[calc(100svh-68px)] overflow-hidden bg-ink text-paper">
+      <div className="absolute inset-0 -z-20">
+        <Image
+          src="/Podcast-ProofConcept1.png"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center opacity-45 grayscale-[20%] contrast-125"
+        />
+      </div>
+      <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(11,29,51,.96)_0%,rgba(11,29,51,.75)_48%,rgba(11,29,51,.2)_100%)]" />
+      <div className="absolute inset-0 -z-10 bg-[linear-gradient(0deg,rgba(11,29,51,.9)_0%,transparent_55%)]" />
 
-      <a
-        href="#lineup"
-        className="mt-7 inline-flex items-center gap-2 rounded-md border border-dodger bg-dodger px-5 py-2.5 font-mono text-xs font-semibold uppercase tracking-wide text-paper transition-colors hover:bg-white hover:text-dodger"
-      >
-        Build your night ↓
-      </a>
-
-      <div className="mt-9 overflow-hidden rounded-md border border-ink/25 bg-ink font-mono text-paper shadow-[0_16px_36px_rgba(11,29,51,0.18)]">
-        <div className="flex items-center justify-between border-b border-paper/15 bg-black/20 px-5 py-2.5">
-          <span className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-gold">
-            ⚾ Scoreboard — Your Night
+      <div className="mx-auto grid min-h-[calc(100svh-68px)] max-w-[1280px] items-end gap-8 px-7 pt-20 pb-10 md:grid-cols-[1.25fr_.75fr] md:items-center md:px-10">
+        <div>
+          <span className="mb-5 block font-mono text-[0.68rem] font-bold uppercase tracking-[0.18em] text-gold">
+            A Partnership Proposal · Melrose, Los Angeles
           </span>
-          <span className="text-[0.62rem] uppercase tracking-wide text-paper/50">
-            {guestPicked ? "Live" : "Suggested"}
-          </span>
-        </div>
-        <div className="flex flex-wrap">
-          <div className="min-w-[150px] flex-1 border-r border-paper/15 px-5 py-4">
-            <b className="mb-1 block text-[0.62rem] uppercase tracking-wide text-paper/50">
-              Headliner
-            </b>
-            <span className="text-sm text-paper">{guestName}</span>
-          </div>
-          <div className="min-w-[150px] flex-1 border-r border-paper/15 px-5 py-4">
-            <b className="mb-1 block text-[0.62rem] uppercase tracking-wide text-paper/50">
-              Live Night / mo
-            </b>
-            <span className="tabular-nums text-sm text-paper">
-              {money(night.liveNightRevenue)}
-            </span>
-          </div>
-          <div className="min-w-[150px] flex-1 border-r border-paper/15 px-5 py-4">
-            <b className="mb-1 block text-[0.62rem] uppercase tracking-wide text-paper/50">
-              Watch Parties / mo
-            </b>
-            <span className="tabular-nums text-sm text-paper">
-              {money(night.watchPartyRevenue)}
-            </span>
-          </div>
-          <div className="min-w-[150px] flex-1 px-5 py-4">
-            <b className="mb-1 block text-[0.62rem] uppercase tracking-wide text-gold">
-              Total / mo
-            </b>
-            <span className="tabular-nums text-xl font-bold text-gold">
-              {money(night.monthlyTotal)}
-            </span>
+          <h1 className="max-w-[10ch] font-display text-[clamp(4.7rem,11vw,10.5rem)] leading-[0.78] uppercase text-paper">
+            Two Nights.
+            <span className="block text-gold">One Full</span>
+            <span className="block">Room.</span>
+          </h1>
+          <div className="mt-8 flex max-w-[720px] flex-col items-start gap-6 md:flex-row md:items-end">
+            <p className="text-base leading-relaxed text-paper/75 md:text-lg">
+              A live podcast residency and ticketed Dodgers watch parties built to turn
+              quiet nights into the room everyone wants into.
+            </p>
+            <a
+              href="#live-nights"
+              className="group inline-flex shrink-0 items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold"
+            >
+              Build the night <span className="transition-transform group-hover:translate-y-1">↓</span>
+            </a>
           </div>
         </div>
+
+        <aside className="ticket-cut rotate-1 overflow-hidden rounded-xl border border-paper/25 bg-paper text-ink shadow-[0_30px_90px_rgba(0,0,0,.35)] transition-transform duration-500 hover:rotate-0">
+          <div className="flex items-center justify-between bg-dodger px-5 py-3 font-mono text-[0.62rem] font-bold uppercase tracking-[0.16em] text-paper">
+            <span>Your residency ticket</span>
+            <span>{guestPicked ? "Locked in" : "Suggested"}</span>
+          </div>
+          <div className="p-5">
+            <div className="border-b border-dashed border-ink/25 pb-5">
+              <span className="font-mono text-[0.6rem] uppercase tracking-[0.14em] text-ink-faint">
+                Tonight&rsquo;s headliner
+              </span>
+              <div className="mt-1 font-display text-4xl leading-none uppercase text-dodger">
+                {guestName}
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-4 py-5 font-mono">
+              <div>
+                <span className="block text-[0.58rem] uppercase text-ink-faint">Live / mo</span>
+                <b key={night.liveNightRevenue} className="number-pop text-lg tabular-nums">
+                  {money(night.liveNightRevenue)}
+                </b>
+              </div>
+              <div>
+                <span className="block text-[0.58rem] uppercase text-ink-faint">Watch / mo</span>
+                <b key={night.watchPartyRevenue} className="number-pop text-lg tabular-nums">
+                  {money(night.watchPartyRevenue)}
+                </b>
+              </div>
+            </div>
+            <div className="flex items-end justify-between border-t-2 border-ink pt-4">
+              <span className="font-mono text-[0.62rem] font-bold uppercase tracking-wide">
+                Monthly room revenue
+              </span>
+              <strong
+                key={night.monthlyTotal}
+                className="number-pop font-display text-4xl leading-none text-gold"
+              >
+                {money(night.monthlyTotal)}
+              </strong>
+            </div>
+          </div>
+        </aside>
       </div>
 
-      <div className="mt-5 flex flex-wrap overflow-hidden rounded-md border border-ink/25 font-mono text-xs">
-        {[
-          { label: "Host", value: "Melissa, Talk Dodgers To Me" },
-          { label: "Venue", value: "Pawn Shop — Melrose Ave, LA" },
-          { label: "Distribution", value: "YouTube + social, every episode" },
-          { label: "Ask", value: "2 pilot nights, revenue-share terms" },
-        ].map((item, i) => (
-          <div
-            key={item.label}
-            className={`min-w-[160px] flex-1 px-5 py-3.5 ${
-              i !== 3 ? "border-r border-ink/25" : ""
-            }`}
-          >
-            <b className="mb-1 block text-[0.62rem] uppercase tracking-wide text-ink-faint">
-              {item.label}
-            </b>
-            <span className="text-sm text-ink">{item.value}</span>
-          </div>
-        ))}
+      <div className="ticker">
+        <div className="ticker-track" aria-hidden>
+          {[0, 1].map((copy) => (
+            <div key={copy} className="flex">
+              {["Live podcast", "Watch party", "Collab menu", "One full room"].map((item) => (
+                <span className="ticker-item" key={`${copy}-${item}`}>
+                  {item}
+                </span>
+              ))}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

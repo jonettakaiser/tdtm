@@ -5,9 +5,11 @@ import { useEffect, useRef, useState } from "react";
 export default function Reveal({
   children,
   className = "",
+  from = "up",
 }: {
   children: React.ReactNode;
   className?: string;
+  from?: "up" | "left" | "right" | "scale";
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
@@ -29,7 +31,7 @@ export default function Reveal({
   }, []);
 
   return (
-    <div ref={ref} className={`reveal ${visible ? "in" : ""} ${className}`}>
+    <div ref={ref} className={`reveal reveal-${from} ${visible ? "in" : ""} ${className}`}>
       {children}
     </div>
   );

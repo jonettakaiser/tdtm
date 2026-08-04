@@ -4,16 +4,16 @@ export default function StatStrip({
   stats: { value: string; label: string }[];
 }) {
   return (
-    <div className="my-6.5 flex flex-wrap overflow-hidden rounded-md border border-ink/25 font-mono">
+    <div className="mb-8 grid grid-cols-3 overflow-hidden rounded-xl bg-ink font-mono text-paper">
       {stats.map((s, i) => (
         <div
           key={s.label}
-          className={`min-w-[130px] flex-1 px-4.5 py-3.5 ${
-            i !== stats.length - 1 ? "border-r border-ink/25" : ""
+          className={`min-w-0 px-3 py-5 text-center md:px-4 ${
+            i !== stats.length - 1 ? "border-r border-paper/15" : ""
           }`}
         >
-          <b className="block text-xl tabular-nums text-gold">{s.value}</b>
-          <span className="text-[0.66rem] uppercase tracking-wide text-ink-faint">
+          <b className="block font-display text-3xl leading-none tabular-nums text-gold md:text-4xl">{s.value}</b>
+          <span className="mt-2 block text-[0.55rem] uppercase tracking-wide text-paper/50 md:text-[0.62rem]">
             {s.label}
           </span>
         </div>

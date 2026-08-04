@@ -20,25 +20,35 @@ const cards = [
 
 export default function WhyPawnShop() {
   return (
-    <section id="why" className="border-t border-ink/10 py-22">
-      <div className="mx-auto max-w-[1180px] px-7 sm:px-4">
-        <Reveal className="mb-11 max-w-[74ch]">
-          <span className="mb-3 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim">
+    <section id="why" className="section-shell overflow-hidden bg-raised">
+      <div className="section-inner">
+        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12">
+          <div>
+          <span className="eyebrow">
             06 — Why Pawn Shop, Specifically
           </span>
-          <h2 className="text-4xl uppercase sm:text-3xl">The fit already exists</h2>
-          <p className="mt-3.5 max-w-[62ch] text-lg text-ink-dim">
+          <h2 className="section-title">The fit already exists</h2>
+          </div>
+          <p className="section-lede">
             This isn&rsquo;t a cold pitch to a random restaurant — Pawn Shop already sits
             inside the TDTM world.
           </p>
         </Reveal>
 
-        <Reveal className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {cards.map((c) => (
-            <div key={c.n} className="rounded border border-ink/10 bg-raised p-5.5">
-              <div className="font-mono text-xs text-gold">{c.n}</div>
-              <h3 className="mt-2 text-lg uppercase">{c.title}</h3>
-              <p className="text-sm text-ink-dim">{c.body}</p>
+        <Reveal from="scale" className="grid grid-cols-1 gap-5 md:grid-cols-3">
+          {cards.map((c, index) => (
+            <div
+              key={c.n}
+              className={`group relative min-h-72 overflow-hidden rounded-[1.4rem] border border-ink/10 bg-paper p-7 shadow-[0_18px_50px_rgba(11,29,51,.08)] transition duration-500 hover:-translate-y-3 ${
+                index === 1 ? "md:translate-y-10" : ""
+              }`}
+            >
+              <div className="font-display text-7xl leading-none text-dodger/10">{c.n}</div>
+              <h3 className="relative -mt-4 max-w-[11ch] text-3xl leading-[.95] uppercase text-dodger">
+                {c.title}
+              </h3>
+              <p className="mt-5 text-sm leading-relaxed text-ink-dim">{c.body}</p>
+              <span className="absolute -right-5 -bottom-5 size-20 rounded-full bg-gold/20 transition-transform duration-500 group-hover:scale-[2.5]" />
             </div>
           ))}
         </Reveal>

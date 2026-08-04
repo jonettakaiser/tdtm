@@ -206,35 +206,43 @@ const steps = [
 function Ask() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "ask",
-        className: "border-t border-ink/10 py-22",
+        className: "section-shell overflow-hidden",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-[1180px] px-7 sm:px-4",
+            className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-11 max-w-[74ch]",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "mb-3 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim",
-                            children: "07 — Next Steps"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "eyebrow",
+                                    children: "07 — Next Steps"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Ask.tsx",
+                                    lineNumber: 29,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "section-title",
+                                    children: "The Ask"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Ask.tsx",
+                                    lineNumber: 32,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/Ask.tsx",
                             lineNumber: 28,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl uppercase sm:text-3xl",
-                            children: "The Ask"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Ask.tsx",
-                            lineNumber: 31,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-3.5 max-w-[62ch] text-lg text-ink-dim",
+                            className: "section-lede",
                             children: "Nothing here needs to be decided today. This is the sequence to get from pitch to a first sold-out night."
                         }, void 0, false, {
                             fileName: "[project]/src/components/Ask.tsx",
-                            lineNumber: 32,
+                            lineNumber: 34,
                             columnNumber: 11
                         }, this)
                     ]
@@ -244,69 +252,73 @@ function Ask() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-9",
+                    from: "scale",
+                    className: "mb-16",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TicketStub$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/components/Ask.tsx",
-                        lineNumber: 39,
+                        lineNumber: 41,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Ask.tsx",
-                    lineNumber: 38,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
-                        className: "mt-5.5",
+                        className: "grid gap-4 md:grid-cols-4",
                         children: steps.map((s, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "grid grid-cols-[48px_1fr] gap-4 border-b border-ink/10 py-4",
+                                className: "group rounded-[1.2rem] border border-ink/10 bg-raised p-5 transition duration-300 hover:-translate-y-2 hover:bg-dodger hover:text-paper",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-mono text-2xl text-gold",
-                                        children: i + 1
-                                    }, void 0, false, {
+                                        className: "font-display text-5xl leading-none text-gold",
+                                        children: [
+                                            "0",
+                                            i + 1
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/Ask.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 51,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                className: "mb-1 font-display text-base uppercase",
+                                                className: "mt-5 mb-2 font-display text-2xl leading-none uppercase text-dodger group-hover:text-paper",
                                                 children: s.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Ask.tsx",
-                                                lineNumber: 51,
+                                                lineNumber: 53,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "max-w-none text-sm text-ink-dim",
+                                                className: "max-w-none text-sm leading-relaxed text-ink-dim group-hover:text-paper/70",
                                                 children: s.body
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Ask.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 54,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Ask.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 52,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, s.title, true, {
                                 fileName: "[project]/src/components/Ask.tsx",
-                                lineNumber: 45,
+                                lineNumber: 47,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Ask.tsx",
-                        lineNumber: 43,
+                        lineNumber: 45,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Ask.tsx",
-                    lineNumber: 42,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this)
             ]
@@ -333,36 +345,93 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "py-11 pb-15",
+        className: "overflow-hidden bg-ink py-14 text-paper",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "checker mb-8.5"
+                className: "ticker mb-12 border-paper/10 bg-paper text-ink",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "ticker-track",
+                    "aria-hidden": true,
+                    children: [
+                        0,
+                        1
+                    ].map((copy)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex",
+                            children: [
+                                "Game on",
+                                "Melrose",
+                                "Talk Dodgers To Me",
+                                "Pawn Shop"
+                            ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "ticker-item",
+                                    children: item
+                                }, `${copy}-${item}`, false, {
+                                    fileName: "[project]/src/components/Footer.tsx",
+                                    lineNumber: 9,
+                                    columnNumber: 17
+                                }, this))
+                        }, copy, false, {
+                            fileName: "[project]/src/components/Footer.tsx",
+                            lineNumber: 7,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Footer.tsx",
+                    lineNumber: 5,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Footer.tsx",
                 lineNumber: 4,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mx-auto flex max-w-[1180px] flex-wrap justify-between gap-3.5 px-7 font-mono text-xs text-ink-faint sm:px-4",
+                className: "mx-auto flex max-w-[1180px] flex-wrap items-end justify-between gap-8 px-7 sm:px-4",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        children: "Prepared by Talk Dodgers To Me for Pawn Shop, Melrose"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "font-display text-5xl uppercase leading-none",
+                                children: "See you at the game."
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Footer.tsx",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "mt-3 block font-mono text-xs text-paper/50",
+                                children: "Prepared by Talk Dodgers To Me for Pawn Shop, Melrose"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Footer.tsx",
+                                lineNumber: 20,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Footer.tsx",
-                        lineNumber: 6,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        children: "A Live Podcast × A Ticketed Watch Party × One Full Room"
-                    }, void 0, false, {
+                        className: "stamp border-gold text-gold",
+                        children: [
+                            "Game on",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/src/components/Footer.tsx",
+                                lineNumber: 24,
+                                columnNumber: 62
+                            }, this),
+                            "2026"
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Footer.tsx",
-                        lineNumber: 7,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Footer.tsx",
-                lineNumber: 5,
+                lineNumber: 17,
                 columnNumber: 7
             }, this)
         ]
@@ -381,243 +450,512 @@ __turbopack_context__.s([
     ()=>FormatShow
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Reveal.tsx [app-rsc] (ecmascript)");
 ;
 ;
-function FormatCard({ title, borrow, description, icon }) {
+;
+function ReferenceCard({ src, alt, caption }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "rounded border border-ink/10 bg-raised p-7 pt-8 shadow-[0_12px_30px_rgba(11,29,51,0.08)]",
+        className: "group flex-1 overflow-hidden rounded-[1.5rem] border border-ink/10 bg-paper shadow-[0_22px_60px_rgba(11,29,51,0.13)] transition duration-500 hover:-translate-y-2 hover:rotate-[-.5deg]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-5 flex aspect-[4/5] items-center justify-center rounded border border-dashed border-ink/25 p-5 text-center text-ink-faint",
-                style: {
-                    backgroundImage: "repeating-linear-gradient(135deg, transparent 0 12px, rgba(11,29,51,0.04) 12px 24px)"
-                },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                            viewBox: "0 0 64 64",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: 1.6,
-                            className: "mx-auto w-1/2 opacity-55",
-                            children: icon
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 24,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
-                            className: "mt-3 block font-mono text-[0.66rem] uppercase tracking-wide",
-                            children: "Reference photo — to be dropped in"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 27,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                className: "relative aspect-[4/3] overflow-hidden",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    src: src,
+                    alt: alt,
+                    fill: true,
+                    sizes: "(min-width: 640px) 50vw, 100vw",
+                    className: "object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                }, void 0, false, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 23,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/FormatShow.tsx",
-                lineNumber: 16,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-2xl uppercase",
-                children: title
-            }, void 0, false, {
-                fileName: "[project]/src/components/FormatShow.tsx",
-                lineNumber: 32,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-1.5 mb-3 font-mono text-xs uppercase tracking-wide text-gold-dim",
-                children: borrow
+                className: "border-t border-ink/10 p-7",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "max-w-none text-base leading-relaxed text-ink-dim",
+                    children: caption
+                }, void 0, false, {
+                    fileName: "[project]/src/components/FormatShow.tsx",
+                    lineNumber: 25,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/FormatShow.tsx",
-                lineNumber: 33,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "max-w-none text-base text-ink-dim",
-                children: description
-            }, void 0, false, {
-                fileName: "[project]/src/components/FormatShow.tsx",
-                lineNumber: 36,
+                lineNumber: 24,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/FormatShow.tsx",
-        lineNumber: 15,
+        lineNumber: 14,
         columnNumber: 5
     }, this);
 }
-function FormatShow() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        id: "show",
-        className: "border-t border-ink/10 py-22",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-[1180px] px-7 sm:px-4",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-11 max-w-[74ch]",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "mb-3 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim",
-                            children: "01 — The Format"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl uppercase sm:text-3xl",
-                            children: "Friends Keep Secrets meets Chicken Shop Date"
+function ProofImage({ src, alt }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+        href: "https://www.youtube.com/watch?v=04l2TgnHqn8",
+        target: "_blank",
+        rel: "noopener noreferrer",
+        className: "group relative block aspect-video overflow-hidden rounded-[1.25rem] border-4 border-paper shadow-[0_22px_60px_rgba(11,29,51,0.2)]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                src: src,
+                alt: alt,
+                fill: true,
+                sizes: "(min-width: 640px) 50vw, 100vw",
+                className: "object-cover transition-transform duration-300 group-hover:scale-105"
+            }, void 0, false, {
+                fileName: "[project]/src/components/FormatShow.tsx",
+                lineNumber: 39,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 flex items-center justify-center bg-ink/0 transition-colors group-hover:bg-ink/30",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "flex size-14 items-center justify-center rounded-full bg-paper/90 text-dodger opacity-0 shadow-[0_8px_20px_rgba(11,29,51,0.3)] transition-opacity group-hover:opacity-100",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                        viewBox: "0 0 24 24",
+                        fill: "currentColor",
+                        className: "ml-1 size-6",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "M8 5v14l11-7z"
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
                             lineNumber: 49,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/FormatShow.tsx",
+                        lineNumber: 48,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/FormatShow.tsx",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/FormatShow.tsx",
+                lineNumber: 46,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/FormatShow.tsx",
+        lineNumber: 33,
+        columnNumber: 5
+    }, this);
+}
+const collabMenu = [
+    {
+        name: "The Walk-Off",
+        original: "Garlic Shrimp",
+        description: "White shrimp, toasted garlic, sherry.",
+        price: "Market"
+    },
+    {
+        name: "Chavez Ravine Fries",
+        original: "Beef Tallow Fries",
+        description: "Dijonaise, ketchup.",
+        price: "$14"
+    },
+    {
+        name: "Blue Heaven Wings",
+        original: "Wings (6)",
+        description: "Lemon pepper, buffalo, or charred chile.",
+        price: "$16"
+    },
+    {
+        name: "Extra Innings",
+        original: "From the bar — to be confirmed with Pawn Shop",
+        description: "To be built with the bar team.",
+        price: "$16"
+    }
+];
+const upgrades = [
+    {
+        title: "Live audience in the room",
+        body: "Not just a recording — an event. Seats are ticketed or door-priced, not empty tables."
+    },
+    {
+        title: "Streams live on YouTube simultaneously",
+        body: "The room and the internet get the same moment at the same time — the audience isn’t capped at the door."
+    },
+    {
+        title: "Curated collab menu",
+        body: "Four Pawn Shop dishes, renamed for the night, priced like the event it is."
+    }
+];
+function FormatShow() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: "proof",
+        className: "section-shell overflow-hidden",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "section-inner",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "eyebrow",
+                                    children: "01 — The Format"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 105,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "section-title",
+                                    children: "Friends Keep Secrets meets Chicken Shop Date"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 108,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 104,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-3.5 max-w-[62ch] text-lg text-ink-dim",
+                            className: "section-lede",
                             children: "One host, one special guest, one table. Unscripted conversation about anything — no topic off limits. TDTM borrows its intimacy from one show and its setting-as-hook from the other."
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 52,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 45,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "grid grid-cols-1 gap-5.5 sm:grid-cols-2",
+                    from: "scale",
+                    className: "flex flex-col items-stretch gap-6 md:flex-row",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FormatCard, {
-                            title: "Friends Keep Secrets",
-                            borrow: "What TDTM borrows: the candor",
-                            description: "Documentary-close, celebrity-comfortable conversation — guests who wouldn't normally sit for an interview, actually opening up. That's the tone Melissa books for.",
-                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                        cx: 20,
-                                        cy: 24,
-                                        r: 8
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/FormatShow.tsx",
-                                        lineNumber: 66,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                        cx: 44,
-                                        cy: 24,
-                                        r: 8
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/FormatShow.tsx",
-                                        lineNumber: 67,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        d: "M8 52c1-9 8-14 12-14s5 2 12 2 8-2 12-2 11 5 12 14"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/FormatShow.tsx",
-                                        lineNumber: 68,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/FormatShow.tsx",
-                                lineNumber: 65,
-                                columnNumber: 15
-                            }, this)
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ReferenceCard, {
+                            src: "/friends.webp",
+                            alt: "Friends Keep Secrets podcast key art",
+                            caption: "What TDTM borrows: the candor. Unscripted, celebrity-comfortable conversation — guests who wouldn't normally open up, actually opening up."
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 60,
+                            lineNumber: 121,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FormatCard, {
-                            title: "Chicken Shop Date",
-                            borrow: "What TDTM borrows: the venue-as-hook",
-                            description: "One specific, recognizable restaurant table as the whole set. The location does half the marketing — which is exactly the mechanic this pitch turns into revenue for Pawn Shop.",
-                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                        x: 14,
-                                        y: 30,
-                                        width: 36,
-                                        height: 4,
-                                        rx: 1
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/FormatShow.tsx",
-                                        lineNumber: 78,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        d: "M20 30V16m24 14V16"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/FormatShow.tsx",
-                                        lineNumber: 79,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                        cx: 20,
-                                        cy: 44,
-                                        r: 6
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/FormatShow.tsx",
-                                        lineNumber: 80,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                        cx: 44,
-                                        cy: 44,
-                                        r: 6
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/FormatShow.tsx",
-                                        lineNumber: 81,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/FormatShow.tsx",
-                                lineNumber: 77,
-                                columnNumber: 15
-                            }, this)
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "aria-hidden": true,
+                            className: "flex size-16 shrink-0 items-center justify-center self-center rounded-full border-2 border-ink bg-gold font-display text-3xl text-ink shadow-lg",
+                            children: "×"
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 72,
+                            lineNumber: 126,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ReferenceCard, {
+                            src: "/chicken-shop-date.jpg",
+                            alt: "Chicken Shop Date, two guests seated at a fast-food restaurant table",
+                            caption: "What TDTM borrows: the venue-as-hook. One specific, recognizable table as the whole set. The location does half the marketing."
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 132,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 59,
+                    lineNumber: 120,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-4.5 font-mono text-sm text-ink-faint",
-                    children: "Both cards are placeholders for the side-by-side reference images — send the two photos over and they’ll drop straight in."
+                    className: "mx-auto mt-8 max-w-[30ch] text-center font-display text-2xl uppercase leading-tight text-ink",
+                    children: "TDTM at Pawn Shop is both of these at once — except it’s live, it’s sports, and the audience is in the room."
                 }, void 0, false, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 86,
+                    lineNumber: 138,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    from: "left",
+                    className: "mt-24 md:grid md:grid-cols-[.65fr_1.35fr] md:gap-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "md:pt-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "eyebrow",
+                                    children: "This format already has proof"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 146,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-5xl leading-[.9] uppercase text-dodger",
+                                    children: "The Adrian Gonzalez Episode"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 149,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-5 text-base leading-relaxed text-ink-dim",
+                                    children: "Adrian Gonzalez is a former Dodgers first baseman who owns two restaurants in Los Angeles. Melissa filmed his podcast episode on location — kitchen walkthrough, promo videos, two locations in one day. The episode cost approximately $2,500 out of pocket and came out at a level the show hadn’t reached before. The format worked because the restaurant was not the backdrop. It was the point."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 150,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "https://www.youtube.com/watch?v=04l2TgnHqn8",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "mt-6 inline-flex rounded-full bg-dodger px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-paper transition hover:-rotate-2 hover:bg-ink",
+                                    children: "Watch on YouTube ↗"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 158,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 145,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mt-10 grid grid-cols-1 gap-5 md:mt-0 md:grid-cols-2",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ProofImage, {
+                                    src: "/Podcast-ProofConcept1.png",
+                                    alt: "Melissa and a guest filming the Adrian Gonzalez podcast episode on location at Slizeria"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 169,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ProofImage, {
+                                    src: "/Podcast-ProofConcept2.png",
+                                    alt: "Melissa and a guest laughing during the Adrian Gonzalez podcast episode"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 173,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 168,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/FormatShow.tsx",
+                    lineNumber: 144,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    from: "right",
+                    className: "mt-24 rounded-[1.5rem] bg-dodger p-7 text-paper md:p-10",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: "max-w-[12ch] text-5xl leading-[.9] uppercase text-paper",
+                            children: "At Pawn Shop, it goes further."
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 182,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                            className: "mt-8 grid gap-4 md:grid-cols-3",
+                            children: upgrades.map((u, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    className: "rounded-xl border border-paper/20 bg-paper/8 p-5",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "font-display text-4xl text-gold",
+                                            children: i + 1
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/FormatShow.tsx",
+                                            lineNumber: 189,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                    className: "mt-5 mb-2 font-display text-2xl leading-none uppercase text-paper",
+                                                    children: u.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                                    lineNumber: 191,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "max-w-none text-sm leading-relaxed text-paper/70",
+                                                    children: u.body
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                                    lineNumber: 194,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/FormatShow.tsx",
+                                            lineNumber: 190,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, u.title, true, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 185,
+                                    columnNumber: 15
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 183,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/FormatShow.tsx",
+                    lineNumber: 181,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    className: "mx-auto mt-24 max-w-4xl rotate-[-.5deg]",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mb-5 flex items-end justify-between",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-5xl uppercase leading-none text-ink",
+                                    children: "Sample Collab Menu"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 204,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "stamp",
+                                    children: [
+                                        "Kitchen",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/src/components/FormatShow.tsx",
+                                            lineNumber: 205,
+                                            columnNumber: 44
+                                        }, this),
+                                        "Riff"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/FormatShow.tsx",
+                                    lineNumber: 205,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 203,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "overflow-hidden rounded-[1.25rem] border-2 border-ink bg-paper shadow-[8px_8px_0_var(--color-gold)]",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                children: collabMenu.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        className: `flex items-start justify-between gap-3.5 px-6 py-5 transition hover:bg-raised ${i !== collabMenu.length - 1 ? "border-b border-dashed border-ink/25" : ""}`,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "font-bold",
+                                                        children: item.name
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/FormatShow.tsx",
+                                                        lineNumber: 217,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "mt-0.5 font-mono text-[0.62rem] uppercase tracking-wide text-ink-faint",
+                                                        children: [
+                                                            "Originally: ",
+                                                            item.original
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/FormatShow.tsx",
+                                                        lineNumber: 218,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "mt-1 text-sm text-ink-dim",
+                                                        children: item.description
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/FormatShow.tsx",
+                                                        lineNumber: 221,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/FormatShow.tsx",
+                                                lineNumber: 216,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "whitespace-nowrap font-mono tabular-nums text-gold",
+                                                children: item.price
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/FormatShow.tsx",
+                                                lineNumber: 223,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, item.name, true, {
+                                        fileName: "[project]/src/components/FormatShow.tsx",
+                                        lineNumber: 210,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/FormatShow.tsx",
+                                lineNumber: 208,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 207,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "mt-2.5 font-mono text-sm text-ink-faint italic",
+                            children: "Names and pricing are starting points for a joint tasting with the kitchen — not final."
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/FormatShow.tsx",
+                            lineNumber: 230,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/FormatShow.tsx",
+                    lineNumber: 202,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/FormatShow.tsx",
-            lineNumber: 44,
+            lineNumber: 102,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/FormatShow.tsx",
-        lineNumber: 43,
+        lineNumber: 101,
         columnNumber: 5
     }, this);
 }
@@ -786,35 +1124,43 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LiveNig
 function LiveNightsSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "live-nights",
-        className: "border-t border-ink/10 py-22",
+        className: "section-shell overflow-hidden",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-[1180px] px-7 sm:px-4",
+            className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-11 max-w-[74ch]",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "mb-3 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim",
-                            children: "03 — Pillar 01, In Detail"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "eyebrow",
+                                    children: "03 — Pillar 01, In Detail"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/LiveNightsSection.tsx",
+                                    lineNumber: 12,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "section-title",
+                                    children: "Special-Guest Live Podcast Nights"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/LiveNightsSection.tsx",
+                                    lineNumber: 15,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/LiveNightsSection.tsx",
                             lineNumber: 11,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl uppercase sm:text-3xl",
-                            children: "Special-Guest Live Podcast Nights"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/LiveNightsSection.tsx",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-3.5 max-w-[62ch] text-lg text-ink-dim",
+                            className: "section-lede",
                             children: "Melissa records a live episode with a special guest in front of a ticketed or door-priced audience. Order the collab menu below and the revenue model recalculates on the right — no spreadsheet required."
                         }, void 0, false, {
                             fileName: "[project]/src/components/LiveNightsSection.tsx",
-                            lineNumber: 17,
+                            lineNumber: 19,
                             columnNumber: 11
                         }, this)
                     ]
@@ -824,9 +1170,11 @@ function LiveNightsSection() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 items-start gap-11 md:grid-cols-[1.1fr_0.9fr]",
+                    className: "grid grid-cols-1 items-start gap-7 md:grid-cols-[1.1fr_0.9fr]",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                            from: "left",
+                            className: "clubhouse-panel p-5 md:p-7",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$StatStrip$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     stats: [
@@ -845,35 +1193,36 @@ function LiveNightsSection() {
                                     ]
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/LiveNightsSection.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LiveNightMenu$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/src/components/LiveNightsSection.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/LiveNightsSection.tsx",
-                            lineNumber: 25,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                            from: "right",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LiveNightCalculator$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightsSection.tsx",
-                                lineNumber: 37,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/LiveNightsSection.tsx",
-                            lineNumber: 36,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/LiveNightsSection.tsx",
-                    lineNumber: 24,
+                    lineNumber: 26,
                     columnNumber: 9
                 }, this)
             ]
@@ -1044,44 +1393,63 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$
 ;
 function PillarCard({ num, title, description, points }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "rounded border border-ink/25 bg-raised p-7",
+        className: "group relative overflow-hidden rounded-[1.5rem] border border-paper/15 bg-paper/8 p-7 transition duration-500 hover:-translate-y-2 hover:bg-paper/12 md:p-10",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "font-mono text-xs tracking-wide text-gold-dim",
-                children: num
+                className: "absolute top-3 right-5 font-display text-[7rem] leading-none text-paper/5 transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110",
+                children: num.slice(-2)
             }, void 0, false, {
                 fileName: "[project]/src/components/PitchOverview.tsx",
                 lineNumber: 16,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "font-mono text-xs font-bold tracking-[0.16em] text-gold",
+                children: num
+            }, void 0, false, {
+                fileName: "[project]/src/components/PitchOverview.tsx",
+                lineNumber: 19,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "mt-2 text-2xl uppercase",
+                className: "mt-8 max-w-[11ch] text-4xl leading-[0.92] uppercase text-paper md:text-5xl",
                 children: title
             }, void 0, false, {
                 fileName: "[project]/src/components/PitchOverview.tsx",
-                lineNumber: 17,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-base text-ink-dim",
+                className: "mt-5 text-base leading-relaxed text-paper/70",
                 children: description
             }, void 0, false, {
                 fileName: "[project]/src/components/PitchOverview.tsx",
-                lineNumber: 18,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                className: "mt-3.5 list-disc space-y-1.5 pl-4.5 text-sm text-ink-dim",
+                className: "mt-6 space-y-3 text-sm text-paper/75",
                 children: points.map((p)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: p
-                    }, p, false, {
+                        className: "flex gap-3 border-t border-paper/15 pt-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-gold",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/PitchOverview.tsx",
+                                lineNumber: 27,
+                                columnNumber: 13
+                            }, this),
+                            p
+                        ]
+                    }, p, true, {
                         fileName: "[project]/src/components/PitchOverview.tsx",
-                        lineNumber: 21,
+                        lineNumber: 26,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/PitchOverview.tsx",
-                lineNumber: 19,
+                lineNumber: 24,
                 columnNumber: 7
             }, this)
         ]
@@ -1094,45 +1462,54 @@ function PillarCard({ num, title, description, points }) {
 function PitchOverview() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "pitch",
-        className: "border-t border-ink/10 py-22",
+        className: "section-shell overflow-hidden bg-ink text-paper",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-[1180px] px-7 sm:px-4",
+            className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-11 max-w-[74ch]",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "mb-3 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim",
-                            children: "02 — The Opportunity"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "eyebrow text-gold",
+                                    children: "02 — The Opportunity"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/PitchOverview.tsx",
+                                    lineNumber: 42,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "section-title text-paper",
+                                    children: "Two ways this pays for the room"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/PitchOverview.tsx",
+                                    lineNumber: 45,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/PitchOverview.tsx",
-                            lineNumber: 33,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl uppercase sm:text-3xl",
-                            children: "Two ways this pays for the room"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/PitchOverview.tsx",
-                            lineNumber: 36,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-3.5 max-w-[62ch] text-lg text-ink-dim",
+                            className: "section-lede text-paper/70",
                             children: "One event type sells a premium menu. The other sells the ticket itself. Both fill Pawn Shop on nights it isn’t already full, with an audience TDTM brings, not one the restaurant has to build."
                         }, void 0, false, {
                             fileName: "[project]/src/components/PitchOverview.tsx",
-                            lineNumber: 37,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/PitchOverview.tsx",
-                    lineNumber: 32,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "grid grid-cols-1 gap-5.5 sm:grid-cols-2",
+                    from: "scale",
+                    className: "grid grid-cols-1 gap-5 md:grid-cols-2",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(PillarCard, {
                             num: "PILLAR 01",
@@ -1145,7 +1522,7 @@ function PitchOverview() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/src/components/PitchOverview.tsx",
-                            lineNumber: 45,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(PillarCard, {
@@ -1159,24 +1536,24 @@ function PitchOverview() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/src/components/PitchOverview.tsx",
-                            lineNumber: 55,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/PitchOverview.tsx",
-                    lineNumber: 44,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/PitchOverview.tsx",
-            lineNumber: 31,
+            lineNumber: 39,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/PitchOverview.tsx",
-        lineNumber: 30,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }
@@ -1228,12 +1605,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function StatStrip({ stats }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "my-6.5 flex flex-wrap overflow-hidden rounded-md border border-ink/25 font-mono",
+        className: "mb-8 grid grid-cols-3 overflow-hidden rounded-xl bg-ink font-mono text-paper",
         children: stats.map((s, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: `min-w-[130px] flex-1 px-4.5 py-3.5 ${i !== stats.length - 1 ? "border-r border-ink/25" : ""}`,
+                className: `min-w-0 px-3 py-5 text-center md:px-4 ${i !== stats.length - 1 ? "border-r border-paper/15" : ""}`,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                        className: "block text-xl tabular-nums text-gold",
+                        className: "block font-display text-3xl leading-none tabular-nums text-gold md:text-4xl",
                         children: s.value
                     }, void 0, false, {
                         fileName: "[project]/src/components/StatStrip.tsx",
@@ -1241,7 +1618,7 @@ function StatStrip({ stats }) {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-[0.66rem] uppercase tracking-wide text-ink-faint",
+                        className: "mt-2 block text-[0.55rem] uppercase tracking-wide text-paper/50 md:text-[0.62rem]",
                         children: s.label
                     }, void 0, false, {
                         fileName: "[project]/src/components/StatStrip.tsx",
@@ -1317,35 +1694,43 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$WatchPa
 function WatchPartiesSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "watch-parties",
-        className: "border-t border-ink/10 py-22",
+        className: "section-shell overflow-hidden bg-raised",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-[1180px] px-7 sm:px-4",
+            className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-11 max-w-[74ch]",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "mb-3 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim",
-                            children: "04 — Pillar 02, In Detail"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "eyebrow",
+                                    children: "04 — Pillar 02, In Detail"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/WatchPartiesSection.tsx",
+                                    lineNumber: 12,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "section-title",
+                                    children: "Ticketed Dodgers Watch Parties"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/WatchPartiesSection.tsx",
+                                    lineNumber: 15,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/WatchPartiesSection.tsx",
                             lineNumber: 11,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl uppercase sm:text-3xl",
-                            children: "Ticketed Dodgers Watch Parties"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/WatchPartiesSection.tsx",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-3.5 max-w-[62ch] text-lg text-ink-dim",
+                            className: "section-lede",
                             children: "A private room, a capped guest list, a big screen, and a game everyone in the room already cares about. Toggle what’s in the ticket and watch the price — and the revenue on the right — respond."
                         }, void 0, false, {
                             fileName: "[project]/src/components/WatchPartiesSection.tsx",
-                            lineNumber: 15,
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1355,9 +1740,11 @@ function WatchPartiesSection() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 items-start gap-11 md:grid-cols-[1.1fr_0.9fr]",
+                    className: "grid grid-cols-1 items-start gap-7 md:grid-cols-[1.1fr_0.9fr]",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                            from: "left",
+                            className: "clubhouse-panel bg-paper p-5 md:p-7",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$StatStrip$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     stats: [
@@ -1376,35 +1763,36 @@ function WatchPartiesSection() {
                                     ]
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/WatchPartiesSection.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$WatchPartyIncludes$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/src/components/WatchPartiesSection.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 33,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/WatchPartiesSection.tsx",
-                            lineNumber: 23,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                            from: "right",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$WatchPartyCalculator$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/components/WatchPartiesSection.tsx",
-                                lineNumber: 35,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/WatchPartiesSection.tsx",
-                            lineNumber: 34,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/WatchPartiesSection.tsx",
-                    lineNumber: 22,
+                    lineNumber: 24,
                     columnNumber: 9
                 }, this)
             ]
@@ -1523,35 +1911,43 @@ const cards = [
 function WhyPawnShop() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "why",
-        className: "border-t border-ink/10 py-22",
+        className: "section-shell overflow-hidden bg-raised",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-[1180px] px-7 sm:px-4",
+            className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-11 max-w-[74ch]",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "mb-3 block font-mono text-xs font-semibold uppercase tracking-[0.14em] text-gold-dim",
-                            children: "06 — Why Pawn Shop, Specifically"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "eyebrow",
+                                    children: "06 — Why Pawn Shop, Specifically"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/WhyPawnShop.tsx",
+                                    lineNumber: 27,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "section-title",
+                                    children: "The fit already exists"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/WhyPawnShop.tsx",
+                                    lineNumber: 30,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/WhyPawnShop.tsx",
                             lineNumber: 26,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl uppercase sm:text-3xl",
-                            children: "The fit already exists"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/WhyPawnShop.tsx",
-                            lineNumber: 29,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-3.5 max-w-[62ch] text-lg text-ink-dim",
+                            className: "section-lede",
                             children: "This isn’t a cold pitch to a random restaurant — Pawn Shop already sits inside the TDTM world."
                         }, void 0, false, {
                             fileName: "[project]/src/components/WhyPawnShop.tsx",
-                            lineNumber: 30,
+                            lineNumber: 32,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1561,43 +1957,51 @@ function WhyPawnShop() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    from: "scale",
                     className: "grid grid-cols-1 gap-5 md:grid-cols-3",
-                    children: cards.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "rounded border border-ink/10 bg-raised p-5.5",
+                    children: cards.map((c, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `group relative min-h-72 overflow-hidden rounded-[1.4rem] border border-ink/10 bg-paper p-7 shadow-[0_18px_50px_rgba(11,29,51,.08)] transition duration-500 hover:-translate-y-3 ${index === 1 ? "md:translate-y-10" : ""}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-mono text-xs text-gold",
+                                    className: "font-display text-7xl leading-none text-dodger/10",
                                     children: c.n
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/WhyPawnShop.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 46,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "mt-2 text-lg uppercase",
+                                    className: "relative -mt-4 max-w-[11ch] text-3xl leading-[.95] uppercase text-dodger",
                                     children: c.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/WhyPawnShop.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 47,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-ink-dim",
+                                    className: "mt-5 text-sm leading-relaxed text-ink-dim",
                                     children: c.body
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/WhyPawnShop.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 50,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "absolute -right-5 -bottom-5 size-20 rounded-full bg-gold/20 transition-transform duration-500 group-hover:scale-[2.5]"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/WhyPawnShop.tsx",
+                                    lineNumber: 51,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, c.n, true, {
                             fileName: "[project]/src/components/WhyPawnShop.tsx",
-                            lineNumber: 38,
+                            lineNumber: 40,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/WhyPawnShop.tsx",
-                    lineNumber: 36,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this)
             ]
