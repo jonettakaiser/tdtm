@@ -186,7 +186,7 @@ export default function FormatShow() {
                 key={u.title}
                 className="rounded-xl border border-paper/20 bg-paper/8 p-5"
               >
-                <span className="font-display text-4xl text-gold">{i + 1}</span>
+                <span className="font-display text-4xl text-paper">{i + 1}</span>
                 <div>
                   <h4 className="mt-5 mb-2 font-display text-2xl leading-none uppercase text-paper">
                     {u.title}
@@ -204,7 +204,7 @@ export default function FormatShow() {
             <h3 className="text-5xl uppercase leading-none text-ink">Sample Collab Menu</h3>
             <span className="stamp">Kitchen<br />Riff</span>
           </div>
-          <div className="overflow-hidden rounded-[1.25rem] border-2 border-ink bg-paper shadow-[8px_8px_0_var(--color-gold)]">
+          <div className="overflow-hidden rounded-[1.25rem] border-2 border-ink bg-paper shadow-[8px_8px_0_var(--color-gold-dim)]">
             <ul>
               {collabMenu.map((item, i) => (
                 <li
@@ -220,7 +220,7 @@ export default function FormatShow() {
                     </div>
                     <p className="mt-1 text-sm text-ink-dim">{item.description}</p>
                   </div>
-                  <div className="whitespace-nowrap font-mono tabular-nums text-gold">
+                  <div className="whitespace-nowrap font-mono tabular-nums text-gold-dim">
                     {item.price}
                   </div>
                 </li>

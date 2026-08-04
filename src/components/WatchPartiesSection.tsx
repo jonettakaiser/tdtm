@@ -16,8 +16,8 @@ export default function WatchPartiesSection() {
           </div>
           <p className="section-lede">
             A private room, a capped guest list, a big screen, and a game everyone in the
-            room already cares about. Toggle what&rsquo;s in the ticket and watch the price
-            — and the revenue on the right — respond.
+            room already cares about. Three simple ticket tiers scale with the stakes while
+            every additional food and bar dollar stays with Pawn Shop.
           </p>
         </Reveal>
 
@@ -25,8 +25,8 @@ export default function WatchPartiesSection() {
           <Reveal from="left" className="clubhouse-panel bg-paper p-5 md:p-7">
             <StatStrip
               stats={[
-                { value: "15–80", label: "Seats / private room" },
-                { value: "Home", label: "Games, in-season" },
+                { value: "20", label: "Seats / private room" },
+                { value: "1", label: "Watch party per month" },
                 { value: "100%", label: "Of ticket rev. incremental" },
               ]}
             />

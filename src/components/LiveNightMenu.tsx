@@ -38,11 +38,12 @@ export default function LiveNightMenu() {
               <div className="min-w-0">
                 <div className="font-display text-xl uppercase leading-none text-ink">{item.name}</div>
                 <span className="mt-0.5 block font-mono text-[0.64rem] uppercase tracking-wide text-dodger">
-                  {item.tag}
+                  {item.original ? `Original: ${item.original}` : item.tag}
                 </span>
+                <p className="mt-1 max-w-none text-sm text-ink-dim">{item.description}</p>
               </div>
-              <div className="flex shrink-0 items-center gap-3">
-                <span className="whitespace-nowrap font-mono tabular-nums text-gold">
+              <div className="flex shrink-0 flex-col items-end gap-2">
+                <span className="whitespace-nowrap font-mono tabular-nums text-gold-dim">
                   {item.price}
                 </span>
                 <div className="flex items-center overflow-hidden rounded-full border border-ink/25 bg-paper font-mono text-sm shadow-sm">
@@ -55,7 +56,9 @@ export default function LiveNightMenu() {
                   >
                     −
                   </button>
-                  <span key={qty} className="number-pop w-7 text-center tabular-nums text-ink">{qty}</span>
+                  <span key={qty} className="number-pop w-7 text-center tabular-nums text-ink">
+                    {qty}
+                  </span>
                   <button
                     type="button"
                     aria-label={`Add one ${item.name}`}
@@ -72,17 +75,25 @@ export default function LiveNightMenu() {
       </ul>
 
       <div className="ticket-cut mt-5 flex items-center justify-between overflow-hidden rounded-xl bg-ink px-5 py-4 text-paper">
-        <span className="font-mono text-xs uppercase tracking-wide text-ink-faint">
-          Table order total
-        </span>
-        <span key={night.orderTotal} className="number-pop font-display text-3xl tabular-nums text-gold">
+        <div>
+          <span className="block font-mono text-xs uppercase tracking-wide text-paper/45">
+            Selected menu spend per guest
+          </span>
+          <span className="mt-1 block text-xs text-paper/55">
+            Added to the event minimum selected on the right.
+          </span>
+        </div>
+        <span
+          key={night.orderTotal}
+          className="number-pop font-display text-3xl tabular-nums text-[#eef6ff]"
+        >
           {money(night.orderTotal)}
         </span>
       </div>
 
       <p className="mt-2.5 font-mono text-sm text-ink-faint">
         Names, items and prices are starting points for a joint tasting with the kitchen —
-        not final. Order flows straight into the revenue model on the right.
+        not final.
       </p>
     </div>
   );

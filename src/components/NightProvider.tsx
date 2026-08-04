@@ -14,15 +14,11 @@ import { liveNightMenu, watchPartyIncludes } from "@/data/menu";
 const clamp = (n: number, min: number, max: number) => Math.min(max, Math.max(min, n));
 const roundTo5 = (n: number) => Math.round(n / 5) * 5;
 
-export const LIFT_RANGE = { min: 0, max: 60 } as const;
+export const LIFT_RANGE = { min: 0, max: 500 } as const;
 export const PRICE_RANGE = { min: 25, max: 85 } as const;
 
-/** Starting order — one entrée, one cocktail, one mocktail. */
-const DEFAULT_ORDER: Record<string, number> = {
-  melt: 1,
-  "extra-innings": 1,
-  stretch: 1,
-};
+/** Start at the guaranteed minimum; menu selections add spend above it. */
+const DEFAULT_ORDER: Record<string, number> = {};
 
 const DEFAULT_INCLUDES = ["room", "catering", "bartender"];
 
@@ -82,17 +78,17 @@ const NightContext = createContext<NightValue | null>(null);
 export function NightProvider({ children }: { children: React.ReactNode }) {
   const [headliner, setHeadliner] = useState<Guest | null>(null);
   const [order, setOrder] = useState<Record<string, number>>(DEFAULT_ORDER);
-  const [baseCheck, setBaseCheck] = useState(26);
+  const [baseCheck, setBaseCheck] = useState(35);
   const [includes, setIncludes] = useState<string[]>(DEFAULT_INCLUDES);
 
-  const [audience, setAudience] = useState(60);
-  const [nights, setNights] = useState(2);
+  const [audience, setAudience] = useState(75);
+  const [nights, setNights] = useState(1);
   const [split, setSplit] = useState(15);
   const [liftOverride, setLiftOverride] = useState<number | null>(null);
 
-  const [capacity, setCapacity] = useState(40);
-  const [events, setEvents] = useState(6);
-  const [priceOverride, setPriceOverride] = useState<number | null>(null);
+  const [capacity, setCapacity] = useState(20);
+  const [events, setEvents] = useState(1);
+  const [priceOverride, setPriceOverride] = useState<number | null>(65);
 
   const [date, setDate] = useState("");
 
@@ -125,9 +121,9 @@ export function NightProvider({ children }: { children: React.ReactNode }) {
     );
     const orderCount = Object.values(order).reduce((sum, qty) => sum + qty, 0);
 
-    // What the collab order adds on top of a normal-night check, per guest.
+    // Menu selections add per-guest spend above the guaranteed event minimum.
     const liftFromMenu = clamp(
-      Math.round(orderTotal - baseCheck),
+      Math.round(baseCheck + orderTotal),
       LIFT_RANGE.min,
       LIFT_RANGE.max,
     );

@@ -53,7 +53,7 @@ export default function TicketStub() {
             <b className="mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-gold-dim">
               Combined total
             </b>
-            <span key={night.monthlyTotal} className="number-pop font-display text-3xl leading-none tabular-nums text-gold">
+            <span key={night.monthlyTotal} className="number-pop font-display text-3xl leading-none tabular-nums text-gold-dim">
               {money(night.monthlyTotal)}/mo
             </span>
           </div>

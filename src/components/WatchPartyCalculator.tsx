@@ -1,96 +1,87 @@
-"use client";
-
-import { PRICE_RANGE, money, useNight } from "./NightProvider";
-
 export default function WatchPartyCalculator() {
-  const night = useNight();
-
   return (
-    <div className="ticket-cut static overflow-hidden rounded-[1.3rem] bg-ink p-6 pb-7 text-paper shadow-[0_24px_70px_rgba(11,29,51,.24)] md:sticky md:top-20 md:p-7">
+    <div className="ticket-cut static overflow-hidden rounded-[1.3rem] bg-ink p-6 pb-7 text-paper shadow-[0_24px_70px_rgba(11,29,51,.24)] md:p-7">
       <div className="mb-6 flex items-center justify-between border-b border-dashed border-paper/20 pb-4">
-        <h4 className="font-mono text-xs uppercase tracking-wide text-gold">
-          Watch Party Receipt
+        <h4 className="font-mono text-xs uppercase tracking-wide text-[#eef6ff]">
+          Illustrative Revenue — Watch Party
         </h4>
-        <span className="font-mono text-[0.58rem] uppercase tracking-widest text-paper/40">Admit all</span>
-      </div>
-
-      <div className="mb-4">
-        <div className="mb-2 flex items-baseline justify-between text-sm text-paper/70">
-          <span>
-            Ticket price <b className="font-mono tabular-nums text-paper">${night.price}</b>
-          </span>
-          {night.priceOverridden && (
-            <button
-              type="button"
-              onClick={night.syncPrice}
-              className="font-mono text-[0.6rem] uppercase tracking-wide text-gold underline decoration-dotted"
-            >
-              Sync to ticket
-            </button>
-          )}
-        </div>
-        <input
-          type="range"
-          min={PRICE_RANGE.min}
-          max={PRICE_RANGE.max}
-          step={5}
-          value={night.price}
-          onChange={(e) => night.setPrice(Number(e.target.value))}
-          className="range-control w-full cursor-pointer"
-        />
-        <span className="mt-2 block font-mono text-[0.58rem] uppercase tracking-wide text-paper/40">
-          {night.priceOverridden
-            ? "Manually set — drag to override, or sync back to the ticket to the left."
-            : "Following what you toggled on to the left."}
+        <span className="font-mono text-[0.58rem] uppercase tracking-widest text-paper/40">
+          Per event · 20 guests · 1x per month
         </span>
       </div>
 
-      <div className="mb-4">
-        <label className="mb-2 flex justify-between text-sm text-paper/70">
-          Room capacity <b className="font-mono tabular-nums text-paper">{night.capacity}</b>
-        </label>
-        <input
-          type="range"
-          min={15}
-          max={80}
-          step={5}
-          value={night.capacity}
-          onChange={(e) => night.setCapacity(Number(e.target.value))}
-          className="range-control w-full cursor-pointer"
-        />
+      <div className="space-y-3">
+        {[
+          ["Regular Season", "$65", "$1,300", "$25 per guest"],
+          ["Playoff Game", "$95", "$1,900", "$35 per guest"],
+          ["NLCS / World Series", "$135", "$2,700", "$50 per guest"],
+        ].map(([game, ticket, revenue, credit]) => (
+          <div key={game} className="rounded-xl border border-paper/15 bg-paper/5 p-4">
+            <h5 className="font-display text-2xl uppercase text-paper">{game}</h5>
+            <dl className="mt-3 grid grid-cols-3 gap-3 font-mono text-[0.6rem] uppercase tracking-wide text-paper/45">
+              <div>
+                <dt>Ticket price</dt>
+                <dd className="mt-1 text-sm font-bold text-[#eef6ff]">{ticket}</dd>
+              </div>
+              <div>
+                <dt>Revenue / event</dt>
+                <dd className="mt-1 text-sm font-bold text-paper">{revenue}</dd>
+              </div>
+              <div>
+                <dt>Food credit</dt>
+                <dd className="mt-1 text-sm font-bold text-paper">{credit}</dd>
+              </div>
+            </dl>
+          </div>
+        ))}
       </div>
 
-      <div className="mb-4">
-        <label className="mb-2 flex justify-between text-sm text-paper/70">
-          Watch parties per month{" "}
-          <b className="font-mono tabular-nums text-paper">{night.events}</b>
-        </label>
-        <input
-          type="range"
-          min={1}
-          max={15}
-          step={1}
-          value={night.events}
-          onChange={(e) => night.setEvents(Number(e.target.value))}
-          className="range-control w-full cursor-pointer"
-        />
+      <div className="mt-6 rounded-xl bg-[#eef6ff] p-5 text-ink">
+        <h5 className="font-display text-3xl uppercase">The full monthly picture for Pawn Shop</h5>
+        <div className="mt-4 space-y-3 border-y border-ink/20 py-4 text-sm">
+          <p className="max-w-none">Live podcast night · 1x per month · $2,625 guaranteed floor</p>
+          <p className="max-w-none">Watch party · 1x per month · $1,300 in ticket revenue (regular season)</p>
+        </div>
+        <p className="mt-4 max-w-none font-display text-3xl uppercase leading-none">
+          $3,925 to start — with a clear path to scale.
+        </p>
+        <p className="mt-3 max-w-none text-xs leading-relaxed text-ink/65">
+          Both events launch at once a month to prove the model. Once they sell out, adding
+          dates is the easy conversation. Bar spend beyond food credits is 100% Pawn Shop
+          upside on top of every number above.
+        </p>
       </div>
 
       <div className="mt-6 border-t border-dashed border-paper/20 pt-5">
-        <div className="font-mono text-[0.64rem] uppercase tracking-wide text-paper/45">
-          Monthly ticket revenue
+        <h5 className="font-mono text-[0.65rem] font-bold uppercase tracking-wide text-[#eef6ff]">
+          What TDTM Takes Home — Watch Parties
+        </h5>
+        <div className="mt-4 space-y-5">
+          <div>
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <strong className="font-display text-xl uppercase">Booking fee</strong>
+              <strong className="font-mono text-sm text-[#eef6ff]">$250 flat per event</strong>
+            </div>
+            <p className="mt-2 max-w-none text-sm leading-relaxed text-paper/65">
+              TDTM handles all ticket sales and marketing for each watch party and charges
+              a flat booking fee per event. Pawn Shop keeps 100% of ticket revenue.
+            </p>
+          </div>
+          <div className="border-t border-paper/10 pt-4">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <strong className="font-display text-xl uppercase">Bar and food revenue</strong>
+              <strong className="font-mono text-sm text-[#eef6ff]">100% Pawn Shop</strong>
+            </div>
+            <p className="mt-2 max-w-none text-sm leading-relaxed text-paper/65">
+              Every dollar spent on food and drinks during a watch party stays with Pawn
+              Shop. TDTM takes nothing from the room beyond the flat booking fee.
+            </p>
+          </div>
         </div>
-        <div key={night.watchPartyRevenue} className="number-pop font-display text-6xl leading-none tabular-nums text-gold">
-          {money(night.watchPartyRevenue)}
-        </div>
-        <div className="mt-3 text-sm text-paper/65">
-          Before catering &amp; bar upsell on top of the ticket
-        </div>
-      </div>
-
-      <div className="mt-4 font-mono text-[0.65rem] leading-relaxed text-paper/40">
-        Illustrative model — swap in Pawn Shop&rsquo;s real room capacity and catering cost
-        to pressure-test margin.
+        <p className="mt-5 max-w-none text-xs leading-relaxed text-paper/45 italic">
+          A flat fee keeps the math simple. Pawn Shop knows exactly what each event costs
+          them regardless of how many tickets sell.
+        </p>
       </div>
     </div>
   );

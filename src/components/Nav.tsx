@@ -40,7 +40,7 @@ export default function Nav() {
             PS
           </span>
           <div className="font-display text-base leading-none uppercase text-ink">
-            Pawn Shop <span className="text-gold">×</span> TDTM
+            Pawn Shop <span className="text-gold-dim">×</span> TDTM
           </div>
         </div>
 

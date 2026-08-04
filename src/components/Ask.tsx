@@ -48,7 +48,7 @@ export default function Ask() {
                 key={s.title}
                 className="group rounded-[1.2rem] border border-ink/10 bg-raised p-5 transition duration-300 hover:-translate-y-2 hover:bg-dodger hover:text-paper"
               >
-                <span className="font-display text-5xl leading-none text-gold">0{i + 1}</span>
+                <span className="font-display text-5xl leading-none text-gold-dim group-hover:text-gold">0{i + 1}</span>
                 <div>
                   <h4 className="mt-5 mb-2 font-display text-2xl leading-none uppercase text-dodger group-hover:text-paper">{s.title}</h4>
                   <p className="max-w-none text-sm leading-relaxed text-ink-dim group-hover:text-paper/70">{s.body}</p>

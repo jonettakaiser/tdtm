@@ -35,19 +35,23 @@ function PillarCard({
 
 export default function PitchOverview() {
   return (
-    <section id="pitch" className="section-shell overflow-hidden bg-ink text-paper">
+    <section
+      id="pitch"
+      className="section-shell overflow-hidden bg-ink text-paper"
+      style={{ paddingTop: "calc(clamp(5rem, 10vw, 9rem) - 30px)" }}
+    >
       <div className="section-inner">
-        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12">
+        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12">
           <div>
           <span className="eyebrow text-gold">
             02 — The Opportunity
           </span>
-          <h2 className="section-title text-paper">Two ways this pays for the room</h2>
+          <h2 className="section-title text-paper">Not Just Content. Revenue-Driving Events.</h2>
           </div>
           <p className="section-lede text-paper/70">
             One event type sells a premium menu. The other sells the ticket itself. Both
-            fill Pawn Shop on nights it isn&rsquo;t already full, with an audience TDTM
-            brings, not one the restaurant has to build.
+            create incremental revenue and give TDTM&rsquo;s audience a new reason to
+            experience Pawn Shop in person.
           </p>
         </Reveal>
 

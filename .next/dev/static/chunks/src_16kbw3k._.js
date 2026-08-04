@@ -2366,51 +2366,70 @@ __turbopack_context__.s([
 ]);
 const liveNightMenu = [
     {
-        id: "melt",
-        name: "The Mookie Melt",
+        id: "chavez-ravine-fries",
+        name: "Chavez Ravine Fries",
         tag: "Food · Collab",
-        price: "$19",
-        amount: 19,
+        original: "Beef Tallow Fries",
+        description: "Dijonaise | ketchup",
+        price: "$16",
+        amount: 16,
         kind: "food"
     },
     {
-        id: "fries",
-        name: "Kiké's Curveball Fries",
+        id: "blue-heaven-wings",
+        name: "Blue Heaven Wings",
         tag: "Food · Collab",
-        price: "$14",
-        amount: 14,
+        original: "Wings 6",
+        description: "Lemon pepper | buffalo | charred chile",
+        price: "$23",
+        amount: 23,
         kind: "food"
     },
     {
-        id: "wings",
-        name: "Chavez Ravine Wings",
+        id: "walk-off",
+        name: "The Walk-Off",
         tag: "Food · Collab",
-        price: "$17",
-        amount: 17,
+        original: "Garlic Shrimp",
+        description: "White shrimp | toasted garlic | sherry",
+        price: "$30",
+        amount: 30,
+        kind: "food"
+    },
+    {
+        id: "starting-nine",
+        name: "The Starting Nine",
+        tag: "Food · Collab",
+        original: "Pan con Tomate",
+        description: "Smoked tomato | boquerones | urfa",
+        price: "$23",
+        amount: 23,
         kind: "food"
     },
     {
         id: "extra-innings",
-        name: "The Extra Innings",
+        name: "Extra Innings",
         tag: "Cocktail · Collab",
+        description: "Built with Mookie's tequila, poured at Pawn Shop — to be finalized with the bar team",
+        price: "$18",
+        amount: 18,
+        kind: "drink"
+    },
+    {
+        id: "seventh-inning",
+        name: "The 7th Inning",
+        tag: "Cocktail · Collab",
+        description: "Second cocktail, spirit-forward — to be finalized with the bar team",
         price: "$16",
         amount: 16,
         kind: "drink"
     },
     {
-        id: "stretch",
-        name: "7th Inning Stretch",
+        id: "blue-heaven-zero",
+        name: "Blue Heaven Zero",
         tag: "Mocktail · Collab",
-        price: "$10",
-        amount: 10,
-        kind: "drink"
-    },
-    {
-        id: "blue-heaven",
-        name: "Blue Heaven",
-        tag: "Cocktail · Collab",
-        price: "$16",
-        amount: 16,
+        description: "Citrus | blue butterfly pea flower | soda",
+        price: "$12",
+        amount: 12,
         kind: "drink"
     }
 ];

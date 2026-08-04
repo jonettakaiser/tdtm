@@ -2,6 +2,7 @@ import Reveal from "./Reveal";
 import StatStrip from "./StatStrip";
 import LiveNightMenu from "./LiveNightMenu";
 import LiveNightCalculator from "./LiveNightCalculator";
+import LiveNightTakeHome from "./LiveNightTakeHome";
 
 export default function LiveNightsSection() {
   return (
@@ -18,8 +19,8 @@ export default function LiveNightsSection() {
           </div>
           <p className="section-lede">
             Melissa records a live episode with a special guest in front of a ticketed or
-            door-priced audience. Order the collab menu below and the revenue model
-            recalculates on the right — no spreadsheet required.
+            door-priced audience. A seven-item collab menu gives the night its own identity
+            while a minimum spend guarantees the room.
           </p>
         </Reveal>
 
@@ -27,9 +28,9 @@ export default function LiveNightsSection() {
           <Reveal from="left" className="clubhouse-panel p-5 md:p-7">
             <StatStrip
               stats={[
-                { value: "60–90", label: "Seats / audience" },
-                { value: "2–4", label: "Nights per month" },
-                { value: "4–6", label: "Menu items, renamed" },
+                { value: "75", label: "Seats / audience" },
+                { value: "1", label: "Night per month" },
+                { value: "7", label: "Menu items (4 food, 2 cocktails, 1 mocktail)" },
               ]}
             />
             <LiveNightMenu />
@@ -39,6 +40,9 @@ export default function LiveNightsSection() {
             <LiveNightCalculator />
           </Reveal>
         </div>
+        <Reveal className="mt-12">
+          <LiveNightTakeHome />
+        </Reveal>
       </div>
     </section>
   );
