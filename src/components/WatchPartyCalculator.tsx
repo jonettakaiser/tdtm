@@ -1,15 +1,9 @@
 "use client";
 
-import { useState } from "react";
-
-const fmt = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
+import { PRICE_RANGE, money, useNight } from "./NightProvider";
 
 export default function WatchPartyCalculator() {
-  const [price, setPrice] = useState(45);
-  const [capacity, setCapacity] = useState(40);
-  const [events, setEvents] = useState(6);
-
-  const total = price * capacity * events;
+  const night = useNight();
 
   return (
     <div className="static rounded-md border border-ink/25 bg-raised-2 p-6 pb-6.5 md:sticky md:top-23">
@@ -18,46 +12,63 @@ export default function WatchPartyCalculator() {
       </h4>
 
       <div className="mb-4">
-        <label className="mb-1.5 flex justify-between text-sm text-ink-dim">
-          Ticket price <b className="font-mono tabular-nums text-ink">${price}</b>
-        </label>
+        <div className="mb-1.5 flex items-baseline justify-between text-sm text-ink-dim">
+          <span>
+            Ticket price <b className="font-mono tabular-nums text-ink">${night.price}</b>
+          </span>
+          {night.priceOverridden && (
+            <button
+              type="button"
+              onClick={night.syncPrice}
+              className="font-mono text-[0.6rem] uppercase tracking-wide text-dodger underline decoration-dotted"
+            >
+              Sync to ticket
+            </button>
+          )}
+        </div>
         <input
           type="range"
-          min={25}
-          max={85}
+          min={PRICE_RANGE.min}
+          max={PRICE_RANGE.max}
           step={5}
-          value={price}
-          onChange={(e) => setPrice(Number(e.target.value))}
+          value={night.price}
+          onChange={(e) => night.setPrice(Number(e.target.value))}
           className="w-full cursor-pointer"
         />
+        <span className="mt-1 block font-mono text-[0.62rem] uppercase tracking-wide text-ink-faint">
+          {night.priceOverridden
+            ? "Manually set — drag to override, or sync back to the ticket to the left."
+            : "Following what you toggled on to the left."}
+        </span>
       </div>
 
       <div className="mb-4">
         <label className="mb-1.5 flex justify-between text-sm text-ink-dim">
-          Room capacity <b className="font-mono tabular-nums text-ink">{capacity}</b>
+          Room capacity <b className="font-mono tabular-nums text-ink">{night.capacity}</b>
         </label>
         <input
           type="range"
           min={15}
           max={80}
           step={5}
-          value={capacity}
-          onChange={(e) => setCapacity(Number(e.target.value))}
+          value={night.capacity}
+          onChange={(e) => night.setCapacity(Number(e.target.value))}
           className="w-full cursor-pointer"
         />
       </div>
 
       <div className="mb-4">
         <label className="mb-1.5 flex justify-between text-sm text-ink-dim">
-          Watch parties per month <b className="font-mono tabular-nums text-ink">{events}</b>
+          Watch parties per month{" "}
+          <b className="font-mono tabular-nums text-ink">{night.events}</b>
         </label>
         <input
           type="range"
           min={1}
           max={15}
           step={1}
-          value={events}
-          onChange={(e) => setEvents(Number(e.target.value))}
+          value={night.events}
+          onChange={(e) => night.setEvents(Number(e.target.value))}
           className="w-full cursor-pointer"
         />
       </div>
@@ -66,7 +77,9 @@ export default function WatchPartyCalculator() {
         <div className="font-mono text-[0.64rem] uppercase tracking-wide text-ink-faint">
           Monthly ticket revenue
         </div>
-        <div className="font-mono text-3xl tabular-nums text-gold">{fmt(total)}</div>
+        <div className="font-mono text-3xl tabular-nums text-gold">
+          {money(night.watchPartyRevenue)}
+        </div>
         <div className="mt-2.5 text-sm text-ink-dim">
           Before catering &amp; bar upsell on top of the ticket
         </div>

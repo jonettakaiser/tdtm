@@ -9,10 +9,11 @@ import Lineup from "@/components/Lineup";
 import WhyPawnShop from "@/components/WhyPawnShop";
 import Ask from "@/components/Ask";
 import Footer from "@/components/Footer";
+import { NightProvider } from "@/components/NightProvider";
 
 export default function Home() {
   return (
-    <>
+    <NightProvider>
       <div className="bulb-bar" aria-hidden />
       <Nav />
       <main>
@@ -33,6 +34,6 @@ export default function Home() {
         <Ask />
       </main>
       <Footer />
-    </>
+    </NightProvider>
   );
 }

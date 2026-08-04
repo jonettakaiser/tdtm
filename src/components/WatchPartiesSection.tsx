@@ -1,8 +1,7 @@
 import Reveal from "./Reveal";
 import StatStrip from "./StatStrip";
-import MenuList from "./MenuList";
+import WatchPartyIncludes from "./WatchPartyIncludes";
 import WatchPartyCalculator from "./WatchPartyCalculator";
-import { watchPartyIncludes } from "@/data/menu";
 
 export default function WatchPartiesSection() {
   return (
@@ -15,8 +14,8 @@ export default function WatchPartiesSection() {
           <h2 className="text-4xl uppercase sm:text-3xl">Ticketed Dodgers Watch Parties</h2>
           <p className="mt-3.5 max-w-[62ch] text-lg text-ink-dim">
             A private room, a capped guest list, a big screen, and a game everyone in the
-            room already cares about. Catering and a dedicated bartender are built into the
-            ticket — the exclusivity is the product.
+            room already cares about. Toggle what&rsquo;s in the ticket and watch the price
+            — and the revenue on the right — respond.
           </p>
         </Reveal>
 
@@ -29,12 +28,7 @@ export default function WatchPartiesSection() {
                 { value: "100%", label: "Of ticket rev. incremental" },
               ]}
             />
-            <h3 className="text-lg uppercase">What&rsquo;s included in the ticket</h3>
-            <MenuList items={watchPartyIncludes} />
-            <p className="mt-2.5 font-mono text-sm text-ink-faint">
-              Bar spend beyond what&rsquo;s included in the ticket is upside on top of the
-              numbers to the right.
-            </p>
+            <WatchPartyIncludes />
           </Reveal>
 
           <Reveal>

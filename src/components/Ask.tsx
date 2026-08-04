@@ -1,4 +1,5 @@
 import Reveal from "./Reveal";
+import TicketStub from "./TicketStub";
 
 const steps = [
   {
@@ -32,6 +33,10 @@ export default function Ask() {
             Nothing here needs to be decided today. This is the sequence to get from pitch
             to a first sold-out night.
           </p>
+        </Reveal>
+
+        <Reveal className="mb-9">
+          <TicketStub />
         </Reveal>
 
         <Reveal>
