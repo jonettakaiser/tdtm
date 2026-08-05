@@ -9,7 +9,9 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/NightProvider.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Ticker$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Ticker.tsx [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -315,39 +317,12 @@ function Hero() {
                 lineNumber: 27,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "ticker",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "ticker-track",
-                    "aria-hidden": true,
-                    children: [
-                        0,
-                        1
-                    ].map((copy)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex",
-                            children: [
-                                "Live podcast",
-                                "Watch party",
-                                "Collab menu",
-                                "One full room"
-                            ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "ticker-item",
-                                    children: item
-                                }, `${copy}-${item}`, false, {
-                                    fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 107,
-                                    columnNumber: 17
-                                }, this))
-                        }, copy, false, {
-                            fileName: "[project]/src/components/Hero.tsx",
-                            lineNumber: 105,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Hero.tsx",
-                    lineNumber: 103,
-                    columnNumber: 9
-                }, this)
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Ticker$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                items: [
+                    "Live podcast",
+                    "Watch party",
+                    "Collab menu"
+                ]
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.tsx",
                 lineNumber: 102,
@@ -1460,6 +1435,62 @@ function Reveal({ children, className = "", from = "up" }) {
     }, this);
 }
 }),
+"[project]/src/components/Ticker.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Ticker
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+;
+const DEFAULT_REPEAT = 4;
+function Ticker({ items, className = "", repeat = DEFAULT_REPEAT }) {
+    const sequence = Array.from({
+        length: repeat
+    }, (_, cycle)=>items.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "ticker-item",
+                children: item
+            }, `${cycle}-${item}`, false, {
+                fileName: "[project]/src/components/Ticker.tsx",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this)));
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `ticker ${className}`.trim(),
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "ticker-track",
+            "aria-hidden": true,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "ticker-group",
+                    children: sequence
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Ticker.tsx",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "ticker-group",
+                    children: sequence
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Ticker.tsx",
+                    lineNumber: 24,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Ticker.tsx",
+            lineNumber: 22,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/Ticker.tsx",
+        lineNumber: 21,
+        columnNumber: 5
+    }, this);
+}
+}),
 "[project]/src/components/TicketStub.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -1946,4 +1977,4 @@ const watchPartyIncludes = [
 }),
 ];
 
-//# sourceMappingURL=src_02e7d9r._.js.map
+//# sourceMappingURL=src_01jn4hu._.js.map

@@ -152,8 +152,13 @@ p {
 
 .ticker-track {
   display: flex;
-  min-width: max-content;
-  animation: ticker 22s linear infinite;
+  width: max-content;
+  animation: ticker 55s linear infinite;
+}
+
+.ticker-group {
+  display: flex;
+  flex-shrink: 0;
 }
 
 .ticker-item {
@@ -165,6 +170,7 @@ p {
   font-size: clamp(1.4rem, 3vw, 2.5rem);
   letter-spacing: 0.025em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .ticker-item::after {
@@ -173,6 +179,9 @@ p {
 }
 
 @keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
   to {
     transform: translateX(-50%);
   }

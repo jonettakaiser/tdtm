@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { defaultHeadliner, money, useNight } from "./NightProvider";
+import Ticker from "./Ticker";
 
 export default function Hero() {
   const night = useNight();
@@ -98,19 +99,7 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="ticker">
-        <div className="ticker-track" aria-hidden>
-          {[0, 1].map((copy) => (
-            <div key={copy} className="flex">
-              {["Live podcast", "Watch party", "Collab menu", "One full room"].map((item) => (
-                <span className="ticker-item" key={`${copy}-${item}`}>
-                  {item}
-                </span>
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
+      <Ticker items={["Live podcast", "Watch party", "Collab menu"]} />
     </section>
   );
 }

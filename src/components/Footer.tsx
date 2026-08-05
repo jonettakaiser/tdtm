@@ -1,19 +1,12 @@
+import Ticker from "./Ticker";
+
 export default function Footer() {
   return (
     <footer className="overflow-x-clip bg-ink pt-14 pb-[max(3.5rem,env(safe-area-inset-bottom))] text-paper">
-      <div className="ticker mb-12 border-paper/10 bg-paper text-ink">
-        <div className="ticker-track" aria-hidden>
-          {[0, 1].map((copy) => (
-            <div key={copy} className="flex">
-              {["Game on", "Talk Dodgers To Me", "Pawn Shop"].map((item) => (
-                <span className="ticker-item" key={`${copy}-${item}`}>
-                  {item}
-                </span>
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
+      <Ticker
+        className="mb-12 border-paper/10 bg-paper text-ink"
+        items={["Game on", "Talk Dodgers To Me", "Pawn Shop"]}
+      />
       <div className="mx-auto flex max-w-[1180px] flex-wrap items-end justify-between gap-8 px-7 sm:px-4">
         <div>
           <div className="font-display text-5xl uppercase leading-none">See you at the game.</div>

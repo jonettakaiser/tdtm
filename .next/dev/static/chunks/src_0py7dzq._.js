@@ -33,26 +33,26 @@ function Hero() {
                     className: "object-cover object-center opacity-45 grayscale-[20%] contrast-125"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Hero.tsx",
-                    lineNumber: 14,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(11,29,51,.96)_0%,rgba(11,29,51,.75)_48%,rgba(11,29,51,.2)_100%)]"
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 -z-10 bg-[linear-gradient(0deg,rgba(11,29,51,.9)_0%,transparent_55%)]"
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -65,7 +65,7 @@ function Hero() {
                                 children: "A Partnership Proposal · Melrose, Los Angeles"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 28,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -77,7 +77,7 @@ function Hero() {
                                         children: "To Me"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 34,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -85,7 +85,7 @@ function Hero() {
                                         children: "LIVE"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 34,
+                                        lineNumber: 35,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -93,13 +93,13 @@ function Hero() {
                                         children: "at Pawn Shop"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 35,
+                                        lineNumber: 36,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 31,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -110,7 +110,7 @@ function Hero() {
                                         children: "Two nights a month, Talk Dodgers To Me tapes live in the room — special-guest podcast nights and ticketed Dodgers watch parties that turn Pawn Shop’s quietest nights into its fullest."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 39,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -123,25 +123,25 @@ function Hero() {
                                                 children: "↓"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 47,
+                                                lineNumber: 48,
                                                 columnNumber: 31
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
@@ -154,20 +154,20 @@ function Hero() {
                                         children: "Your residency ticket"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 55,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: guestPicked ? "Locked in" : "Suggested"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 53,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -181,7 +181,7 @@ function Hero() {
                                                 children: "Tonight’s headliner"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 59,
+                                                lineNumber: 60,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -189,13 +189,13 @@ function Hero() {
                                                 children: guestName
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 63,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 59,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -208,7 +208,7 @@ function Hero() {
                                                         children: "Live floor / mo"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Hero.tsx",
-                                                        lineNumber: 68,
+                                                        lineNumber: 69,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
@@ -216,13 +216,13 @@ function Hero() {
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["money"])(night.liveNightRevenue)
                                                     }, night.liveNightRevenue, false, {
                                                         fileName: "[project]/src/components/Hero.tsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 70,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 68,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -232,7 +232,7 @@ function Hero() {
                                                         children: "Watch tickets / mo"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Hero.tsx",
-                                                        lineNumber: 74,
+                                                        lineNumber: 75,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
@@ -240,19 +240,19 @@ function Hero() {
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["money"])(night.watchPartyRevenue)
                                                     }, night.watchPartyRevenue, false, {
                                                         fileName: "[project]/src/components/Hero.tsx",
-                                                        lineNumber: 75,
+                                                        lineNumber: 76,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 74,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 67,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -263,7 +263,7 @@ function Hero() {
                                                 children: "Combined event revenue"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 81,
+                                                lineNumber: 82,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -271,25 +271,25 @@ function Hero() {
                                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["money"])(night.monthlyTotal)
                                             }, night.monthlyTotal, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 84,
+                                                lineNumber: 85,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 57,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -302,19 +302,19 @@ function Hero() {
                                 children: "↓"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 97,
+                                lineNumber: 98,
                                 columnNumber: 27
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 93,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 26,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -337,28 +337,28 @@ function Hero() {
                                     children: item
                                 }, `${copy}-${item}`, false, {
                                     fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 107,
                                     columnNumber: 17
                                 }, this))
                         }, copy, false, {
                             fileName: "[project]/src/components/Hero.tsx",
-                            lineNumber: 104,
+                            lineNumber: 105,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Hero.tsx",
-                    lineNumber: 102,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 101,
+                lineNumber: 102,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Hero.tsx",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 }

@@ -1,4 +1,8 @@
-{"timestamp":"00:00:00.938","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:06.008","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:00:17.096","source":"Browser","level":"WARN","message":"Image with src \"/Podcast-ProofConcept1.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
-{"timestamp":"00:00:17.123","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/Podcast-ProofConcept1.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:00:00.812","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:11.672","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:11.777","source":"Browser","level":"WARN","message":"Image with src \"/Podcast-ProofConcept1.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:00:11.788","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/Podcast-ProofConcept1.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:00:54.028","source":"Server","level":"LOG","message":"✓ Compiled in 122ms"}
+{"timestamp":"00:00:54.901","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"00:02:04.380","source":"Server","level":"LOG","message":"✓ Compiled in 163ms"}
+{"timestamp":"00:02:22.659","source":"Server","level":"LOG","message":"✓ Compiled in 145ms"}

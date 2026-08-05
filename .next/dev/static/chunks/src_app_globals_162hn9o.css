@@ -2543,8 +2543,13 @@ p {
 }
 
 .ticker-track {
-  min-width: max-content;
-  animation: 22s linear infinite ticker;
+  width: max-content;
+  animation: 55s linear infinite ticker;
+  display: flex;
+}
+
+.ticker-group {
+  flex-shrink: 0;
   display: flex;
 }
 
@@ -2552,6 +2557,7 @@ p {
   font-family: var(--font-display);
   letter-spacing: .025em;
   text-transform: uppercase;
+  white-space: nowrap;
   align-items: center;
   gap: 1.8rem;
   padding: 1rem .9rem;
@@ -2565,6 +2571,10 @@ p {
 }
 
 @keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+
   to {
     transform: translateX(-50%);
   }
