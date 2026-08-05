@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(11,29,51,.96)_0%,rgba(11,29,51,.75)_48%,rgba(11,29,51,.2)_100%)]" />
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(0deg,rgba(11,29,51,.9)_0%,transparent_55%)]" />
 
-      <div className="mx-auto grid min-h-[calc(100svh-68px)] max-w-[1280px] items-end gap-8 px-7 pt-20 pb-10 md:grid-cols-[1.25fr_.75fr] md:items-center md:px-10">
+      <div className="mx-auto grid min-h-[calc(100svh-68px)] max-w-[1280px] items-end gap-8 px-7 pt-20 pb-10 md:grid-cols-[1.25fr_.75fr] md:items-center md:gap-10 md:px-10 md:pb-14">
         <div>
           <span className="mb-5 block font-mono text-[0.68rem] font-bold uppercase tracking-[0.18em] text-gold">
             A Partnership Proposal · Melrose, Los Angeles
@@ -34,7 +34,7 @@ export default function Hero() {
             <span className="block text-gold">LIVE</span>
             <span className="block">at Pawn Shop</span>
           </h1>
-          <div className="mt-8 flex max-w-[720px] flex-col items-start gap-6 md:flex-row md:items-end">
+          <div className="mt-8 flex max-w-[720px] flex-col items-start gap-8 md:flex-row md:items-end md:gap-10">
             <p className="text-base leading-relaxed text-paper/75 md:text-lg">
               Two nights a month, Talk Dodgers To Me tapes live in the room — special-guest
               podcast nights and ticketed Dodgers watch parties that turn Pawn Shop&rsquo;s
@@ -42,8 +42,7 @@ export default function Hero() {
             </p>
             <a
               href="#live-nights"
-              className="group relative hidden shrink-0 items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold md:inline-flex"
-              style={{ top: "32px" }}
+              className="group relative top-10 hidden shrink-0 items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold md:inline-flex"
             >
               Build the night <span className="transition-transform group-hover:translate-y-1">↓</span>
             </a>
@@ -93,7 +92,7 @@ export default function Hero() {
         </aside>
         <a
           href="#live-nights"
-          className="group mx-auto inline-flex items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold md:hidden"
+          className="group mx-auto mt-4 mb-6 inline-flex items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold md:hidden"
         >
           Build the night <span className="transition-transform group-hover:translate-y-1">↓</span>
         </a>

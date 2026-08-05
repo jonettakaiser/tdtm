@@ -416,6 +416,10 @@
     top: calc(var(--spacing) * 3);
   }
 
+  .top-10 {
+    top: calc(var(--spacing) * 10);
+  }
+
   .top-full {
     top: 100%;
   }
@@ -694,10 +698,6 @@
     max-width: 1280px;
   }
 
-  .max-w-full {
-    max-width: 100%;
-  }
-
   .max-w-md {
     max-width: var(--container-md);
   }
@@ -884,10 +884,6 @@
 
   .overflow-x-clip {
     overflow-x: clip;
-  }
-
-  .overflow-x-hidden {
-    overflow-x: hidden;
   }
 
   .rounded-\[1\.2rem\] {
@@ -1314,10 +1310,6 @@
 
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
-  }
-
-  .py-14 {
-    padding-block: calc(var(--spacing) * 14);
   }
 
   .pt-3 {
@@ -2244,6 +2236,10 @@
       margin-top: 0;
     }
 
+    .md\:mb-1 {
+      margin-bottom: var(--spacing);
+    }
+
     .md\:flex {
       display: flex;
     }
@@ -2309,6 +2305,10 @@
       gap: calc(var(--spacing) * 5);
     }
 
+    .md\:gap-10 {
+      gap: calc(var(--spacing) * 10);
+    }
+
     .md\:gap-12 {
       gap: calc(var(--spacing) * 12);
     }
@@ -2335,6 +2335,10 @@
 
     .md\:px-10 {
       padding-inline: calc(var(--spacing) * 10);
+    }
+
+    .md\:pb-14 {
+      padding-bottom: calc(var(--spacing) * 14);
     }
 
     .md\:text-4xl {
@@ -2739,6 +2743,21 @@ p {
 
 input[type="range"] {
   accent-color: var(--color-gold);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  :root {
+    --cursor-baseball: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='20'%3E%E2%9A%BE%3C/text%3E%3C/svg%3E")
+      16 16;
+  }
+
+  a, button, summary, label, select, textarea, input, [role="button"], .cursor-pointer {
+    cursor: var(--cursor-baseball), pointer;
+  }
+
+  p, h1, h2, h3, h4, h5, h6, li, span, strong, em, b, small, time, blockquote, figcaption, .section-title, .eyebrow, .font-display, .font-mono {
+    cursor: var(--cursor-baseball), text;
+  }
 }
 
 @media (max-width: 639px) {
