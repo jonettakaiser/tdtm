@@ -5,13 +5,20 @@ function ReferenceCard({
   src,
   alt,
   caption,
+  href,
 }: {
   src: string;
   alt: string;
   caption: string;
+  href: string;
 }) {
   return (
-    <div className="group flex-1 overflow-hidden rounded-[1.5rem] border border-ink/10 bg-paper shadow-[0_22px_60px_rgba(11,29,51,0.13)] transition duration-500 hover:-translate-y-2 hover:rotate-[-.5deg]">
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group flex-1 overflow-hidden rounded-[1.5rem] border border-ink/10 bg-paper shadow-[0_22px_60px_rgba(11,29,51,0.13)] transition duration-500 hover:-translate-y-2 hover:rotate-[-.5deg]"
+    >
       <div className="relative aspect-[4/3] overflow-hidden">
         <Image
           src={src}
@@ -24,7 +31,7 @@ function ReferenceCard({
       <div className="border-t border-ink/10 p-7">
         <p className="max-w-none text-base leading-relaxed text-ink-dim">{caption}</p>
       </div>
-    </div>
+    </a>
   );
 }
 
@@ -58,26 +65,26 @@ const collabMenu = [
   {
     name: "The Walk-Off",
     original: "Garlic Shrimp",
-    description: "White shrimp, toasted garlic, sherry.",
-    price: "Market",
+    description: "White shrimp | toasted garlic | sherry",
+    price: "$30",
   },
   {
     name: "Chavez Ravine Fries",
     original: "Beef Tallow Fries",
-    description: "Dijonaise, ketchup.",
-    price: "$14",
+    description: "Dijonaise | ketchup",
+    price: "$16",
   },
   {
     name: "Blue Heaven Wings",
-    original: "Wings (6)",
-    description: "Lemon pepper, buffalo, or charred chile.",
-    price: "$16",
+    original: "Wings 6",
+    description: "Lemon pepper | buffalo | charred chile",
+    price: "$23",
   },
   {
-    name: "Extra Innings",
-    original: "From the bar — to be confirmed with Pawn Shop",
-    description: "To be built with the bar team.",
-    price: "$16",
+    name: "The Starting Nine",
+    original: "Pan con Tomate",
+    description: "Smoked tomato | boquerones | urfa",
+    price: "$23",
   },
 ];
 
@@ -100,7 +107,7 @@ export default function FormatShow() {
   return (
     <section id="proof" className="section-shell overflow-hidden">
       <div className="section-inner">
-        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12">
+        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12">
           <div>
           <span className="eyebrow">
             01 — The Format
@@ -121,6 +128,7 @@ export default function FormatShow() {
           <ReferenceCard
             src="/friends.webp"
             alt="Friends Keep Secrets podcast key art"
+            href="https://youtube.com/@friendskeepsecrets?si=PwwZG2iWZIdtfxkd"
             caption="What TDTM borrows: the candor. Unscripted, celebrity-comfortable conversation — guests who wouldn't normally open up, actually opening up."
           />
           <span
@@ -132,6 +140,7 @@ export default function FormatShow() {
           <ReferenceCard
             src="/chicken-shop-date.jpg"
             alt="Chicken Shop Date, two guests seated at a fast-food restaurant table"
+            href="https://www.youtube.com/show/VLPLmMXd0nY6NHwTnljzl6Qxqnfw0LkwL5Ue?sbp=KgtzdTVDUkR1NG8zOEAB"
             caption="What TDTM borrows: the venue-as-hook. One specific, recognizable table as the whole set. The location does half the marketing."
           />
         </Reveal>
@@ -142,9 +151,9 @@ export default function FormatShow() {
 
         {/* Part B — proof of concept */}
         <Reveal from="left" className="mt-24 md:grid md:grid-cols-[.65fr_1.35fr] md:gap-12">
-          <div className="md:pt-8">
+          <div>
           <span className="eyebrow">
-            This format already has proof
+            TDTM Proof of Concept
           </span>
           <h3 className="text-5xl leading-[.9] uppercase text-dodger">The Adrian Gonzalez Episode</h3>
           <p className="mt-5 text-base leading-relaxed text-ink-dim">
@@ -227,7 +236,10 @@ export default function FormatShow() {
               ))}
             </ul>
           </div>
-          <p className="mt-2.5 font-mono text-sm text-ink-faint italic">
+          <p
+            className="mt-2.5 w-full font-mono text-sm text-ink-faint italic"
+            style={{ maxWidth: "none" }}
+          >
             Names and pricing are starting points for a joint tasting with the kitchen —
             not final.
           </p>

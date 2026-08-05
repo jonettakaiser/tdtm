@@ -8,10 +8,10 @@ export default function LiveNightsSection() {
   return (
     <section id="live-nights" className="section-shell overflow-hidden">
       <div className="section-inner">
-        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12">
+        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12">
           <div>
           <span className="eyebrow">
-            03 — Pillar 01, In Detail
+            03 — The Main Event
           </span>
           <h2 className="section-title">
             Special-Guest Live Podcast Nights

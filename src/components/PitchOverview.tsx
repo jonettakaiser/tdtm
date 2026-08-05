@@ -46,7 +46,7 @@ export default function PitchOverview() {
           <span className="eyebrow text-gold">
             02 — The Opportunity
           </span>
-          <h2 className="section-title text-paper">Not Just Content. Revenue-Driving Events.</h2>
+          <h2 className="section-title text-paper">Not Just a Podcast. Revenue-Driving Events.</h2>
           </div>
           <p className="section-lede text-paper/70">
             One event type sells a premium menu. The other sells the ticket itself. Both
@@ -58,7 +58,7 @@ export default function PitchOverview() {
         <Reveal from="scale" className="grid grid-cols-1 gap-5 md:grid-cols-2">
           <PillarCard
             num="PILLAR 01"
-            title="Special-Guest Live Podcast"
+            title="Special-Guest Live Podcast + Event"
             description="A ticketed taping with a live audience and a curated, renamed TDTM × Pawn Shop menu, priced above the regular check."
             points={[
               "2–3 food items, 2–3 drinks, collab-branded",
@@ -69,7 +69,7 @@ export default function PitchOverview() {
           <PillarCard
             num="PILLAR 02"
             title="Ticketed Dodgers Watch Parties"
-            description="Limited-capacity private rooms for live Dodgers games — exclusive, social, catered. The ticket is the product."
+            description="Limited-capacity private rooms for live Dodgers games — exclusive, social, with guests ordering freely from the full Pawn Shop menu. The ticket is the experience."
             points={[
               "Capped headcount keeps it feeling exclusive",
               "On-site catering + bartender, built into the price",

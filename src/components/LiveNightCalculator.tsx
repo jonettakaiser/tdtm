@@ -9,7 +9,7 @@ export default function LiveNightCalculator() {
   const likelyHigh = Math.round(((floorPerNight * 12) / 7) / 100) * 100;
 
   return (
-    <div className="ticket-cut static overflow-hidden rounded-[1.3rem] bg-ink p-6 pb-7 text-paper shadow-[0_24px_70px_rgba(11,29,51,.24)] md:sticky md:top-20 md:p-7">
+    <div className="ticket-cut overflow-hidden rounded-[1.3rem] bg-ink p-6 pb-7 text-paper shadow-[0_24px_70px_rgba(11,29,51,.24)] md:p-7">
       <div className="mb-6 flex items-center justify-between border-b border-dashed border-paper/20 pb-4">
         <h4 className="font-mono text-xs uppercase tracking-wide text-[#eef6ff]">
           Illustrative Revenue — Live Night

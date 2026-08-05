@@ -187,7 +187,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TicketS
 ;
 const steps = [
     {
-        title: "Pilot one live night",
+        title: "Launch the first live night",
         body: "Pick a confirmed guest from the lineup and run it once, low-risk, to prove the room and the model."
     },
     {
@@ -200,7 +200,7 @@ const steps = [
     },
     {
         title: "Lock the recurring residency",
-        body: "Once the pilot proves out, move to a standing calendar — live nights and watch parties, booked in advance."
+        body: "Once the first event proves out, move to a standing calendar — live nights and watch parties, booked in advance."
     }
 ];
 function Ask() {
@@ -211,7 +211,7 @@ function Ask() {
             className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
@@ -345,7 +345,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "overflow-hidden bg-ink py-14 text-paper",
+        className: "overflow-x-clip bg-ink pt-14 pb-[max(3.5rem,env(safe-area-inset-bottom))] text-paper",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "ticker mb-12 border-paper/10 bg-paper text-ink",
@@ -359,7 +359,6 @@ function Footer() {
                             className: "flex",
                             children: [
                                 "Game on",
-                                "Melrose",
                                 "Talk Dodgers To Me",
                                 "Pawn Shop"
                             ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -400,7 +399,7 @@ function Footer() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "mt-3 block font-mono text-xs text-paper/50",
-                                children: "Prepared by Talk Dodgers To Me for Pawn Shop, Melrose"
+                                children: "Prepared by MN1FST GLOBAL for Pawn Shop"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Footer.tsx",
                                 lineNumber: 20,
@@ -455,8 +454,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$
 ;
 ;
 ;
-function ReferenceCard({ src, alt, caption }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+function ReferenceCard({ src, alt, caption, href }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+        href: href,
+        target: "_blank",
+        rel: "noopener noreferrer",
         className: "group flex-1 overflow-hidden rounded-[1.5rem] border border-ink/10 bg-paper shadow-[0_22px_60px_rgba(11,29,51,0.13)] transition duration-500 hover:-translate-y-2 hover:rotate-[-.5deg]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -469,12 +471,12 @@ function ReferenceCard({ src, alt, caption }) {
                     className: "object-cover object-top transition-transform duration-700 group-hover:scale-105"
                 }, void 0, false, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 16,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/FormatShow.tsx",
-                lineNumber: 15,
+                lineNumber: 22,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -484,18 +486,18 @@ function ReferenceCard({ src, alt, caption }) {
                     children: caption
                 }, void 0, false, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 25,
+                    lineNumber: 32,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/FormatShow.tsx",
-                lineNumber: 24,
+                lineNumber: 31,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/FormatShow.tsx",
-        lineNumber: 14,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
@@ -514,7 +516,7 @@ function ProofImage({ src, alt }) {
                 className: "object-cover transition-transform duration-300 group-hover:scale-105"
             }, void 0, false, {
                 fileName: "[project]/src/components/FormatShow.tsx",
-                lineNumber: 39,
+                lineNumber: 46,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -529,28 +531,28 @@ function ProofImage({ src, alt }) {
                             d: "M8 5v14l11-7z"
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 49,
+                            lineNumber: 56,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/FormatShow.tsx",
-                        lineNumber: 48,
+                        lineNumber: 55,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 47,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/FormatShow.tsx",
-                lineNumber: 46,
+                lineNumber: 53,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/FormatShow.tsx",
-        lineNumber: 33,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }
@@ -558,26 +560,26 @@ const collabMenu = [
     {
         name: "The Walk-Off",
         original: "Garlic Shrimp",
-        description: "White shrimp, toasted garlic, sherry.",
-        price: "Market"
+        description: "White shrimp | toasted garlic | sherry",
+        price: "$30"
     },
     {
         name: "Chavez Ravine Fries",
         original: "Beef Tallow Fries",
-        description: "Dijonaise, ketchup.",
-        price: "$14"
+        description: "Dijonaise | ketchup",
+        price: "$16"
     },
     {
         name: "Blue Heaven Wings",
-        original: "Wings (6)",
-        description: "Lemon pepper, buffalo, or charred chile.",
-        price: "$16"
+        original: "Wings 6",
+        description: "Lemon pepper | buffalo | charred chile",
+        price: "$23"
     },
     {
-        name: "Extra Innings",
-        original: "From the bar — to be confirmed with Pawn Shop",
-        description: "To be built with the bar team.",
-        price: "$16"
+        name: "The Starting Nine",
+        original: "Pan con Tomate",
+        description: "Smoked tomato | boquerones | urfa",
+        price: "$23"
     }
 ];
 const upgrades = [
@@ -602,7 +604,7 @@ function FormatShow() {
             className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
@@ -611,7 +613,7 @@ function FormatShow() {
                                     children: "01 — The Format"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 105,
+                                    lineNumber: 112,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -619,13 +621,13 @@ function FormatShow() {
                                     children: "Friends Keep Secrets meets Chicken Shop Date"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 115,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 104,
+                            lineNumber: 111,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -633,13 +635,13 @@ function FormatShow() {
                             children: "One host, one special guest, one table. Unscripted conversation about anything — no topic off limits. TDTM borrows its intimacy from one show and its setting-as-hook from the other."
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 112,
+                            lineNumber: 119,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 103,
+                    lineNumber: 110,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -649,10 +651,11 @@ function FormatShow() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ReferenceCard, {
                             src: "/friends.webp",
                             alt: "Friends Keep Secrets podcast key art",
+                            href: "https://youtube.com/@friendskeepsecrets?si=PwwZG2iWZIdtfxkd",
                             caption: "What TDTM borrows: the candor. Unscripted, celebrity-comfortable conversation — guests who wouldn't normally open up, actually opening up."
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 121,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -661,22 +664,23 @@ function FormatShow() {
                             children: "×"
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 126,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ReferenceCard, {
                             src: "/chicken-shop-date.jpg",
                             alt: "Chicken Shop Date, two guests seated at a fast-food restaurant table",
+                            href: "https://www.youtube.com/show/VLPLmMXd0nY6NHwTnljzl6Qxqnfw0LkwL5Ue?sbp=KgtzdTVDUkR1NG8zOEAB",
                             caption: "What TDTM borrows: the venue-as-hook. One specific, recognizable table as the whole set. The location does half the marketing."
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 132,
+                            lineNumber: 140,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 120,
+                    lineNumber: 127,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -684,7 +688,7 @@ function FormatShow() {
                     children: "TDTM at Pawn Shop is both of these at once — except it’s live, it’s sports, and the audience is in the room."
                 }, void 0, false, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 138,
+                    lineNumber: 147,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -692,14 +696,13 @@ function FormatShow() {
                     className: "mt-24 md:grid md:grid-cols-[.65fr_1.35fr] md:gap-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "md:pt-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "eyebrow",
-                                    children: "This format already has proof"
+                                    children: "TDTM Proof of Concept"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 146,
+                                    lineNumber: 155,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -707,7 +710,7 @@ function FormatShow() {
                                     children: "The Adrian Gonzalez Episode"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 149,
+                                    lineNumber: 158,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -715,7 +718,7 @@ function FormatShow() {
                                     children: "Adrian Gonzalez is a former Dodgers first baseman who owns two restaurants in Los Angeles. Melissa filmed his podcast episode on location — kitchen walkthrough, promo videos, two locations in one day. The episode cost approximately $2,500 out of pocket and came out at a level the show hadn’t reached before. The format worked because the restaurant was not the backdrop. It was the point."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 159,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -726,13 +729,13 @@ function FormatShow() {
                                     children: "Watch on YouTube ↗"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 158,
+                                    lineNumber: 167,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 145,
+                            lineNumber: 154,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -743,7 +746,7 @@ function FormatShow() {
                                     alt: "Melissa and a guest filming the Adrian Gonzalez podcast episode on location at Slizeria"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 178,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ProofImage, {
@@ -751,19 +754,19 @@ function FormatShow() {
                                     alt: "Melissa and a guest laughing during the Adrian Gonzalez podcast episode"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 182,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 168,
+                            lineNumber: 177,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 144,
+                    lineNumber: 153,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -775,7 +778,7 @@ function FormatShow() {
                             children: "At Pawn Shop, it goes further."
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 182,
+                            lineNumber: 191,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -788,7 +791,7 @@ function FormatShow() {
                                             children: i + 1
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/FormatShow.tsx",
-                                            lineNumber: 189,
+                                            lineNumber: 198,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -798,7 +801,7 @@ function FormatShow() {
                                                     children: u.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                                    lineNumber: 191,
+                                                    lineNumber: 200,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -806,30 +809,30 @@ function FormatShow() {
                                                     children: u.body
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                                    lineNumber: 194,
+                                                    lineNumber: 203,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/FormatShow.tsx",
-                                            lineNumber: 190,
+                                            lineNumber: 199,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, u.title, true, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 194,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 183,
+                            lineNumber: 192,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 181,
+                    lineNumber: 190,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -843,7 +846,7 @@ function FormatShow() {
                                     children: "Sample Collab Menu"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 204,
+                                    lineNumber: 213,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -852,20 +855,20 @@ function FormatShow() {
                                         "Kitchen",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/FormatShow.tsx",
-                                            lineNumber: 205,
+                                            lineNumber: 214,
                                             columnNumber: 44
                                         }, this),
                                         "Riff"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/FormatShow.tsx",
-                                    lineNumber: 205,
+                                    lineNumber: 214,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 203,
+                            lineNumber: 212,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -881,7 +884,7 @@ function FormatShow() {
                                                         children: item.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/FormatShow.tsx",
-                                                        lineNumber: 217,
+                                                        lineNumber: 226,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -892,7 +895,7 @@ function FormatShow() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/FormatShow.tsx",
-                                                        lineNumber: 218,
+                                                        lineNumber: 227,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -900,13 +903,13 @@ function FormatShow() {
                                                         children: item.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/FormatShow.tsx",
-                                                        lineNumber: 221,
+                                                        lineNumber: 230,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/FormatShow.tsx",
-                                                lineNumber: 216,
+                                                lineNumber: 225,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -914,48 +917,51 @@ function FormatShow() {
                                                 children: item.price
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/FormatShow.tsx",
-                                                lineNumber: 223,
+                                                lineNumber: 232,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, item.name, true, {
                                         fileName: "[project]/src/components/FormatShow.tsx",
-                                        lineNumber: 210,
+                                        lineNumber: 219,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/FormatShow.tsx",
-                                lineNumber: 208,
+                                lineNumber: 217,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 207,
+                            lineNumber: 216,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-2.5 font-mono text-sm text-ink-faint italic",
+                            className: "mt-2.5 w-full font-mono text-sm text-ink-faint italic",
+                            style: {
+                                maxWidth: "none"
+                            },
                             children: "Names and pricing are starting points for a joint tasting with the kitchen — not final."
                         }, void 0, false, {
                             fileName: "[project]/src/components/FormatShow.tsx",
-                            lineNumber: 230,
+                            lineNumber: 239,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/FormatShow.tsx",
-                    lineNumber: 202,
+                    lineNumber: 211,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/FormatShow.tsx",
-            lineNumber: 102,
+            lineNumber: 109,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/FormatShow.tsx",
-        lineNumber: 101,
+        lineNumber: 108,
         columnNumber: 5
     }, this);
 }
@@ -1113,7 +1119,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 ;
-const pilotItems = [
+const launchItems = [
     {
         label: "Food premium",
         value: "~$300 per night",
@@ -1241,7 +1247,7 @@ function LiveNightTakeHome() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "font-mono text-[0.62rem] font-bold uppercase tracking-[0.14em] text-ink-faint",
-                                children: "Pilot nights"
+                                children: "Launch nights"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightTakeHome.tsx",
                                 lineNumber: 73,
@@ -1256,7 +1262,7 @@ function LiveNightTakeHome() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ScenarioItems, {
-                                items: pilotItems,
+                                items: launchItems,
                                 total: "~$400 to $425",
                                 accentClass: "text-gold-dim"
                             }, void 0, false, {
@@ -1266,7 +1272,7 @@ function LiveNightTakeHome() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-6 max-w-none border-t border-ink/15 pt-4 text-sm leading-relaxed text-ink-dim italic",
-                                children: "The $400 is not the point. The real value TDTM takes from this night is the filmed content, the guest relationship, and the brand exposure to 75 people in a room. The split exists to make this a formal business partnership on paper."
+                                children: "The $400 formalizes the partnership. TDTM’s real return is the filmed content, guest relationship, and brand exposure to 75 people in the room."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightTakeHome.tsx",
                                 lineNumber: 82,
@@ -1282,11 +1288,11 @@ function LiveNightTakeHome() {
                         className: "rounded-[1.3rem] border border-dodger bg-dodger p-6 text-paper shadow-[6px_6px_0_var(--color-gold)] md:p-7",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-mono text-[0.62rem] font-bold uppercase tracking-[0.14em] text-gold",
+                                className: "font-mono text-[0.62rem] font-bold uppercase tracking-[0.14em] text-[#eef6ff]",
                                 children: "Preferred scenario"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightTakeHome.tsx",
-                                lineNumber: 90,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1294,30 +1300,30 @@ function LiveNightTakeHome() {
                                 children: "With Alcohol Sponsor"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightTakeHome.tsx",
-                                lineNumber: 93,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ScenarioItems, {
                                 items: sponsorItems,
                                 total: "$2,300 to $5,300",
-                                accentClass: "text-gold"
+                                accentClass: "text-[#eef6ff]"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightTakeHome.tsx",
-                                lineNumber: 94,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-6 max-w-none border-t border-paper/20 pt-4 text-sm leading-relaxed text-paper/75 italic",
-                                children: "The Mookie Betts angle is worth exploring first. His tequila is already poured at Pawn Shop. Approaching his team about sponsoring the Extra Innings cocktail on TDTM nights is a natural conversation — his product gets featured in YouTube content and social, TDTM gets a sponsor fee, and Pawn Shop keeps every dollar behind the bar."
+                                children: "Mookie Betts is the natural first sponsor conversation: his tequila is already poured at Pawn Shop. Featuring it in the Extra Innings cocktail gives his brand YouTube and social exposure, TDTM a sponsor fee, and Pawn Shop every bar dollar."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/LiveNightTakeHome.tsx",
-                                lineNumber: 99,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/LiveNightTakeHome.tsx",
-                        lineNumber: 89,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1327,11 +1333,11 @@ function LiveNightTakeHome() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "mx-auto mt-8 max-w-[44ch] text-center font-display text-2xl uppercase leading-tight text-ink",
-                children: "The pilot nights launch without a sponsor. The sponsor conversation starts the same week."
+                className: "mx-auto mt-[40px] max-w-[44ch] text-center font-display text-2xl uppercase leading-tight text-ink",
+                children: "The first nights launch without a sponsor. The sponsor conversation starts the same week."
             }, void 0, false, {
                 fileName: "[project]/src/components/LiveNightTakeHome.tsx",
-                lineNumber: 108,
+                lineNumber: 105,
                 columnNumber: 7
             }, this)
         ]
@@ -1369,13 +1375,13 @@ function LiveNightsSection() {
             className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "eyebrow",
-                                    children: "03 — Pillar 01, In Detail"
+                                    children: "03 — The Main Event"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/LiveNightsSection.tsx",
                                     lineNumber: 13,
@@ -1736,7 +1742,7 @@ function PitchOverview() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "section-title text-paper",
-                                    children: "Not Just Content. Revenue-Driving Events."
+                                    children: "Not Just a Podcast. Revenue-Driving Events."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/PitchOverview.tsx",
                                     lineNumber: 49,
@@ -1768,7 +1774,7 @@ function PitchOverview() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(PillarCard, {
                             num: "PILLAR 01",
-                            title: "Special-Guest Live Podcast",
+                            title: "Special-Guest Live Podcast + Event",
                             description: "A ticketed taping with a live audience and a curated, renamed TDTM × Pawn Shop menu, priced above the regular check.",
                             points: [
                                 "2–3 food items, 2–3 drinks, collab-branded",
@@ -1783,7 +1789,7 @@ function PitchOverview() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(PillarCard, {
                             num: "PILLAR 02",
                             title: "Ticketed Dodgers Watch Parties",
-                            description: "Limited-capacity private rooms for live Dodgers games — exclusive, social, catered. The ticket is the product.",
+                            description: "Limited-capacity private rooms for live Dodgers games — exclusive, social, with guests ordering freely from the full Pawn Shop menu. The ticket is the experience.",
                             points: [
                                 "Capped headcount keeps it feeling exclusive",
                                 "On-site catering + bartender, built into the price",
@@ -1954,13 +1960,13 @@ function WatchPartiesSection() {
             className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "eyebrow",
-                                    children: "04 — Pillar 02, In Detail"
+                                    children: "04 — The Watch Party"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/WatchPartiesSection.tsx",
                                     lineNumber: 12,
@@ -2108,21 +2114,24 @@ function WatchPartyCalculator() {
                         "Regular Season",
                         "$65",
                         "$1,300",
-                        "$25 per guest"
+                        "$25 / guest",
+                        "$800"
                     ],
                     [
                         "Playoff Game",
                         "$95",
                         "$1,900",
-                        "$35 per guest"
+                        "$35 / guest",
+                        "$1,200"
                     ],
                     [
                         "NLCS / World Series",
                         "$135",
                         "$2,700",
-                        "$50 per guest"
+                        "$50 / guest",
+                        "$1,700"
                     ]
-                ].map(([game, ticket, revenue, credit])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                ].map(([game, ticket, revenue, credit, net])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "rounded-xl border border-paper/15 bg-paper/5 p-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -2134,7 +2143,7 @@ function WatchPartyCalculator() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dl", {
-                                className: "mt-3 grid grid-cols-3 gap-3 font-mono text-[0.6rem] uppercase tracking-wide text-paper/45",
+                                className: "mt-3 grid grid-cols-2 gap-3 font-mono text-[0.6rem] uppercase tracking-wide text-paper/45 sm:grid-cols-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
@@ -2162,7 +2171,7 @@ function WatchPartyCalculator() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dt", {
-                                                children: "Revenue / event"
+                                                children: "Gross tickets"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
                                                 lineNumber: 27,
@@ -2185,7 +2194,7 @@ function WatchPartyCalculator() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dt", {
-                                                children: "Food credit"
+                                                children: "Credit to Pawn Shop"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
                                                 lineNumber: 31,
@@ -2203,6 +2212,29 @@ function WatchPartyCalculator() {
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
                                         lineNumber: 30,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dt", {
+                                                children: "Melissa net"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/WatchPartyCalculator.tsx",
+                                                lineNumber: 35,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
+                                                className: "mt-1 text-sm font-bold text-[#eef6ff]",
+                                                children: net
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/WatchPartyCalculator.tsx",
+                                                lineNumber: 36,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/WatchPartyCalculator.tsx",
+                                        lineNumber: 34,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -2230,7 +2262,7 @@ function WatchPartyCalculator() {
                         children: "The full monthly picture for Pawn Shop"
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 40,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2241,43 +2273,43 @@ function WatchPartyCalculator() {
                                 children: "Live podcast night · 1x per month · $2,625 guaranteed floor"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                lineNumber: 42,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "max-w-none",
-                                children: "Watch party · 1x per month · $1,300 in ticket revenue (regular season)"
+                                children: "Watch party · 1x per month · $500 guaranteed food-credit reimbursement"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                lineNumber: 43,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 41,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mt-4 max-w-none font-display text-3xl uppercase leading-none",
-                        children: "$3,925 to start — with a clear path to scale."
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/WatchPartyCalculator.tsx",
                         lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mt-3 max-w-none text-xs leading-relaxed text-ink/65",
-                        children: "Both events launch at once a month to prove the model. Once they sell out, adding dates is the easy conversation. Bar spend beyond food credits is 100% Pawn Shop upside on top of every number above."
+                        className: "mt-4 max-w-none font-display text-3xl uppercase leading-none",
+                        children: "At least $3,125 to Pawn Shop — plus every bar dollar and food overage."
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 48,
+                        lineNumber: 51,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "mt-3 max-w-none text-xs leading-relaxed text-ink/65",
+                        children: "Melissa keeps watch-party ticket revenue after remitting every included food credit. Pawn Shop keeps the credits, all food spend above them, and 100% of alcohol sales."
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/WatchPartyCalculator.tsx",
+                        lineNumber: 54,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                lineNumber: 39,
+                lineNumber: 43,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2288,7 +2320,7 @@ function WatchPartyCalculator() {
                         children: "What TDTM Takes Home — Watch Parties"
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 56,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2301,38 +2333,38 @@ function WatchPartyCalculator() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 className: "font-display text-xl uppercase",
-                                                children: "Booking fee"
+                                                children: "Net ticket revenue"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 68,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 className: "font-mono text-sm text-[#eef6ff]",
-                                                children: "$250 flat per event"
+                                                children: "$800 to $1,700 per event"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                                lineNumber: 63,
+                                                lineNumber: 69,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 67,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "mt-2 max-w-none text-sm leading-relaxed text-paper/65",
-                                        children: "TDTM handles all ticket sales and marketing for each watch party and charges a flat booking fee per event. Pawn Shop keeps 100% of ticket revenue."
+                                        children: "Melissa handles ticketing and marketing, then remits the included food credits to Pawn Shop. The remaining ticket revenue goes to TDTM."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 71,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                lineNumber: 60,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2343,10 +2375,10 @@ function WatchPartyCalculator() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 className: "font-display text-xl uppercase",
-                                                children: "Bar and food revenue"
+                                                children: "Food and alcohol sales"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                                lineNumber: 72,
+                                                lineNumber: 78,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -2354,47 +2386,47 @@ function WatchPartyCalculator() {
                                                 children: "100% Pawn Shop"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 79,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 77,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "mt-2 max-w-none text-sm leading-relaxed text-paper/65",
-                                        children: "Every dollar spent on food and drinks during a watch party stays with Pawn Shop. TDTM takes nothing from the room beyond the flat booking fee."
+                                        children: "Pawn Shop keeps every food dollar above the included credits and 100% of alcohol revenue."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                                lineNumber: 70,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 59,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "mt-5 max-w-none text-xs leading-relaxed text-paper/45 italic",
-                        children: "A flat fee keeps the math simple. Pawn Shop knows exactly what each event costs them regardless of how many tickets sell."
+                        children: "No venue or booking fee: TDTM earns from tickets; Pawn Shop earns from food, alcohol, and guaranteed credit reimbursements."
                     }, void 0, false, {
                         fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                        lineNumber: 81,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/WatchPartyCalculator.tsx",
-                lineNumber: 55,
+                lineNumber: 61,
                 columnNumber: 7
             }, this)
         ]
@@ -2452,13 +2484,13 @@ function WatchPartyIncludes() {
                 children: includedItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         className: "rounded-xl border border-dodger bg-dodger-soft/55 shadow-[3px_3px_0_var(--color-dodger)]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-start justify-between gap-3.5 p-4",
+                            className: "flex flex-col gap-2 p-4 sm:flex-row sm:items-start sm:justify-between sm:gap-3.5",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-start gap-3",
+                                    className: "flex min-w-0 items-start gap-3",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "mt-0.5 text-dodger",
+                                            className: "mt-0.5 shrink-0 text-dodger",
                                             "aria-hidden": true,
                                             children: "✓"
                                         }, void 0, false, {
@@ -2467,6 +2499,7 @@ function WatchPartyIncludes() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "min-w-0",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "font-display text-xl leading-none uppercase text-ink",
@@ -2497,7 +2530,7 @@ function WatchPartyIncludes() {
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "whitespace-nowrap font-mono tabular-nums text-gold-dim",
+                                    className: "pl-6 font-mono text-sm tabular-nums text-gold-dim sm:pl-0 sm:text-base sm:whitespace-nowrap",
                                     children: item.price
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/WatchPartyIncludes.tsx",
@@ -2522,7 +2555,7 @@ function WatchPartyIncludes() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mt-2.5 font-mono text-sm text-ink-faint",
-                children: "Unlike the live podcast nights, watch party guests order freely from the full Pawn Shop menu at standard prices. The ticket covers the room and the experience. Everything else is a normal night at the bar."
+                children: "Each ticket includes a food credit that Melissa remits to Pawn Shop. Guests order from the full menu, cover anything above the credit, and purchase alcohol separately."
             }, void 0, false, {
                 fileName: "[project]/src/components/WatchPartyIncludes.tsx",
                 lineNumber: 57,
@@ -2572,7 +2605,7 @@ function WhyPawnShop() {
             className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [

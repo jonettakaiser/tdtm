@@ -22,7 +22,7 @@ export default function WhyPawnShop() {
   return (
     <section id="why" className="section-shell overflow-hidden bg-raised">
       <div className="section-inner">
-        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12">
+        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12">
           <div>
           <span className="eyebrow">
             06 — Why Pawn Shop, Specifically

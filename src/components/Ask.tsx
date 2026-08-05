@@ -3,7 +3,7 @@ import TicketStub from "./TicketStub";
 
 const steps = [
   {
-    title: "Pilot one live night",
+    title: "Launch the first live night",
     body: "Pick a confirmed guest from the lineup and run it once, low-risk, to prove the room and the model.",
   },
   {
@@ -16,7 +16,7 @@ const steps = [
   },
   {
     title: "Lock the recurring residency",
-    body: "Once the pilot proves out, move to a standing calendar — live nights and watch parties, booked in advance.",
+    body: "Once the first event proves out, move to a standing calendar — live nights and watch parties, booked in advance.",
   },
 ];
 
@@ -24,7 +24,7 @@ export default function Ask() {
   return (
     <section id="ask" className="section-shell overflow-hidden">
       <div className="section-inner">
-        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12">
+        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12">
           <div>
           <span className="eyebrow">
             07 — Next Steps

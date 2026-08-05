@@ -17,7 +17,7 @@ export default function TicketStub() {
         <div className="flex flex-wrap items-start justify-between gap-5">
           <div>
             <span className="mb-2 block font-mono text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-gold-dim">
-              Your custom residency
+              Your projected event revenue
             </span>
             <h3 className="font-display text-5xl leading-[.85] uppercase text-dodger md:text-7xl">
               The night<br />you built
@@ -35,7 +35,7 @@ export default function TicketStub() {
           </div>
           <div>
             <b className="mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint">
-              Live nights
+              Live floor
             </b>
             <span key={night.liveNightRevenue} className="number-pop font-mono text-base tabular-nums text-ink">
               {money(night.liveNightRevenue)}/mo
@@ -43,7 +43,7 @@ export default function TicketStub() {
           </div>
           <div>
             <b className="mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint">
-              Watch parties
+              Watch tickets
             </b>
             <span key={night.watchPartyRevenue} className="number-pop font-mono text-base tabular-nums text-ink">
               {money(night.watchPartyRevenue)}/mo
@@ -51,7 +51,7 @@ export default function TicketStub() {
           </div>
           <div>
             <b className="mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-gold-dim">
-              Combined total
+              Event revenue
             </b>
             <span key={night.monthlyTotal} className="number-pop font-display text-3xl leading-none tabular-nums text-gold-dim">
               {money(night.monthlyTotal)}/mo
@@ -62,18 +62,33 @@ export default function TicketStub() {
         <div className="mt-6 flex flex-wrap items-end gap-4">
           <label className="flex flex-col gap-1">
             <span className="font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint">
-              Pencil in a pilot date
+              Choose a first event date
             </span>
-            <input
-              type="date"
-              value={night.date}
-              onChange={(e) => night.setDate(e.target.value)}
-              className="rounded-full border border-ink/25 bg-raised px-4 py-2 font-mono text-sm text-ink"
-            />
+            <div className="relative">
+              <input
+                type="date"
+                value={night.date}
+                onChange={(e) => night.setDate(e.target.value)}
+                aria-label="Choose a first event date"
+                className={`min-h-10 rounded-full border border-ink/25 bg-raised px-4 py-2 font-mono text-sm text-ink [color-scheme:light] ${
+                  !night.date
+                    ? "max-sm:text-transparent max-sm:[&::-webkit-datetime-edit]:text-transparent max-sm:[&::-webkit-datetime-edit-fields-wrapper]:opacity-0"
+                    : ""
+                }`}
+              />
+              {!night.date && (
+                <span
+                  aria-hidden
+                  className="pointer-events-none absolute inset-y-0 left-4 flex items-center font-mono text-sm text-ink sm:hidden"
+                >
+                  Select date
+                </span>
+              )}
+            </div>
           </label>
           <span className="max-w-md font-mono text-[0.62rem] leading-relaxed text-ink-faint">
             Illustrative — built from the choices you made above, editable any time before
-            the pilot.
+            the first event.
           </span>
         </div>
         </div>
@@ -84,7 +99,7 @@ export default function TicketStub() {
         aria-hidden
       >
         <span className="font-mono text-xs tracking-[0.2em] text-ink-faint sm:rotate-180 sm:[writing-mode:vertical-rl]">
-          ADMIT ONE · PILOT NIGHT
+          ADMIT ONE · TDTM NIGHT
         </span>
       </div>
     </div>

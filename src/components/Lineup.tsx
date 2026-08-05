@@ -16,9 +16,9 @@ export default function Lineup() {
   return (
     <section id="lineup" className="section-shell overflow-hidden bg-ink text-paper">
       <div className="section-inner">
-        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12">
+        <Reveal className="mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12">
           <div>
-          <span className="eyebrow text-gold">
+          <span className="eyebrow" style={{ color: "#eef6ff" }}>
             05 — The Guest List
           </span>
           <h2 className="section-title text-paper">First Pitch Lineup</h2>
@@ -46,21 +46,21 @@ export default function Lineup() {
                   <div className="flex items-center gap-2 font-display text-3xl leading-none uppercase">
                     {g.name}
                     {isHeadliner && (
-                      <span className="rounded-full bg-ink px-2 py-1 font-mono text-[0.5rem] tracking-wide text-paper">
+                      <span className="rounded-full bg-ink px-2 py-1 font-mono text-[0.5rem] tracking-wide text-paper md:text-[0.65rem]">
                         Headlining
                       </span>
                     )}
                   </div>
-                  <div className={`mt-4 hidden max-w-none text-sm leading-relaxed group-open:block ${isHeadliner ? "text-ink/75" : "text-paper/65"}`}>
+                  <div className={`mt-4 hidden max-w-none text-sm leading-relaxed group-open:block md:text-base ${isHeadliner ? "text-ink/75" : "text-paper/70"}`}>
                     {g.who}
                   </div>
                   <span
-                    className={`mt-3 inline-block rounded-full border px-2.5 py-1 font-mono text-[0.58rem] uppercase tracking-wide ${isHeadliner ? "border-ink/30 text-ink" : tagClass[g.tag]}`}
+                    className={`mt-3 inline-block rounded-full border px-2.5 py-1 font-mono text-[0.58rem] uppercase tracking-wide md:text-xs ${isHeadliner ? "border-ink/30 text-ink" : tagClass[g.tag]}`}
                   >
                     {g.tag}
                   </span>
                   <div className="mt-3 flex flex-wrap items-center gap-3">
-                    <span className={`font-mono text-[0.58rem] uppercase tracking-wide ${isHeadliner ? "text-ink/60" : "text-paper/40"}`}>
+                    <span className={`font-mono text-[0.58rem] uppercase tracking-wide md:text-xs ${isHeadliner ? "text-ink/65" : "text-paper/60"}`}>
                       <span className="group-open:hidden">Tap for details ↓</span>
                       <span className="hidden group-open:inline">Tap to collapse ↑</span>
                     </span>
@@ -70,7 +70,7 @@ export default function Lineup() {
                         e.preventDefault();
                         night.setHeadliner(isHeadliner ? null : g);
                       }}
-                      className={`rounded-full border px-3 py-1.5 font-mono text-[0.58rem] font-bold uppercase tracking-wide transition-colors ${
+                      className={`rounded-full border px-3 py-1.5 font-mono text-[0.58rem] font-bold uppercase tracking-wide transition-colors md:text-xs ${
                         isHeadliner
                           ? "border-ink bg-ink text-paper hover:bg-paper hover:text-ink"
                           : "border-paper/40 text-paper hover:border-gold hover:bg-gold hover:text-ink"

@@ -1,4 +1,4 @@
-const pilotItems = [
+const launchItems = [
   {
     label: "Food premium",
     value: "~$300 per night",
@@ -71,42 +71,39 @@ export default function LiveNightTakeHome() {
       <div className="mt-6 grid gap-5 md:grid-cols-2">
         <article className="rounded-[1.3rem] border border-ink/15 bg-raised p-6 md:p-7">
           <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.14em] text-ink-faint">
-            Pilot nights
+            Launch nights
           </span>
           <h3 className="mt-2 text-3xl uppercase text-ink">Without Alcohol Sponsor</h3>
           <ScenarioItems
-            items={pilotItems}
+            items={launchItems}
             total="~$400 to $425"
             accentClass="text-gold-dim"
           />
           <p className="mt-6 max-w-none border-t border-ink/15 pt-4 text-sm leading-relaxed text-ink-dim italic">
-            The $400 is not the point. The real value TDTM takes from this night is the
-            filmed content, the guest relationship, and the brand exposure to 75 people in
-            a room. The split exists to make this a formal business partnership on paper.
+            The $400 formalizes the partnership. TDTM&rsquo;s real return is the filmed
+            content, guest relationship, and brand exposure to 75 people in the room.
           </p>
         </article>
 
         <article className="rounded-[1.3rem] border border-dodger bg-dodger p-6 text-paper shadow-[6px_6px_0_var(--color-gold)] md:p-7">
-          <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.14em] text-gold">
+          <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.14em] text-[#eef6ff]">
             Preferred scenario
           </span>
           <h3 className="mt-2 text-3xl uppercase text-paper">With Alcohol Sponsor</h3>
           <ScenarioItems
             items={sponsorItems}
             total="$2,300 to $5,300"
-            accentClass="text-gold"
+            accentClass="text-[#eef6ff]"
           />
           <p className="mt-6 max-w-none border-t border-paper/20 pt-4 text-sm leading-relaxed text-paper/75 italic">
-            The Mookie Betts angle is worth exploring first. His tequila is already poured
-            at Pawn Shop. Approaching his team about sponsoring the Extra Innings cocktail
-            on TDTM nights is a natural conversation — his product gets featured in YouTube
-            content and social, TDTM gets a sponsor fee, and Pawn Shop keeps every dollar
-            behind the bar.
+            Mookie Betts is the natural first sponsor conversation: his tequila is already
+            poured at Pawn Shop. Featuring it in the Extra Innings cocktail gives his brand
+            YouTube and social exposure, TDTM a sponsor fee, and Pawn Shop every bar dollar.
           </p>
         </article>
       </div>
-      <p className="mx-auto mt-8 max-w-[44ch] text-center font-display text-2xl uppercase leading-tight text-ink">
-        The pilot nights launch without a sponsor. The sponsor conversation starts the
+      <p className="mx-auto mt-[40px] max-w-[44ch] text-center font-display text-2xl uppercase leading-tight text-ink">
+        The first nights launch without a sponsor. The sponsor conversation starts the
         same week.
       </p>
     </section>

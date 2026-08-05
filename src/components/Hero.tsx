@@ -42,7 +42,8 @@ export default function Hero() {
             </p>
             <a
               href="#live-nights"
-              className="group inline-flex shrink-0 items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold"
+              className="group relative hidden shrink-0 items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold md:inline-flex"
+              style={{ top: "32px" }}
             >
               Build the night <span className="transition-transform group-hover:translate-y-1">↓</span>
             </a>
@@ -65,13 +66,13 @@ export default function Hero() {
             </div>
             <div className="grid grid-cols-2 gap-4 py-5 font-mono">
               <div>
-                <span className="block text-[0.58rem] uppercase text-ink-faint">Live / mo</span>
+                <span className="block text-[0.58rem] uppercase text-ink-faint">Live floor / mo</span>
                 <b key={night.liveNightRevenue} className="number-pop text-lg tabular-nums">
                   {money(night.liveNightRevenue)}
                 </b>
               </div>
               <div>
-                <span className="block text-[0.58rem] uppercase text-ink-faint">Watch / mo</span>
+                <span className="block text-[0.58rem] uppercase text-ink-faint">Watch tickets / mo</span>
                 <b key={night.watchPartyRevenue} className="number-pop text-lg tabular-nums">
                   {money(night.watchPartyRevenue)}
                 </b>
@@ -79,7 +80,7 @@ export default function Hero() {
             </div>
             <div className="flex items-end justify-between border-t-2 border-ink pt-4">
               <span className="font-mono text-[0.62rem] font-bold uppercase tracking-wide">
-                Monthly room revenue
+                Combined event revenue
               </span>
               <strong
                 key={night.monthlyTotal}
@@ -90,6 +91,12 @@ export default function Hero() {
             </div>
           </div>
         </aside>
+        <a
+          href="#live-nights"
+          className="group mx-auto inline-flex items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold md:hidden"
+        >
+          Build the night <span className="transition-transform group-hover:translate-y-1">↓</span>
+        </a>
       </div>
 
       <div className="ticker">

@@ -115,7 +115,10 @@ function Hero() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#live-nights",
-                                        className: "group inline-flex shrink-0 items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold",
+                                        className: "group relative hidden shrink-0 items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold md:inline-flex",
+                                        style: {
+                                            top: "32px"
+                                        },
                                         children: [
                                             "Build the night ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -123,7 +126,7 @@ function Hero() {
                                                 children: "↓"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 47,
+                                                lineNumber: 48,
                                                 columnNumber: 31
                                             }, this)
                                         ]
@@ -154,20 +157,20 @@ function Hero() {
                                         children: "Your residency ticket"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 55,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: guestPicked ? "Locked in" : "Suggested"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 53,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -181,7 +184,7 @@ function Hero() {
                                                 children: "Tonight’s headliner"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 59,
+                                                lineNumber: 60,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -189,13 +192,13 @@ function Hero() {
                                                 children: guestName
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 63,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 59,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -205,10 +208,10 @@ function Hero() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "block text-[0.58rem] uppercase text-ink-faint",
-                                                        children: "Live / mo"
+                                                        children: "Live floor / mo"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Hero.tsx",
-                                                        lineNumber: 68,
+                                                        lineNumber: 69,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
@@ -216,23 +219,23 @@ function Hero() {
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["money"])(night.liveNightRevenue)
                                                     }, night.liveNightRevenue, false, {
                                                         fileName: "[project]/src/components/Hero.tsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 70,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 68,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "block text-[0.58rem] uppercase text-ink-faint",
-                                                        children: "Watch / mo"
+                                                        children: "Watch tickets / mo"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Hero.tsx",
-                                                        lineNumber: 74,
+                                                        lineNumber: 75,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
@@ -240,19 +243,19 @@ function Hero() {
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["money"])(night.watchPartyRevenue)
                                                     }, night.watchPartyRevenue, false, {
                                                         fileName: "[project]/src/components/Hero.tsx",
-                                                        lineNumber: 75,
+                                                        lineNumber: 76,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 74,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 67,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -260,10 +263,10 @@ function Hero() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "font-mono text-[0.62rem] font-bold uppercase tracking-wide",
-                                                children: "Monthly room revenue"
+                                                children: "Combined event revenue"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 81,
+                                                lineNumber: 82,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -271,25 +274,44 @@ function Hero() {
                                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NightProvider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["money"])(night.monthlyTotal)
                                             }, night.monthlyTotal, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 84,
+                                                lineNumber: 85,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 57,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 52,
+                        lineNumber: 53,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "#live-nights",
+                        className: "group mx-auto inline-flex items-center gap-3 rounded-full bg-paper px-5 py-3 font-mono text-xs font-bold uppercase tracking-wide text-ink transition duration-300 hover:-rotate-2 hover:scale-105 hover:bg-gold md:hidden",
+                        children: [
+                            "Build the night ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "transition-transform group-hover:translate-y-1",
+                                children: "↓"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Hero.tsx",
+                                lineNumber: 98,
+                                columnNumber: 27
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/Hero.tsx",
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this)
                 ]
@@ -318,22 +340,22 @@ function Hero() {
                                     children: item
                                 }, `${copy}-${item}`, false, {
                                     fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 107,
                                     columnNumber: 17
                                 }, this))
                         }, copy, false, {
                             fileName: "[project]/src/components/Hero.tsx",
-                            lineNumber: 98,
+                            lineNumber: 105,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Hero.tsx",
-                    lineNumber: 96,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 95,
+                lineNumber: 102,
                 columnNumber: 7
             }, this)
         ]
@@ -387,12 +409,15 @@ function Lineup() {
             className: "section-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-end md:gap-12",
+                    className: "mb-14 md:grid md:grid-cols-[1fr_.7fr] md:items-center md:gap-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "eyebrow text-gold",
+                                    className: "eyebrow",
+                                    style: {
+                                        color: "#eef6ff"
+                                    },
                                     children: "05 — The Guest List"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Lineup.tsx",
@@ -443,7 +468,7 @@ function Lineup() {
                                             children: [
                                                 g.name,
                                                 isHeadliner && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "rounded-full bg-ink px-2 py-1 font-mono text-[0.5rem] tracking-wide text-paper",
+                                                    className: "rounded-full bg-ink px-2 py-1 font-mono text-[0.5rem] tracking-wide text-paper md:text-[0.65rem]",
                                                     children: "Headlining"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Lineup.tsx",
@@ -457,7 +482,7 @@ function Lineup() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `mt-4 hidden max-w-none text-sm leading-relaxed group-open:block ${isHeadliner ? "text-ink/75" : "text-paper/65"}`,
+                                            className: `mt-4 hidden max-w-none text-sm leading-relaxed group-open:block md:text-base ${isHeadliner ? "text-ink/75" : "text-paper/70"}`,
                                             children: g.who
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Lineup.tsx",
@@ -465,7 +490,7 @@ function Lineup() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: `mt-3 inline-block rounded-full border px-2.5 py-1 font-mono text-[0.58rem] uppercase tracking-wide ${isHeadliner ? "border-ink/30 text-ink" : tagClass[g.tag]}`,
+                                            className: `mt-3 inline-block rounded-full border px-2.5 py-1 font-mono text-[0.58rem] uppercase tracking-wide md:text-xs ${isHeadliner ? "border-ink/30 text-ink" : tagClass[g.tag]}`,
                                             children: g.tag
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Lineup.tsx",
@@ -476,7 +501,7 @@ function Lineup() {
                                             className: "mt-3 flex flex-wrap items-center gap-3",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: `font-mono text-[0.58rem] uppercase tracking-wide ${isHeadliner ? "text-ink/60" : "text-paper/40"}`,
+                                                    className: `font-mono text-[0.58rem] uppercase tracking-wide md:text-xs ${isHeadliner ? "text-ink/65" : "text-paper/60"}`,
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "group-open:hidden",
@@ -506,7 +531,7 @@ function Lineup() {
                                                         e.preventDefault();
                                                         night.setHeadliner(isHeadliner ? null : g);
                                                     },
-                                                    className: `rounded-full border px-3 py-1.5 font-mono text-[0.58rem] font-bold uppercase tracking-wide transition-colors ${isHeadliner ? "border-ink bg-ink text-paper hover:bg-paper hover:text-ink" : "border-paper/40 text-paper hover:border-gold hover:bg-gold hover:text-ink"}`,
+                                                    className: `rounded-full border px-3 py-1.5 font-mono text-[0.58rem] font-bold uppercase tracking-wide transition-colors md:text-xs ${isHeadliner ? "border-ink bg-ink text-paper hover:bg-paper hover:text-ink" : "border-paper/40 text-paper hover:border-gold hover:bg-gold hover:text-ink"}`,
                                                     children: isHeadliner ? "Remove headliner" : "Make headliner"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Lineup.tsx",
@@ -600,7 +625,7 @@ function LiveNightCalculator() {
     const likelyLow = Math.round(floorPerNight * 4 / 3 / 100) * 100;
     const likelyHigh = Math.round(floorPerNight * 12 / 7 / 100) * 100;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "ticket-cut static overflow-hidden rounded-[1.3rem] bg-ink p-6 pb-7 text-paper shadow-[0_24px_70px_rgba(11,29,51,.24)] md:sticky md:top-20 md:p-7",
+        className: "ticket-cut overflow-hidden rounded-[1.3rem] bg-ink p-6 pb-7 text-paper shadow-[0_24px_70px_rgba(11,29,51,.24)] md:p-7",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-6 flex items-center justify-between border-b border-dashed border-paper/20 pb-4",
@@ -1634,7 +1659,7 @@ function TicketStub() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "mb-2 block font-mono text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-gold-dim",
-                                                children: "Your custom residency"
+                                                children: "Your projected event revenue"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/TicketStub.tsx",
                                                 lineNumber: 19,
@@ -1715,7 +1740,7 @@ function TicketStub() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                                 className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
-                                                children: "Live nights"
+                                                children: "Live floor"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/TicketStub.tsx",
                                                 lineNumber: 37,
@@ -1742,7 +1767,7 @@ function TicketStub() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                                 className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
-                                                children: "Watch parties"
+                                                children: "Watch tickets"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/TicketStub.tsx",
                                                 lineNumber: 45,
@@ -1769,7 +1794,7 @@ function TicketStub() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                                 className: "mb-1 block font-mono text-[0.6rem] uppercase tracking-wide text-gold-dim",
-                                                children: "Combined total"
+                                                children: "Event revenue"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/TicketStub.tsx",
                                                 lineNumber: 53,
@@ -1806,18 +1831,37 @@ function TicketStub() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "font-mono text-[0.6rem] uppercase tracking-wide text-ink-faint",
-                                                children: "Pencil in a pilot date"
+                                                children: "Choose a first event date"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/TicketStub.tsx",
                                                 lineNumber: 64,
                                                 columnNumber: 13
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                type: "date",
-                                                value: night.date,
-                                                onChange: (e)=>night.setDate(e.target.value),
-                                                className: "rounded-full border border-ink/25 bg-raised px-4 py-2 font-mono text-sm text-ink"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "relative",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                        type: "date",
+                                                        value: night.date,
+                                                        onChange: (e)=>night.setDate(e.target.value),
+                                                        "aria-label": "Choose a first event date",
+                                                        className: `min-h-10 rounded-full border border-ink/25 bg-raised px-4 py-2 font-mono text-sm text-ink [color-scheme:light] ${!night.date ? "max-sm:text-transparent max-sm:[&::-webkit-datetime-edit]:text-transparent max-sm:[&::-webkit-datetime-edit-fields-wrapper]:opacity-0" : ""}`
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/TicketStub.tsx",
+                                                        lineNumber: 68,
+                                                        columnNumber: 15
+                                                    }, this),
+                                                    !night.date && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        "aria-hidden": true,
+                                                        className: "pointer-events-none absolute inset-y-0 left-4 flex items-center font-mono text-sm text-ink sm:hidden",
+                                                        children: "Select date"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/TicketStub.tsx",
+                                                        lineNumber: 80,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/src/components/TicketStub.tsx",
                                                 lineNumber: 67,
                                                 columnNumber: 13
@@ -1830,10 +1874,10 @@ function TicketStub() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "max-w-md font-mono text-[0.62rem] leading-relaxed text-ink-faint",
-                                        children: "Illustrative — built from the choices you made above, editable any time before the pilot."
+                                        children: "Illustrative — built from the choices you made above, editable any time before the first event."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/TicketStub.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 89,
                                         columnNumber: 11
                                     }, this)
                                 ]
@@ -1859,15 +1903,15 @@ function TicketStub() {
                 "aria-hidden": true,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "font-mono text-xs tracking-[0.2em] text-ink-faint sm:rotate-180 sm:[writing-mode:vertical-rl]",
-                    children: "ADMIT ONE · PILOT NIGHT"
+                    children: "ADMIT ONE · TDTM NIGHT"
                 }, void 0, false, {
                     fileName: "[project]/src/components/TicketStub.tsx",
-                    lineNumber: 86,
+                    lineNumber: 101,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/TicketStub.tsx",
-                lineNumber: 82,
+                lineNumber: 97,
                 columnNumber: 7
             }, this)
         ]

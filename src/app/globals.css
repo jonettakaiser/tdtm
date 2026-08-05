@@ -23,10 +23,15 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 78px;
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 body {
-  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+  overscroll-behavior-x: none;
   background:
     radial-gradient(circle at 12% 8%, color-mix(in srgb, var(--color-dodger) 8%, transparent), transparent 25rem),
     var(--color-paper);
@@ -214,7 +219,7 @@ p {
   background-size: 26px 26px;
   background-repeat: repeat-x;
   opacity: 0.16;
-  transform: rotate(-0.3deg) scaleX(1.02);
+  transform: rotate(-0.3deg);
 }
 
 /* Checkerboard strip, footer accent. */
