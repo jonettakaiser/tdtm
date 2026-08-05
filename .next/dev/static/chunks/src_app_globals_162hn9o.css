@@ -2236,10 +2236,6 @@
       margin-top: 0;
     }
 
-    .md\:mb-1 {
-      margin-bottom: var(--spacing);
-    }
-
     .md\:flex {
       display: flex;
     }
